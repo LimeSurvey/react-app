@@ -5,6 +5,7 @@ import Row from 'react-bootstrap/Row'
 import TopBar from './top-bar/TopBar'
 import SideBarLeft from './side-bar-left/SideBarLeft'
 import SideBarRight from './side-bar-right/SideBarRight'
+import classNames from 'classnames'
 
 import Survey from 'components/Survey'
 
@@ -14,9 +15,9 @@ function Editor() {
   }
 
   return (
-    <Container id='container' fluid>
+    <Container id="container" fluid>
       <TopBar siteName={siteConfig.name} />
-      <Row id='content'>
+      <Row id="content">
         <SideBarLeft />
         <Survey />
         <SideBarRight />

@@ -1,6 +1,5 @@
 import Col from 'react-bootstrap/Col'
 import classNames from 'classnames'
-
 import useSurvey from 'hooks/useSurvey'
 import QuestionGroups from './QuestionGroups'
 

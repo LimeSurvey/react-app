@@ -1,6 +1,6 @@
 import name from 'helpers/maybe'
 import Input from 'components/Input'
-
+import classNames from 'classnames'
 import Questions from './Questions'
 
 const QuestionGroup = ({
@@ -16,7 +16,11 @@ const QuestionGroup = ({
   }
 
   return (
-    <div className='card'>
+    <div
+      className={classNames(
+        'mb-5'
+      )}
+    >
       <div className='card-header'>
         <Input
           value={name(maybeName)}

@@ -28,16 +28,20 @@ export function TopBar(props) {
             )}>
                 <span className={classNames('p-2')}>LimeSurvey</span>
                 <span>
-                    <Button variant="dark" size="sm" className={classNames('m-1')}>
+                    <Button variant="primary" className={classNames('m-1')}>
                         <Icon.PlusLg />
                     </Button>
                     <Button
-                        variant={false ? 'secondary' : 'dark'}
-                        size="sm"
+                        variant={false ? 'secondary' : 'primary'}
                         onClick={() => null}
                     >
                         <Icon.ListNested />
                     </Button>
+                    <OverlayTrigger trigger="click" overlay={settingsForm} rootClose>
+                        <Button variant="primary" className={classNames('m-1')}>
+                            <Icon.Gear />
+                        </Button>
+                    </OverlayTrigger>
                 </span>
             </Col>
             <Col className={classNames(
@@ -52,15 +56,18 @@ export function TopBar(props) {
                     <option value="3">My Survey Three</option>
                 </Form.Select>
             </Col>
-            <Col  xs={2} xl={2} className={classNames(
+            <Col xs={2} xl={2} className={classNames(
                 'd-flex', 'align-items-center', 'justify-content-end', 'p-2', 'm-1'
             )}>
-                <Button variant="dark" size="sm" className={classNames('d-flex', 'ml-auto', 'm-1')}>
+                <Button variant="light" className={classNames('d-flex', 'ml-auto', 'm-1')}>
+                    {'Preview'}
+                </Button>
+                <Button variant="primary" className={classNames('d-flex', 'ml-auto', 'm-1')}>
                     {'Publish'}
                 </Button>
                 <OverlayTrigger trigger="click" placement="left" overlay={settingsForm} rootClose>
-                    <Button variant="dark" size="sm" className={classNames('d-flex', 'ml-auto', 'm-1')}>
-                        <Icon.Gear />
+                    <Button variant="primary" className={classNames('d-flex', 'ml-auto', 'm-1')}>
+                        <Icon.MenuButton />
                     </Button>
                 </OverlayTrigger>
             </Col>

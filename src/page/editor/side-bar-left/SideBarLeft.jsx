@@ -6,25 +6,24 @@ import classNames from 'classnames'
 
 function SideBarLeft() {
     return (
-        <Collapse
-            in={false}
-            dimension="width"
-            onEntered={() => null}
-            onExiting={() => null}
-        >
-            <Col xs={2} xl={2} className={classNames(
-                    'sidebar-l',
-                    'align-items-center',
-                    'justify-content-start',
-                )}
+        <Col xs={2} xl={2}>
+            <Collapse
+                in={true}
+                dimension="width"
+                onEntered={() => null}
+                onExiting={() => null}
             >
                 <div
-                    className={classNames('p-2')}
+                    className={classNames(
+                        'sidebar-l',
+                        'align-items-center',
+                        'justify-content-start',
+                    )}
                     style={{display: false ? 'block' : 'none'}}>
                     left side bar
                 </div>
-            </Col>
-        </Collapse>
+            </Collapse>
+        </Col>
     )
 }
 

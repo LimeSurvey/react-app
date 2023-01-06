@@ -1,0 +1,21 @@
+html {
+    font-size: $font-size-root;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+// Disable border color between thead, tbody.
+.table > :not(:first-child) {
+    border-top: 0;
+}
+
+.ls-text-underline-hover {
+    text-decoration: none;
+}
+
+.ls-text-underline-hover:hover {
+    text-decoration: underline;
+}

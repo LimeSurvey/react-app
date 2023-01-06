@@ -1,20 +1,28 @@
 import React from 'react'
 import './SideBarRight.scss'
+import Collapse from 'react-bootstrap/Collapse'
 import Col from 'react-bootstrap/Col'
 import classNames from 'classnames'
 
 function SideBarRight() {
     return (
-        <Col xs={2} xl={2} className={classNames(
-            'sidebar-r',
-            'align-items-center',
-            'justify-content-start'
-        )}>
+        <Col xs={2} xl={2}>
+             <Collapse
+                in={false}
+                dimension="width"
+                onEntered={() => null}
+                onExiting={() => null}
+            >
                 <div
-                    className={classNames('p-2')}
+                    className={classNames(
+                        'sidebar-r',
+                        'align-items-center',
+                        'justify-content-start'
+                    )}
                 >
-                    left side bar
+                    right side bar
                 </div>
+            </Collapse>
         </Col>
     )
 }
