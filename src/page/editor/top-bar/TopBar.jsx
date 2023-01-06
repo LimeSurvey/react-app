@@ -9,6 +9,7 @@ import Popover from 'react-bootstrap/Popover';
 import * as Icon from 'react-bootstrap-icons'
 import classNames from 'classnames'
 import SettingsForm from '../../editor/settings-form/SettingsForm'
+import Logo from 'asset/image/logo.png'
 
 export function TopBar(props) {
 
@@ -23,10 +24,10 @@ export function TopBar(props) {
 
     return (
         <Row className={classNames('top-bar', 'border', 'mb-1')}>
-            <Col xs={2} xl={2} className={classNames(
-                'd-flex', 'align-items-center', 'justify-content-between', 'p-2' , 'm-1'
+            <Col xs={5} xl={3} className={classNames(
+                'd-flex', 'align-items-center', 'justify-content-between'
             )}>
-                <span className={classNames('p-2')}>LimeSurvey</span>
+                <img src={Logo} style={{height: 60, marginLeft: 20}}/>
                 <span>
                     <Button variant="primary" className={classNames('m-1')}>
                         <Icon.PlusLg />
@@ -45,7 +46,7 @@ export function TopBar(props) {
                 </span>
             </Col>
             <Col className={classNames(
-                'd-flex', 'align-items-center', 'justify-content-between', 'p-2' , 'm-1'
+                'd-flex', 'align-items-center', 'justify-content-between'
             )}>
                 <Form.Select
                     aria-label="Default select example"
@@ -56,8 +57,8 @@ export function TopBar(props) {
                     <option value="3">My Survey Three</option>
                 </Form.Select>
             </Col>
-            <Col xs={2} xl={2} className={classNames(
-                'd-flex', 'align-items-center', 'justify-content-end', 'p-2', 'm-1'
+            <Col xs={3} xl={3} className={classNames(
+                'd-flex', 'align-items-center', 'justify-content-end'
             )}>
                 <Button variant="light" className={classNames('d-flex', 'ml-auto', 'm-1')}>
                     {'Preview'}

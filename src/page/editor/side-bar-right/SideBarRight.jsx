@@ -6,7 +6,7 @@ import classNames from 'classnames'
 
 function SideBarRight() {
     return (
-        <Col xs={2} xl={2}>
+        <Col xs={3} xl={3}>
              <Collapse
                 in={false}
                 dimension="width"

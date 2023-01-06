@@ -6,7 +6,7 @@ import classNames from 'classnames'
 
 function SideBarLeft() {
     return (
-        <Col xs={2} xl={2}>
+        <Col xs={3} xl={3}>
             <Collapse
                 in={true}
                 dimension="width"

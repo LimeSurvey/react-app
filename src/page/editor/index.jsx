@@ -15,14 +15,14 @@ function Editor() {
   }
 
   return (
-    <Container id="container" fluid>
+    <div id="container">
       <TopBar siteName={siteConfig.name} />
       <Row id="content">
         <SideBarLeft />
         <Survey />
         <SideBarRight />
       </Row>
-    </Container>
+    </div>
   )
 }
 
