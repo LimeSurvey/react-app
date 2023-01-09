@@ -1,3 +1,4 @@
+import { useCallback } from 'react'
 import maybe from 'helpers/maybe'
 import Input from 'components/Input'
 
@@ -13,12 +14,18 @@ const Question = ({
   question,
   update,
 }) => {
-  const handleUpdate = (change) => {
-    update({
-      ...question,
-      ...change,
-    })
-  }
+  const handleUpdate = useCallback((change) => {
+      update({
+        ...question,
+        ...change,
+      })
+    },
+    [question]
+  )
+
+  const handleUpdateSubquestions = useCallback((subquestions) =>
+    handleUpdate({ subquestions })
+  )
 
   return (
     <div className='card'>
@@ -54,7 +61,7 @@ const Question = ({
         />
         <Questions
           questions={subquestions}
-          update={(subquestions) => handleUpdate({ subquestions })}
+          update={handleUpdateSubquestions}
         />
       </div>
     </div>

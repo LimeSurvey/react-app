@@ -1,17 +1,17 @@
-import { Fragment } from 'react'
-
+import { Fragment, useCallback } from 'react'
 import Caption from 'components/Caption'
-
 import Question from './Question'
 
 const Questions = ({ questions = [], update }) => {
-  const handleUpdate = (index, change) => {
-    update([
-      ...questions.slice(0, index),
-      change,
-      ...questions.slice(index + 1),
-    ])
-  }
+  const handleUpdate = useCallback((index, change) => {
+      update([
+        ...questions.slice(0, index),
+        change,
+        ...questions.slice(index + 1),
+      ])
+    },
+    [questions]
+  )
 
   return questions.map((question, index) => (
     <Fragment key={`question-${question.id}`}>

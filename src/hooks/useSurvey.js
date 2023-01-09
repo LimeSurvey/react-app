@@ -14,7 +14,7 @@ const useSurvey = (id) => {
   //     body: JSON.stringify(survey),
   //   })
 
-  const persistCurrentState = () => console.log(JSON.stringify(survey, null, 2))
+  const persistCurrentState = () => console.log(survey)
 
   const { mutate } = useMutation(persistCurrentState)
 

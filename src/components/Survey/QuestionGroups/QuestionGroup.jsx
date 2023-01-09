@@ -2,18 +2,30 @@ import name from 'helpers/maybe'
 import Input from 'components/Input'
 import classNames from 'classnames'
 import Questions from './Questions'
+import { useCallback } from 'react'
 
 const QuestionGroup = ({
   questionGroup: { name: maybeName, questions } = {},
   questionGroup,
   update,
 }) => {
-  const handleUpdate = (change) => {
+  const handleUpdate = useCallback((change) => {
     update({
       ...questionGroup,
       ...change,
     })
-  }
+  })
+
+  const handleUpdateInput = useCallback((value) =>
+    handleUpdate({
+      name: { ...questionGroup.name, en: value },
+    }),
+    [questionGroup]
+  )
+
+  const handleUpdateQuestions = useCallback((questions) =>
+    handleUpdate({ questions })
+  )
 
   return (
     <div
@@ -25,17 +37,13 @@ const QuestionGroup = ({
         <Input
           value={name(maybeName)}
           label='Name (en)'
-          update={(value) =>
-            handleUpdate({
-              name: { ...questionGroup.name, en: value },
-            })
-          }
+          update={handleUpdateInput}
         />
       </div>
       <div className='card-body'>
         <Questions
           questions={questions}
-          update={(questions) => handleUpdate({ questions })}
+          update={handleUpdateQuestions}
         />
       </div>
     </div>
