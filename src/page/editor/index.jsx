@@ -15,12 +15,12 @@ function Editor() {
 
   return (
     <Container fluid>
-      <TopBar siteName={siteConfig.name} />
-      <Row id="content">
-        <SideBarLeft />
-        <Survey />
-        <SideBarRight />
-      </Row>
+        <TopBar siteName={siteConfig.name} />
+        <Row id="content">
+            <SideBarLeft />
+            <Survey />
+            <SideBarRight />
+        </Row>
     </Container>
   )
 }

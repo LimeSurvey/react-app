@@ -1,0 +1,22 @@
+$sidebar-margin-y: 0.25rem;
+
+.sidebar {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+
+    font-size: 0.8rem;
+
+    h6.header {
+        font-size: 0.8rem;
+        margin: 0 $sidebar-margin-y 0 $sidebar-margin-y;
+        padding: 10px;
+        background-color: #f6f7f7;
+    }
+
+    .sidebar-row {
+        margin: 0 $sidebar-margin-y 0 $sidebar-margin-y;
+        margin: 10px 10px 0 0;
+    }
+}

@@ -1,29 +1,27 @@
 import React from 'react'
+import SideBar from 'components/SideBar'
+import SurveyStructure from 'components/SurveyStructure'
 import './SideBarLeft.scss'
-import Collapse from 'react-bootstrap/Collapse'
-import Col from 'react-bootstrap/Col'
+import Button from 'react-bootstrap/Button'
+import * as Icon from 'react-bootstrap-icons'
 import classNames from 'classnames'
 
 function SideBarLeft() {
     return (
-        <Col xs={3} xl={3}>
-            <Collapse
-                in={true}
-                dimension="width"
-                onEntered={() => null}
-                onExiting={() => null}
-            >
-                <div
-                    className={classNames(
-                        'sidebar-l',
-                        'align-items-center',
-                        'justify-content-start',
-                    )}
-                    style={{display: false ? 'block' : 'none'}}>
-                    left side bar
-                </div>
-            </Collapse>
-        </Col>
+        <SideBar
+            visible={true}
+            className={classNames(
+                'sidebar',
+                'sidebar-left'
+            )}>
+            <SideBar.Header>
+                Structure
+                <Button variant="link" className={classNames('m-1')} style={{padding: 0}}>
+                    <Icon.XLg color='black' size={20} />
+                </Button>
+            </SideBar.Header>
+            <SurveyStructure>Structure here</SurveyStructure>
+        </SideBar>
     )
 }
 

@@ -1,32 +1,32 @@
 import React from 'react'
-import './SideBarRight.scss'
+import './SideBar.scss'
+import Header from './Header'
+import Row from './Row'
 import Collapse from 'react-bootstrap/Collapse'
 import Col from 'react-bootstrap/Col'
 import classNames from 'classnames'
 
-function SideBarRight() {
+function SideBar({visible = true, className = '', children = null}) {
     return (
         <Col xs={3} xl={3} style={{padding: 0}}>
-             <Collapse
-                in={false}
+            <Collapse
+                in={visible}
                 dimension="width"
                 onEntered={() => null}
                 onExiting={() => null}
             >
                 <div
-                    className={classNames(
+                    className={className + classNames(
                         'sidebar',
-                        'sidebar-right',
-                        'p-1',
-                        'align-items-center',
-                        'justify-content-start'
-                    )}
-                >
-                    right side bar
+                        'sidebar-left'
+                    )}>
+                    {children}
                 </div>
             </Collapse>
         </Col>
     )
 }
+SideBar.Header = Header
+SideBar.Row = Row
 
-export default SideBarRight
+export default SideBar
