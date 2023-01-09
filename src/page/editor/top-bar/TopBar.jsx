@@ -9,7 +9,6 @@ import Popover from 'react-bootstrap/Popover';
 import * as Icon from 'react-bootstrap-icons'
 import classNames from 'classnames'
 import SettingsForm from '../../editor/settings-form/SettingsForm'
-import Logo from 'asset/image/logo.png'
 
 export function TopBar(props) {
 
@@ -23,7 +22,7 @@ export function TopBar(props) {
     )
 
     return (
-        <Row className={classNames('top-bar', 'border', 'mb-1', 'p-2')}>
+        <Row className={classNames('top-bar', 'p-2')}>
             <Col xs={5} xl={3} className={classNames(
                 'd-flex', 'align-items-center', 'justify-content-between'
             )}>
