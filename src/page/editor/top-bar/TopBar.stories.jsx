@@ -2,8 +2,9 @@ import React from 'react'
 
 import { ComponentStory, ComponentMeta } from '@storybook/react'
 
-import './TopBar.scss';
-import TopBar from './TopBar';
+import 'themes/Sea_Green/sea_green.scss'
+import './TopBar.scss'
+import TopBar from './TopBar'
 
 export default {
   /* 👇 The title prop is optional.
@@ -15,5 +16,7 @@ export default {
 };
 
 export const Basic = () => (
+  <div id="container">
     <TopBar/>
+  </div>
 );

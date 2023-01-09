@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { ImageBackground } from 'react'
 import './TopBar.scss'
 import Form from 'react-bootstrap/Form'
 import Button from 'react-bootstrap/Button'
@@ -23,22 +23,25 @@ export function TopBar(props) {
     )
 
     return (
-        <Row className={classNames('top-bar', 'border', 'mb-1')}>
+        <Row className={classNames('top-bar', 'border', 'mb-1', 'p-2')}>
             <Col xs={5} xl={3} className={classNames(
                 'd-flex', 'align-items-center', 'justify-content-between'
             )}>
-                <img src={Logo} style={{height: 60, marginLeft: 20}}/>
-                <span>
+                <div className={classNames('logo')}></div>
+                <span className={classNames(
+                    'flex-nowrap'
+                )}>
                     <Button variant="primary" className={classNames('m-1')}>
                         <Icon.PlusLg />
                     </Button>
                     <Button
                         variant={false ? 'secondary' : 'primary'}
                         onClick={() => null}
+                        className={classNames('m-1')}
                     >
                         <Icon.ListNested />
                     </Button>
-                    <OverlayTrigger trigger="click" overlay={settingsForm} rootClose>
+                    <OverlayTrigger trigger="click" overlay={settingsForm} placement="bottom" rootClose>
                         <Button variant="primary" className={classNames('m-1')}>
                             <Icon.Gear />
                         </Button>

@@ -5,4 +5,14 @@
     select.text-align-center {
         text-align-last: center;
     }
+
+    div.logo {
+        background-image: url('../../../asset/image/logo.png');
+        width: 220px;
+        height: 40px;
+        margin-left: 10px;
+        background-repeat: no-repeat;
+        background-size: 120px;
+        background-position: left;
+    }
 }
