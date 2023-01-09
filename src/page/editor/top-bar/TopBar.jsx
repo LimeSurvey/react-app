@@ -1,4 +1,4 @@
-import React, { ImageBackground } from 'react'
+import React from 'react'
 import './TopBar.scss'
 import Form from 'react-bootstrap/Form'
 import Button from 'react-bootstrap/Button'
@@ -22,7 +22,7 @@ export function TopBar(props) {
     )
 
     return (
-        <Row className={classNames('top-bar', 'p-2')}>
+        <Row className={classNames('top-bar', 'pv-2')}>
             <Col xs={5} xl={3} className={classNames(
                 'd-flex', 'align-items-center', 'justify-content-between'
             )}>
@@ -34,14 +34,14 @@ export function TopBar(props) {
                         <Icon.PlusLg />
                     </Button>
                     <Button
-                        variant={false ? 'secondary' : 'primary'}
+                        variant={false ? 'secondary' : 'light'}
                         onClick={() => null}
                         className={classNames('m-1')}
                     >
                         <Icon.ListNested />
                     </Button>
                     <OverlayTrigger trigger="click" overlay={settingsForm} placement="bottom" rootClose>
-                        <Button variant="primary" className={classNames('m-1')}>
+                        <Button variant="light" className={classNames('m-1')}>
                             <Icon.Gear />
                         </Button>
                     </OverlayTrigger>
@@ -69,8 +69,8 @@ export function TopBar(props) {
                     {'Publish'}
                 </Button>
                 <OverlayTrigger trigger="click" placement="left" overlay={settingsForm} rootClose>
-                    <Button variant="primary" className={classNames('d-flex', 'ml-auto', 'm-1')}>
-                        <Icon.MenuButton />
+                    <Button variant="link" className={classNames('d-flex', 'ml-auto', 'm-1')}>
+                        <Icon.ThreeDots size={30} color={'black'} style={{padding: 0}}/>
                     </Button>
                 </OverlayTrigger>
             </Col>
