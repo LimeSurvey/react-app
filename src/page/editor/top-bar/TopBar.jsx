@@ -33,9 +33,7 @@ export function TopBar(props) {
     )
 
     const questionTypeSelectorPopover = (
-        <Popover
-            style={{borderWidth: 2, width: 700, borderRadius: 0}}
-        >
+        <Popover className="question-type-selector-container" style={{width: 280}}>
             <Popover.Body>
                 <QuestionTypeSelector/>
             </Popover.Body>

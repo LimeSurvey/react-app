@@ -18,20 +18,22 @@ function QuestionTypeSelector() {
             <hr/>
             <h6>Popular</h6>
             <ListGroup variant="flush">
-                <ListGroup.Item>Multiple Choice</ListGroup.Item>
-                <ListGroup.Item>Free Text</ListGroup.Item>
+                <ListGroup.Item>
+                    <Icon.List/> Multiple Choice
+                </ListGroup.Item>
+                <ListGroup.Item><Icon.List/> Free Text</ListGroup.Item>
             </ListGroup>
             <h6>Structure</h6>
             <ListGroup variant="flush">
-                <ListGroup.Item>Question Group</ListGroup.Item>
+                <ListGroup.Item><Icon.Collection/> Question Group</ListGroup.Item>
             </ListGroup>
             <h6>Single Choice</h6>
             <ListGroup variant="flush">
-                <ListGroup.Item>5 Point Choice</ListGroup.Item>
-                <ListGroup.Item>Bootstrap Dropdown</ListGroup.Item>
-                <ListGroup.Item>Image Select List (Radio)</ListGroup.Item>
-                <ListGroup.Item>List (Dropdown)</ListGroup.Item>
-                <ListGroup.Item>List (Radio)</ListGroup.Item>
+                <ListGroup.Item><Icon.List/> 5 Point Choice</ListGroup.Item>
+                <ListGroup.Item><Icon.Bootstrap/> Bootstrap Dropdown</ListGroup.Item>
+                <ListGroup.Item><Icon.Images/> Image Select List (Radio)</ListGroup.Item>
+                <ListGroup.Item><Icon.List/> List (Dropdown)</ListGroup.Item>
+                <ListGroup.Item><Icon.List/> List (Radio)</ListGroup.Item>
             </ListGroup>
         </div>
     )
