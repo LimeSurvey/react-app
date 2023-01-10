@@ -2,14 +2,14 @@ import React from 'react'
 import './SideBar.scss'
 import Header from './Header'
 import Row from './Row'
-import Collapse from 'react-bootstrap/Collapse'
+import Fade from 'react-bootstrap/Fade'
 import Col from 'react-bootstrap/Col'
 import classNames from 'classnames'
 
-function SideBar({visible = true, className = '', children = null}) {
+function SideBar({visible = false, className = '', children = null}) {
     return (
         <Col xs={3} xl={3} style={{padding: 0}}>
-            <Collapse
+            <Fade
                 in={visible}
                 dimension="width"
                 onEntered={() => null}
@@ -22,7 +22,7 @@ function SideBar({visible = true, className = '', children = null}) {
                     )}>
                     {children}
                 </div>
-            </Collapse>
+            </Fade>
         </Col>
     )
 }

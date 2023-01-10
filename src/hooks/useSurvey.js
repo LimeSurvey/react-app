@@ -3,7 +3,7 @@ import { useEffect, useState } from 'react'
 
 const useSurvey = (id) => {
   const [survey, setSurvey] = useState({ questionGroups: [] })
-  const { data } = useQuery(['surveys', id], async () => {
+  const { data } = useQuery(['survey', id], async () => {
     const res = await fetch('/data/survey.json')
     return await res.json()
   })

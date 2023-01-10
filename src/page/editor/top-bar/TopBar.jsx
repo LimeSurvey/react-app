@@ -8,9 +8,14 @@ import OverlayTrigger from 'react-bootstrap/OverlayTrigger'
 import Popover from 'react-bootstrap/Popover';
 import * as Icon from 'react-bootstrap-icons'
 import classNames from 'classnames'
-import SettingsForm from '../../editor/settings-form/SettingsForm'
+import SettingsForm from 'page/editor/settings-form/SettingsForm'
+import useAppState from 'hooks/useAppState'
 
 export function TopBar(props) {
+    const [
+        editorStructurePanelOpen,
+        setEditorStructurePanelOpen
+    ] = useAppState('editorStructurePanelOpen', false);
 
     const settingsForm = (
         <Popover id="settings-popover">
@@ -34,8 +39,8 @@ export function TopBar(props) {
                         <Icon.PlusLg />
                     </Button>
                     <Button
-                        variant={false ? 'secondary' : 'light'}
-                        onClick={() => null}
+                        variant={editorStructurePanelOpen ? 'primary' : 'light'}
+                        onClick={() => setEditorStructurePanelOpen((oldValue) => !oldValue)}
                         className={classNames('m-1')}
                     >
                         <Icon.ListNested />
