@@ -62,6 +62,10 @@
   }
 }
 
+.btn-dark {
+  color: $white;
+}
+
 .btn-secondary, .btn-cancel {
   color: $white;
   &:hover, &:focus, &:active, &.active {
