@@ -12,7 +12,12 @@ import QuestionTypeSelector from 'components/QuestionTypeSelector'
 import SettingsForm from 'page/editor/settings-form/SettingsForm'
 import useAppState from 'hooks/useAppState'
 
-export function TopBar(props) {
+export function TopBar() {
+    const [
+        questionTypeSelectorPanelOpen,
+        setQuestionTypeSelectorPanelOpen
+    ] = useAppState('questionTypeSelectorPanelOpen', false);
+
     const [
         editorStructurePanelOpen,
         setEditorStructurePanelOpen
@@ -49,9 +54,18 @@ export function TopBar(props) {
                 <span className={classNames(
                     'flex-nowrap'
                 )}>
-                    <OverlayTrigger trigger="click" placement="bottom" overlay={questionTypeSelectorPopover} rootClose>
-                        <Button variant="primary" className={classNames('m-1')}>
-                            <Icon.PlusLg />
+                    <OverlayTrigger
+                        trigger="click"
+                        placement="bottom"
+                        overlay={questionTypeSelectorPopover}
+                        show={questionTypeSelectorPanelOpen}
+                        onToggle={(show) => setQuestionTypeSelectorPanelOpen(show)}
+                        rootClose>
+                        <Button
+                            variant={questionTypeSelectorPanelOpen ? 'dark' : 'primary'}
+
+                            className={classNames('m-1')}>
+                            {questionTypeSelectorPanelOpen ?  <Icon.XLg/> : <Icon.PlusLg/> }
                         </Button>
                     </OverlayTrigger>
                     <Button

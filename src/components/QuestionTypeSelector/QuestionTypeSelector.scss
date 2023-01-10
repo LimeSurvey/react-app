@@ -4,11 +4,29 @@
     border-width: 2;
     border-radius: 0;
 
+    .popover-body {
+        padding: 0px;
+    }
+
     .question-type-selector {
+        .search {
+            padding: 1em 1em 0 1em;
+        }
         h6 {
             text-transform: uppercase;
             font-size: 0.8em;
             font-weight: 200;
+        }
+        .list {
+            padding: 0 1em 0 1em;
+            overflow-y: scroll;
+            max-height: 360px;
+        }
+        ::-webkit-scrollbar {
+            width: 5px;
+        }
+        ::-webkit-scrollbar-thumb {
+            background: #888;
         }
         .list-group-item {
             display: flex;
@@ -18,7 +36,7 @@
             text-transform: uppercase;
             cursor: pointer;
             svg {
-                margin-right: 0.5em;
+                margin-right: 1em;
             }
         }
         .list-group-item:hover {
