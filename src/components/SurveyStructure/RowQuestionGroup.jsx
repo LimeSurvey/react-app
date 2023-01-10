@@ -30,12 +30,12 @@ function RowQuestionGroup({questionGroup}) {
                 button={gripVertical}
             />
             <Row
-                title="Question 1"
+                title="Question 2"
                 icon={<Icon.Sliders size={iconSize}/>}
                 button={gripVertical}
             />
             <Row
-                title="Question 1"
+                title="Question 3"
                 icon={<Icon.Sliders size={iconSize}/>}
                 button={gripVertical}
             />
