@@ -17,6 +17,11 @@ export function TopBar(props) {
         setEditorStructurePanelOpen
     ] = useAppState('editorStructurePanelOpen', false);
 
+    const [
+        editorSettingsPanelOpen,
+        setEditorSettingsPanelOpen
+    ] = useAppState('editorSettingsPanelOpen', false);
+
     const settingsForm = (
         <Popover id="settings-popover">
             <Popover.Header as="h3">Settings</Popover.Header>
@@ -39,17 +44,19 @@ export function TopBar(props) {
                         <Icon.PlusLg />
                     </Button>
                     <Button
-                        variant={editorStructurePanelOpen ? 'primary' : 'light'}
+                        variant={editorStructurePanelOpen ? 'dark' : 'light'}
                         onClick={() => setEditorStructurePanelOpen((oldValue) => !oldValue)}
                         className={classNames('m-1')}
                     >
                         <Icon.ListNested />
                     </Button>
-                    <OverlayTrigger trigger="click" overlay={settingsForm} placement="bottom" rootClose>
-                        <Button variant="light" className={classNames('m-1')}>
-                            <Icon.Gear />
-                        </Button>
-                    </OverlayTrigger>
+
+                    <Button
+                        variant={editorSettingsPanelOpen ? 'dark' : 'light'}
+                        onClick={() => setEditorSettingsPanelOpen((oldValue) => !oldValue)}
+                    >
+                        <Icon.Gear />
+                    </Button>
                 </span>
             </Col>
             <Col className={classNames(

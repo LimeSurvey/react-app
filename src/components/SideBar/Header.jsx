@@ -9,5 +9,5 @@ function Header({children = null}) {
     )
 }
 
-export default Header;
+export default Header
 

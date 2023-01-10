@@ -23,6 +23,7 @@ function RowQuestionGroup({questionGroup}) {
                     <Icon.ThreeDots size={iconSize} color={'grey'} style={{padding: 0}}/>
                 </Button>
             }
+            style={{marginLeft: 10}}
         >
             <Row
                 title="Question 1"
