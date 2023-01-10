@@ -8,6 +8,7 @@ import OverlayTrigger from 'react-bootstrap/OverlayTrigger'
 import Popover from 'react-bootstrap/Popover';
 import * as Icon from 'react-bootstrap-icons'
 import classNames from 'classnames'
+import QuestionTypeSelector from 'components/QuestionTypeSelector'
 import SettingsForm from 'page/editor/settings-form/SettingsForm'
 import useAppState from 'hooks/useAppState'
 
@@ -22,11 +23,21 @@ export function TopBar(props) {
         setEditorSettingsPanelOpen
     ] = useAppState('editorSettingsPanelOpen', false);
 
-    const settingsForm = (
-        <Popover id="settings-popover">
+    const settingsFormPopover = (
+        <Popover>
             <Popover.Header as="h3">Settings</Popover.Header>
             <Popover.Body>
                 <SettingsForm/>
+            </Popover.Body>
+        </Popover>
+    )
+
+    const questionTypeSelectorPopover = (
+        <Popover
+            style={{borderWidth: 2, width: 700, borderRadius: 0}}
+        >
+            <Popover.Body>
+                <QuestionTypeSelector/>
             </Popover.Body>
         </Popover>
     )
@@ -40,9 +51,11 @@ export function TopBar(props) {
                 <span className={classNames(
                     'flex-nowrap'
                 )}>
-                    <Button variant="primary" className={classNames('m-1')}>
-                        <Icon.PlusLg />
-                    </Button>
+                    <OverlayTrigger trigger="click" placement="bottom" overlay={questionTypeSelectorPopover} rootClose>
+                        <Button variant="primary" className={classNames('m-1')}>
+                            <Icon.PlusLg />
+                        </Button>
+                    </OverlayTrigger>
                     <Button
                         variant={editorStructurePanelOpen ? 'dark' : 'light'}
                         onClick={() => setEditorStructurePanelOpen((oldValue) => !oldValue)}
@@ -80,7 +93,7 @@ export function TopBar(props) {
                 <Button variant="primary" className={classNames('d-flex', 'ml-auto', 'm-1')}>
                     {'Publish'}
                 </Button>
-                <OverlayTrigger trigger="click" placement="left" overlay={settingsForm} rootClose>
+                <OverlayTrigger trigger="click" placement="left" overlay={settingsFormPopover} rootClose>
                     <Button variant="link" className={classNames('d-flex', 'ml-auto', 'm-1')}>
                         <Icon.ThreeDots size={30} color={'black'} style={{padding: 0}}/>
                     </Button>
