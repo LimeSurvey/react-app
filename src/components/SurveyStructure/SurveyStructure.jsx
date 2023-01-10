@@ -1,7 +1,5 @@
 import React from 'react'
-import * as Icon from 'react-bootstrap-icons'
 import './SurveyStructure.scss'
-import Row from './Row'
 import RowPinned from './RowPinned'
 import RowQuestionGroup from './RowQuestionGroup'
 

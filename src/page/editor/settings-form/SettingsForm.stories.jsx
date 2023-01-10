@@ -5,7 +5,7 @@ import { PersistQueryClientProvider } from '@tanstack/react-query-persist-client
 
 import './SettingsForm.scss';
 import { SettingsForm } from './SettingsForm';
-import { queryClient, persistOptions } from '../../../Query'
+import { queryClient, persistOptions } from 'Query'
 
 export default {
     /* 👇 The title prop is optional.
