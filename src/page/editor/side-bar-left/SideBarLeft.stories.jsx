@@ -1,6 +1,9 @@
 import React from 'react'
 import { ComponentStory, ComponentMeta } from '@storybook/react'
-import './SideBarLeft.scss'
+import { PersistQueryClientProvider } from '@tanstack/react-query-persist-client'
+import { queryClient, persistOptions } from 'Query'
+
+import 'themes/Sea_Green/sea_green.scss'
 import SideBarLeft from './SideBarLeft'
 
 export default {
@@ -9,5 +12,7 @@ export default {
 };
 
 export const Basic = () => (
-    <SideBarLeft/>
+    <PersistQueryClientProvider client={queryClient} persistOptions={persistOptions}>
+        <SideBarLeft/>
+    </PersistQueryClientProvider>
 );

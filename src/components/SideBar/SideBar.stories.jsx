@@ -1,11 +1,11 @@
 import React from 'react'
 import { ComponentStory, ComponentMeta } from '@storybook/react'
-import './SideBarLeft.scss'
-import SideBarLeft from './SideBarLeft'
+import './SideBar.scss'
+import SideBarLeft from './SideBar'
 
 export default {
-  title: 'Editor/SideBarLeft',
-  component: SideBarLeft,
+    title: 'General/SideBar',
+    component: SideBarLeft,
 };
 
 export const Basic = () => (
