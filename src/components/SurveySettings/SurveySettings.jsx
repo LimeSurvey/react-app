@@ -16,7 +16,7 @@ function SurveySettings() {
     ] = useAppState('editorSettingsPanelOpen', false);
 
     return editorSettingsPanelOpen ? (
-        <>
+        <div className={classNames('survey-settings')}>
             <SideBar.Header>
                 Settings
                 <Button
@@ -51,7 +51,7 @@ function SurveySettings() {
                 <Button variant="outline-dark">Fixed order</Button>
                 <Button variant="outline-dark" className={classNames('m-2')} active>Randomized</Button>
             </SideBar.Section>
-        </>
+        </div>
     ) : null
 }
 

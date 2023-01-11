@@ -3,7 +3,12 @@ import classNames from 'classnames'
 
 function Header({children = null}) {
     return (
-        <h6 className={classNames('d-flex', 'header', 'align-items-center', 'justify-content-between')}>
+        <h6 className={classNames(
+            'd-flex',
+            'sidebar-header',
+            'align-items-center',
+            'justify-content-between'
+        )}>
             {children}
         </h6>
     )

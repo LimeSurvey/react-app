@@ -17,7 +17,7 @@ function SurveyStructure() {
     ] = useAppState('editorStructurePanelOpen', false);
 
     return editorStructurePanelOpen ? (
-        <>
+        <div className={classNames('survey-structure')}>
             <SideBar.Header>
                 Structure
                 <Button
@@ -33,7 +33,7 @@ function SurveyStructure() {
             <RowQuestionGroup questionGroup={{name: 'Question Group 2'}}/>
             <RowQuestionGroup questionGroup={{name: 'Question Group 3'}}/>
             <RowPinned title="Thank you" />
-       </>
+       </div>
     ) : null
 }
 
