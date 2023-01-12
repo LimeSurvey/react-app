@@ -31,6 +31,7 @@ const Survey = () => {
         <Col
             className={classNames(
                 'd-flex',
+                'mx-4',
                 'flex-column',
                 'justify-content-center',
                 'survey'

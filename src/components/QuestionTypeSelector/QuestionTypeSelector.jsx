@@ -10,7 +10,7 @@ import './QuestionTypeSelector.scss'
 function QuestionTypeSelector() {
     return (
         <div className={classNames('question-type-selector')}>
-            <div class="search">
+            <div className="search">
                 <Form.Control
                     type="text"
                     placeholder="Search for a question type"
@@ -18,7 +18,7 @@ function QuestionTypeSelector() {
                 />
                 <hr/>
             </div>
-            <div class="list">
+            <div className="list">
                 <h6>Popular</h6>
                 <ListGroup variant="flush">
                     <ListGroup.Item>

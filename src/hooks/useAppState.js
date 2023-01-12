@@ -6,26 +6,26 @@ import { queryClient } from 'Query'
 // - between application reloads
 
 const useAppState = (key, initValue = null) => {
-  const { data } = useQuery({
-    queryKey: ['appState', key],
-    queryFn: () => initValue,
-    staleTime: Infinity,
-    cacheTime: Infinity
-  })
+    const { data } = useQuery({
+        queryKey: ['appState', key],
+        queryFn: () => initValue,
+        staleTime: Infinity,
+        cacheTime: Infinity
+    })
 
-  const update = (updateKey, value) => {
-    return queryClient.setQueryData(
-      ['appState', updateKey],
-      value
-    )
-  }
+    const update = (updateKey, value) => {
+        return queryClient.setQueryData(
+            ['appState', updateKey],
+            value
+        )
+    }
 
-  const setValue = (newValue) => update(key, newValue)
+    const setValue = (newValue) => update(key, newValue)
 
-  return [
-    data,
-    setValue
-  ]
+    return [
+        data,
+        setValue
+    ]
 }
 
 export default useAppState

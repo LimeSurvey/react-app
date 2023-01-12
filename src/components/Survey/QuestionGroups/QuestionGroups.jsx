@@ -14,7 +14,7 @@ const QuestionGroups = ({ questionGroups = [], update }) => {
 
   return questionGroups.map((questionGroup, index) => (
     <QuestionGroup
-      index={index}
+      key={'question-group-' + index}
       questionGroup={questionGroup}
       update={(questionGroup) => handleUpdate(index, questionGroup)}
     />

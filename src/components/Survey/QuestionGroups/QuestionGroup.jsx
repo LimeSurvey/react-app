@@ -33,7 +33,6 @@ const QuestionGroup = ({
 
     return (
         <Section
-            key={`question-group-${index}}`}
             className={classNames(
                 'mb-5'
             )}

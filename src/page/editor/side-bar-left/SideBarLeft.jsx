@@ -17,7 +17,7 @@ function SideBarLeft() {
 
     return (
         <SideBar
-            visible={editorStructurePanelOpen | editorSettingsPanelOpen}
+            visible={editorStructurePanelOpen || editorSettingsPanelOpen}
             className={classNames(
                 'sidebar',
                 'sidebar-left'
