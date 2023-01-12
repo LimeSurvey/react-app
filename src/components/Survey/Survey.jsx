@@ -5,6 +5,8 @@ import * as Icon from 'react-bootstrap-icons'
 import classNames from 'classnames'
 import Section from './Section'
 import Card from './Card'
+import SectionWelcome from './Section/SectionWelcome'
+import SectionThankyou from './Section/SectionThankyou'
 import QuestionGroups from './QuestionGroups'
 import useSurvey from 'hooks/useSurvey'
 import './Survey.scss'
@@ -37,42 +39,14 @@ const Survey = () => {
                 'survey'
             )}
         >
-            <Section>
-                <Card className={classNames('welcome')}>
-                    <div className={classNames('image')}></div>
-                    <div className={classNames('right')}>
-                        <div className={classNames('header')}>
-                            <div className={classNames('title')}>
-                                {survey.title}
-                            </div>
-                            <Button variant="link">
-                                <Icon.ThreeDots color={'black'} style={{ padding: 0 }} />
-                            </Button>
-                        </div>
-                    </div>
-                </Card>
-            </Section>
+            <SectionWelcome/>
 
             <QuestionGroups
                 questionGroups={survey.questionGroups}
                 update={handleUpdateQuestionGroup}
             />
 
-            <Section>
-                <Card className={classNames('welcome')}>
-                    <div className={classNames('image')}></div>
-                    <div className={classNames('right')}>
-                        <div className={classNames('header')}>
-                            <div className={classNames('title')}>
-                                Thank you
-                            </div>
-                            <Button variant="link">
-                                <Icon.ThreeDots color={'black'} style={{ padding: 0 }} />
-                            </Button>
-                        </div>
-                    </div>
-                </Card>
-            </Section>
+            <SectionThankyou/>
 
             <Section>
                 <Card>
