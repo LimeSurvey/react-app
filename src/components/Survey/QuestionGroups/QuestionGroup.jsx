@@ -5,7 +5,6 @@ import Questions from './Questions'
 import Caption from 'components/Caption'
 import Section from 'components/Survey/Section'
 import Card from 'components/Survey/Card'
-import { useCallback } from 'react'
 
 const QuestionGroup = ({
     index,
@@ -13,30 +12,23 @@ const QuestionGroup = ({
     questionGroup,
     update,
 }) => {
-    const handleUpdate = useCallback((change) => {
+    const handleUpdate = (change) => {
         update({
             ...questionGroup,
             ...change,
         })
-    })
+    }
 
-    const handleUpdateInput = useCallback((value) =>
+    const handleUpdateInput = (value) =>
         handleUpdate({
             name: { ...questionGroup.name, en: value },
-        }),
-        [questionGroup]
-    )
+        })
 
-    const handleUpdateQuestions = useCallback((questions) =>
+    const handleUpdateQuestions = (questions) =>
         handleUpdate({ questions })
-    )
 
     return (
-        <Section
-            className={classNames(
-                'mb-5'
-            )}
-        >
+        <Section className={classNames('mb-5')}>
             <Card>
                 <Caption>Question group {index}</Caption>
                 <Input

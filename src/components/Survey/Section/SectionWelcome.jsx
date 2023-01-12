@@ -1,4 +1,5 @@
-import { useCallback } from 'react';
+import { useCallback } from 'react'
+import Form from 'react-bootstrap/Form'
 import Button from 'react-bootstrap/Button'
 import * as Icon from 'react-bootstrap-icons'
 import classNames from 'classnames'
@@ -23,14 +24,20 @@ const SectionWelcome = () => {
         handleUpdate({ questionGroups })
     })
 
+    const language = survey && survey.language ? survey.language : null
+
     return (
         <Section>
             <Card className={classNames('welcome')}>
                 <div className={classNames('image')}></div>
                 <div className={classNames('right')}>
                     <div className={classNames('header')}>
-                        <div className={classNames('title')}>
-                            {survey.title}
+                        <div className={classNames('title', 'flex-grow-1')}>
+                            {/*survey.title*/}
+                            <Form.Control
+                                type="text"
+                                defaultValue={survey && survey.defaultlanguage ? survey.defaultlanguage.title : ''}
+                            />
                         </div>
                         <Button variant="link">
                             <Icon.ThreeDots color={'black'} style={{ padding: 0 }} />
