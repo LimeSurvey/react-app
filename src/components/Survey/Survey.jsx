@@ -1,6 +1,7 @@
 import { useCallback } from 'react';
 import Col from 'react-bootstrap/Col'
 import Button from 'react-bootstrap/Button'
+import * as Icon from 'react-bootstrap-icons'
 import classNames from 'classnames'
 import Section from './Section'
 import Card from './Card'
@@ -36,16 +37,40 @@ const Survey = () => {
             )}
         >
             <Section>
-                <Card>
-                    <h1>{survey.title}</h1>
+                <Card className={classNames('welcome')}>
+                    <div className={classNames('image')}></div>
+                    <div className={classNames('right')}>
+                        <div className={classNames('header')}>
+                            <div className={classNames('title')}>
+                                {survey.title}
+                            </div>
+                            <Button variant="link">
+                                <Icon.ThreeDots color={'black'} style={{ padding: 0 }} />
+                            </Button>
+                        </div>
+                    </div>
                 </Card>
             </Section>
 
+            <QuestionGroups
+                questionGroups={survey.questionGroups}
+                update={handleUpdateQuestionGroup}
+            />
+
             <Section>
-                <QuestionGroups
-                    questionGroups={survey.questionGroups}
-                    update={handleUpdateQuestionGroup}
-                />
+                <Card className={classNames('welcome')}>
+                    <div className={classNames('image')}></div>
+                    <div className={classNames('right')}>
+                        <div className={classNames('header')}>
+                            <div className={classNames('title')}>
+                                Thank you
+                            </div>
+                            <Button variant="link">
+                                <Icon.ThreeDots color={'black'} style={{ padding: 0 }} />
+                            </Button>
+                        </div>
+                    </div>
+                </Card>
             </Section>
 
             <Section>

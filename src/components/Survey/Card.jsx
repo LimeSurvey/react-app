@@ -1,8 +1,8 @@
 import classNames from 'classnames'
 
-const Card = ({ children }) => {
+const Card = ({ children, className = '', style = {} }) => {
     return (
-        <div className={classNames('survey-card')}>
+        <div className={classNames(className, 'survey-card')} style={style}>
             {children}
         </div>
     )

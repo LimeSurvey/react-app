@@ -13,13 +13,11 @@ const QuestionGroups = ({ questionGroups = [], update }) => {
   )
 
   return questionGroups.map((questionGroup, index) => (
-    <Fragment key={`questionGroup-${questionGroup.id}`}>
-      <Caption>Question group {index}</Caption>
-      <QuestionGroup
-        questionGroup={questionGroup}
-        update={(questionGroup) => handleUpdate(index, questionGroup)}
-      />
-    </Fragment>
+    <QuestionGroup
+      index={index}
+      questionGroup={questionGroup}
+      update={(questionGroup) => handleUpdate(index, questionGroup)}
+    />
   ))
 }
 
