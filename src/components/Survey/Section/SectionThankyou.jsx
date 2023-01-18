@@ -7,29 +7,16 @@ import Card from '../Card'
 import useSurvey from 'hooks/useSurvey'
 
 const SectionWelcome = () => {
-    // You would normally get this via useParams from react-router-dom or via props from the parent
-    const id = '78f91e52-6028-11ed-82e1-7ac846e3af9d'
-    const { survey, save, update } = useSurvey(id)
-
-    const handleUpdate = useCallback((questionGroups) =>
-        update({
-            ...survey,
-            ...questionGroups,
-        }),
-        [survey]
-    )
-
-    const handleUpdateQuestionGroup = useCallback((questionGroups) => {
-        handleUpdate({ questionGroups })
-    })
 
     return (
         <Section>
-            <Card className={classNames('welcome')}>
-                <div className={classNames('image')}></div>
+            <Card className={classNames('thankyou')}>
+                <div className={classNames('image')}>
+                    <Icon.PlusCircleFill /> Add Image
+                </div>
                 <div className={classNames('right')}>
                     <div className={classNames('header')}>
-                        <div className={classNames('title')}>
+                        <div className={classNames('title', 'flex-grow-1')}>
                             Thank you
                         </div>
                         <Button variant="link">

@@ -50,7 +50,9 @@ const Survey = () => {
 
             <Section>
                 <Card>
-                    <Button onClick={save}>Save</Button>
+                    <div className={classNames('body')}>
+                        <Button onClick={save}>Save</Button>
+                    </div>
                 </Card>
             </Section>
         </Col>

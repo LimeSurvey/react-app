@@ -32,10 +32,12 @@ const QuestionGroup = ({
     const descriptionLocal = L10ns({ l10ns: questionGroup.l10ns, prop: 'description', lang: 'en' });
 
     return (
-        <Section className={classNames('mb-5')}>
+        <Section>
             <Card>
-                <h2>{nameLocal}</h2>
-                <p>{parse(descriptionLocal)}</p>
+                <div className={classNames('header')}>
+                    <div className={classNames('title', 'flex-grow-1')}>{nameLocal}</div>
+                </div>
+
                 {/*
                 <Caption>Question group {index}</Caption>
                 <Input
@@ -44,10 +46,13 @@ const QuestionGroup = ({
                     update={handleUpdateInput}
                 />
                 */}
-                <Questions
-                    questions={questions}
-                    update={handleUpdateQuestions}
-                />
+                <div className={classNames('body')}>
+                    <p>{parse(descriptionLocal)}</p>
+                    <Questions
+                        questions={questions}
+                        update={handleUpdateQuestions}
+                    />
+                </div>
             </Card>
         </Section>
     )
