@@ -2,6 +2,7 @@ import { Fragment, useCallback } from 'react'
 import maybe from 'helpers/maybe'
 import Input from 'components/Input'
 import Questions from './Questions'
+import L10ns from 'components/L10ns'
 
 const Question = ({
     question: {
@@ -26,8 +27,12 @@ const Question = ({
         handleUpdate({ subquestions })
     )
 
+    const textLocal = L10ns({ l10ns: question.l10ns, prop: 'question', lang: 'en' });
+
     return (
         <Fragment key={`question-${question.id}`}>
+            <h3>{textLocal}</h3>
+            {/*
             <Input
                 value={maybe(maybeName)}
                 label='Name (en)'
@@ -55,6 +60,7 @@ const Question = ({
                     })
                 }
             />
+            */}
             <Questions
                 questions={subquestions}
                 update={handleUpdateSubquestions}
