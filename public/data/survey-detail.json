@@ -58,7 +58,7 @@
             "language": "en",
             "title": "Sample LimeSurvey EN/FR/DE/IT",
             "description": "Hello, I’m the welcome screen for your survey",
-            "welcometext": "<p>Survey describtion. Here you can welcome your survey participants and let them now what the survey is about.\n\nWe recomment you to inform them how long the survey might take and if they need to have documents at hand for fullfilling the survey.</p>\n",
+            "welcometext": "<p>Survey describtion. Here you can welcome your survey participants and let them now what the survey is about.\n\n</p><p>We recomment you to inform them how long the survey might take and if they need to have documents at hand for fullfilling the survey.</p>\n",
             "endtext": "<p>This is the end message for the survey! A good place to thank you to answer to this survey.</p>\n",
             "policy_notice": "",
             "policy_error": "",
