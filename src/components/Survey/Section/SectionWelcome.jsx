@@ -1,4 +1,5 @@
 import { useCallback } from 'react'
+import parse from 'html-react-parser';
 import Form from 'react-bootstrap/Form'
 import Button from 'react-bootstrap/Button'
 import * as Icon from 'react-bootstrap-icons'
@@ -33,15 +34,26 @@ const SectionWelcome = () => {
                 <div className={classNames('right')}>
                     <div className={classNames('header')}>
                         <div className={classNames('title', 'flex-grow-1')}>
-                            {/*survey.title*/}
+                            {survey && survey.defaultlanguage ? survey.defaultlanguage.title : ''}
+                            {/*survey.title*
                             <Form.Control
                                 type="text"
                                 defaultValue={survey && survey.defaultlanguage ? survey.defaultlanguage.title : ''}
                             />
+                            */}
                         </div>
                         <Button variant="link">
                             <Icon.ThreeDots color={'black'} style={{ padding: 0 }} />
                         </Button>
+                    </div>
+                    <div className={classNames('body')}>
+                        <div>
+                            <h6>{parse(survey && survey.defaultlanguage ? survey.defaultlanguage.description : '')}</h6>
+                            {parse(survey && survey.defaultlanguage ? survey.defaultlanguage.welcometext : '')}
+                        </div>
+                        <div>
+                            <Button variant="outline-secondary">Start</Button>
+                        </div>
                     </div>
                 </div>
             </Card>
