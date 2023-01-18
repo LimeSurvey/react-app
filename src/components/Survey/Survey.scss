@@ -17,17 +17,27 @@
         padding: 1rem;
     }
 
-     .survey-card.welcome {
-        height: 300px;
+    .survey-card.welcome {
+        height: 388px;
         padding: 0;
         display: flex;
         flex-direction: row;
 
         .image {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
             z-index: 1;
-            width: 300px;
-            height: 300px;
+            min-width: 304px;
             background-color: rgb(215, 215, 215);
+            font-size: 0.8rem;
+            color: #9D9D9D;
+
+            svg {
+                margin-right: 0.25rem;
+                color: #9D9D9D;
+            }
         }
 
         .right {
@@ -37,7 +47,7 @@
                 justify-content: space-between;
                 align-items: center;
                 position: relative;
-                padding: 0.7rem;
+                padding: 0.5rem 0.8rem;
                 .title {
                     font-weight: 600;
                 }
@@ -56,12 +66,16 @@
                 min-height: 220px;
                 flex-direction: column;
                 justify-content: space-between;
-                padding: 0.7rem;
+                padding: 0.8rem;
                 font-size: 0.8rem;
-                color: #1E1E1E;
 
                 h6 {
                     font-weight: 400;
+                    font-size: 1.2rem;
+                }
+
+                p {
+                    color: #757575;
                 }
 
                 button {

@@ -30,7 +30,9 @@ const SectionWelcome = () => {
     return (
         <Section>
             <Card className={classNames('welcome')}>
-                <div className={classNames('image')}></div>
+                <div className={classNames('image')}>
+                    <Icon.PlusCircleFill /> Add Image
+                </div>
                 <div className={classNames('right')}>
                     <div className={classNames('header')}>
                         <div className={classNames('title', 'flex-grow-1')}>
