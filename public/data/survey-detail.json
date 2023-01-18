@@ -68,6 +68,68 @@
             "dateformat": 5,
             "numberformat": 0
         },
+        "languagesettings": {
+            "de-informal": {
+                "sid": 282267,
+                "language": "de-informal",
+                "title": "Beispielfragebogen für Limesurvey EN/FR/DE",
+                "description": null,
+                "welcometext": null,
+                "endtext": null,
+                "policy_notice": null,
+                "policy_error": null,
+                "policy_notice_label": null,
+                "url": null,
+                "urldescription": null,
+                "dateformat": 0,
+                "numberformat": 0
+            },
+            "en": {
+                "sid": 282267,
+                "language": "en",
+                "title": "Sample LimeSurvey EN/FR/DE/IT",
+                "description": null,
+                "welcometext": null,
+                "endtext": null,
+                "policy_notice": null,
+                "policy_error": null,
+                "policy_notice_label": null,
+                "url": null,
+                "urldescription": null,
+                "dateformat": 0,
+                "numberformat": 0
+            },
+            "fr": {
+                "sid": 282267,
+                "language": "fr",
+                "title": "Exemple de questionnaire EN/FR/DE",
+                "description": null,
+                "welcometext": null,
+                "endtext": null,
+                "policy_notice": null,
+                "policy_error": null,
+                "policy_notice_label": null,
+                "url": null,
+                "urldescription": null,
+                "dateformat": 0,
+                "numberformat": 0
+            },
+            "it": {
+                "sid": 282267,
+                "language": "it",
+                "title": "Sample LimeSurvey EN/FR/DE/IT",
+                "description": null,
+                "welcometext": null,
+                "endtext": null,
+                "policy_notice": null,
+                "policy_error": null,
+                "policy_notice_label": null,
+                "url": null,
+                "urldescription": null,
+                "dateformat": 0,
+                "numberformat": 0
+            }
+        },
         "languages": [
             "en",
             "fr",
