@@ -1,4 +1,5 @@
 import { Fragment, useCallback } from 'react'
+import classNames from 'classnames'
 import maybe from 'helpers/maybe'
 import Input from 'components/Input'
 import Questions from './Questions'
@@ -30,8 +31,8 @@ const Question = ({
     const textLocal = L10ns({ l10ns: question.l10ns, prop: 'question', lang: 'en' });
 
     return (
-        <Fragment key={`question-${question.id}`}>
-            <h3>{textLocal}</h3>
+        <div className={classNames('question')} key={`question-${question.id}`}>
+            <h1>{textLocal}</h1>
             {/*
             <Input
                 value={maybe(maybeName)}
@@ -65,7 +66,7 @@ const Question = ({
                 questions={subquestions}
                 update={handleUpdateSubquestions}
             />
-        </Fragment>
+        </div>
     )
 }
 

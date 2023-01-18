@@ -15,7 +15,6 @@ const Questions = ({ questions = [], update }) => {
 
   return questions.map((question, index) => (
     <Fragment key={`question-${question.id}`}>
-      <Caption>Question {index}</Caption>
       <Question
         question={question}
         update={(question) => handleUpdate(index, question)}

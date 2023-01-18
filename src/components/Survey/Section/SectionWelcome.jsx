@@ -31,11 +31,11 @@ const SectionWelcome = () => {
         <Section>
             <Card className={classNames('welcome')}>
                 <div className={classNames('image')}>
-                    <Icon.PlusCircleFill /> Add Image
+                    <Icon.PlusCircleFill /> add Image
                 </div>
                 <div className={classNames('right')}>
                     <div className={classNames('header')}>
-                        <div className={classNames('title', 'flex-grow-1')}>
+                        <div className={classNames('title')}>
                             {survey && survey.defaultlanguage ? survey.defaultlanguage.title : ''}
                             {/*survey.title*
                             <Form.Control

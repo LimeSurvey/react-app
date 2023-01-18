@@ -12,16 +12,22 @@ const SectionWelcome = () => {
         <Section>
             <Card className={classNames('thankyou')}>
                 <div className={classNames('image')}>
-                    <Icon.PlusCircleFill /> Add Image
+                    <Icon.PlusCircleFill /> add Image
                 </div>
                 <div className={classNames('right')}>
                     <div className={classNames('header')}>
-                        <div className={classNames('title', 'flex-grow-1')}>
+                        <div className={classNames('title')}>
                             Thank you
                         </div>
                         <Button variant="link">
                             <Icon.ThreeDots color={'black'} style={{ padding: 0 }} />
                         </Button>
+                    </div>
+                    <div className={classNames('body')}>
+                        <div></div>
+                        <div>
+                            <Button variant="outline-secondary">Send Survey</Button>
+                        </div>
                     </div>
                 </div>
             </Card>
