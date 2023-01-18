@@ -9,20 +9,20 @@ import SideBarRight from './side-bar-right/SideBarRight'
 import Survey from 'components/Survey'
 
 function Editor() {
-  const siteConfig = {
-    name: 'LimeSurvey 2',
-  }
+    const siteConfig = {
+        name: 'LimeSurvey 2',
+    }
 
-  return (
-    <Container fluid>
-        <TopBar siteName={siteConfig.name} />
-        <Row id="content">
-            <SideBarLeft />
-            <Survey />
-            <SideBarRight />
-        </Row>
-    </Container>
-  )
+    return (
+        <Container fluid>
+            <TopBar siteName={siteConfig.name} />
+            <Row id="content">
+                <SideBarLeft />
+                <Survey />
+                <SideBarRight />
+            </Row>
+        </Container>
+    )
 }
 
 export default Editor

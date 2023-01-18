@@ -1,8 +1,6 @@
 import React from 'react';
-
 import { ComponentStory, ComponentMeta } from '@storybook/react';
 import { PersistQueryClientProvider } from '@tanstack/react-query-persist-client'
-
 import './SettingsForm.scss';
 import { SettingsForm } from './SettingsForm';
 import { queryClient, persistOptions } from 'Query'
