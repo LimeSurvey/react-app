@@ -47,7 +47,7 @@ const QuestionGroup = ({
                 />
                 */}
                 <div className={classNames('body')}>
-                    <p>{parse(descriptionLocal)}</p>
+                    <div>{parse(descriptionLocal)}</div>
                     <Questions
                         questions={questions}
                         update={handleUpdateQuestions}
