@@ -1,12 +1,14 @@
-const axios = require('axios').default
+import axios from 'axios'
+import config from 'config'
 
-export const lsApi = axios.create({
-    baseURL: 'http://localhost:4000',
-    timeout: 5000
+export const axiosLsApi = axios.create({
+    withCredentials: false, // disable cors pre-flight check
+    baseURL: config.api.baseURL,
+    timeout: config.api.timeout
 })
 
 export const getObjectData = (model) => {
-    let data = { ...model as any }
+    let data = { ...model }
     Object.keys(data).forEach((key) => {
         if (typeof data[key] == 'function') delete data[key]
     })
