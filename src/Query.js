@@ -8,7 +8,7 @@ import {
 //import { get, set, del } from 'idb-keyval'
 import { createSyncStoragePersister } from '@tanstack/query-sync-storage-persister'
 
-const msDay = 1000 * 60 * 60
+const msDay = 1000 * 60 * 60 * 24
 const maxAge = msDay * 30
 
 export const queryClient = new QueryClient({

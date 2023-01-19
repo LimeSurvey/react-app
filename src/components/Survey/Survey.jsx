@@ -1,7 +1,6 @@
-import { useCallback } from 'react';
+import { useCallback } from 'react'
 import Col from 'react-bootstrap/Col'
 import Button from 'react-bootstrap/Button'
-import * as Icon from 'react-bootstrap-icons'
 import classNames from 'classnames'
 import Section from './Section'
 import Card from './Card'
@@ -40,14 +39,11 @@ const Survey = () => {
             )}
         >
             <SectionWelcome/>
-
             <QuestionGroups
                 questionGroups={survey.questionGroups}
                 update={handleUpdateQuestionGroup}
             />
-
             <SectionThankyou/>
-
             <Section>
                 <Card>
                     <div className={classNames('body')}>
