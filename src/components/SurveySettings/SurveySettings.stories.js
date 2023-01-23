@@ -6,11 +6,16 @@ import SurveySettings from './SurveySettings'
 
 export default {
     title: 'General/SurveySettings',
-    component: SurveySettings
-};
+    component: SurveySettings,
+    decorators: [
+        (Story) => (
+            <PersistQueryClientProvider client={queryClient} persistOptions={persistOptions}>
+                <Story />
+            </PersistQueryClientProvider>
+        )
+    ]
+}
 
 export const Basic = () => (
-    <PersistQueryClientProvider client={queryClient} persistOptions={persistOptions}>
-        <SurveySettings/>
-    </PersistQueryClientProvider>
-);
+    <SurveySettings/>
+)

@@ -3,7 +3,7 @@ import { ComponentStory, ComponentMeta } from '@storybook/react';
 import { PersistQueryClientProvider } from '@tanstack/react-query-persist-client'
 import './SettingsForm.scss';
 import { SettingsForm } from './SettingsForm';
-import { queryClient, persistOptions } from 'Query'
+import { queryClient, persistOptions } from 'query'
 
 export default {
     /* 👇 The title prop is optional.
@@ -12,10 +12,15 @@ export default {
     */
     title: 'Editor/SettingsForm',
     component: SettingsForm,
-};
+    decorators: [
+        (Story) => (
+            <PersistQueryClientProvider client={queryClient} persistOptions={persistOptions}>
+                <Story />
+            </PersistQueryClientProvider>
+        )
+    ]
+}
 
 export const Basic = () => (
-    <PersistQueryClientProvider client={queryClient} persistOptions={persistOptions}>
-        <SettingsForm />
-    </PersistQueryClientProvider>
-);
+    <SettingsForm />
+)

@@ -6,11 +6,16 @@ import QuestionTypeSelector from './QuestionTypeSelector'
 
 export default {
     title: 'General/QuestionTypeSelector',
-    component: QuestionTypeSelector
-};
+    component: QuestionTypeSelector,
+    decorators: [
+        (Story) => (
+            <PersistQueryClientProvider client={queryClient} persistOptions={persistOptions}>
+                <Story />
+            </PersistQueryClientProvider>
+        )
+    ]
+}
 
 export const Basic = () => (
-    <PersistQueryClientProvider client={queryClient} persistOptions={persistOptions}>
-        <QuestionTypeSelector/>
-    </PersistQueryClientProvider>
-);
+    <QuestionTypeSelector/>
+)

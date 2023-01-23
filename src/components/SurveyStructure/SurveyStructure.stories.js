@@ -6,11 +6,16 @@ import SurveyStructure from './SurveyStructure'
 
 export default {
     title: 'General/SurveyStructure',
-    component: SurveyStructure
-};
+    component: SurveyStructure,
+    decorators: [
+        (Story) => (
+            <PersistQueryClientProvider client={queryClient} persistOptions={persistOptions}>
+                <Story />
+            </PersistQueryClientProvider>
+        )
+    ]
+}
 
 export const Basic = () => (
-    <PersistQueryClientProvider client={queryClient} persistOptions={persistOptions}>
-        <SurveyStructure/>
-    </PersistQueryClientProvider>
-);
+    <SurveyStructure/>
+)
