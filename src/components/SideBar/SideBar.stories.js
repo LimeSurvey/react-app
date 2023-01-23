@@ -1,7 +1,6 @@
 import React from 'react'
-import { ComponentStory, ComponentMeta } from '@storybook/react'
 import './SideBar.scss'
-import SideBarLeft from './SideBar'
+import SideBarLeft from 'SideBar'
 
 export default {
     title: 'General/SideBar',

@@ -1,7 +1,5 @@
 import { Fragment, useCallback } from 'react'
 import classNames from 'classnames'
-import maybe from 'helpers/maybe'
-import Input from 'components/Input'
 import Questions from './Questions'
 import L10ns from 'components/L10ns'
 
