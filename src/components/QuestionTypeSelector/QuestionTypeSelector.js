@@ -9,6 +9,7 @@ import {
 } from 'react-bootstrap-icons'
 import './QuestionTypeSelector.scss'
 
+
 function QuestionTypeSelector() {
     return (
         <div className="question-type-selector">
@@ -23,9 +24,7 @@ function QuestionTypeSelector() {
             <div className="list">
                 <h6>Popular</h6>
                 <ListGroup variant="flush">
-                    <ListGroup.Item>
-                        <List/> Multiple Choice
-                    </ListGroup.Item>
+                    <ListGroup.Item><List/> Multiple Choice</ListGroup.Item>
                     <ListGroup.Item><List/> Free Text</ListGroup.Item>
                 </ListGroup>
                 <h6>Structure</h6>
