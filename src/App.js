@@ -10,9 +10,7 @@ import { queryClient, persistOptions } from 'Query'
 
 function App() {
     return (
-        <ThemeProvider
-            breakpoints={['xxxl', 'xxl', 'xl', 'lg', 'md', 'sm', 'xs', 'xxs']}
-        >
+        <ThemeProvider breakpoints={['lg', 'xl']}>
             <PersistQueryClientProvider client={queryClient} persistOptions={persistOptions}>
                 <RouterProvider router={Router} />
                 <ReactQueryDevtools initialIsOpen={false} />

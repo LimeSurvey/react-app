@@ -10,7 +10,6 @@ import QuestionGroups from './QuestionGroups'
 import useSurvey from 'hooks/useSurvey'
 import './Survey.scss'
 
-
 const Survey = () => {
     // You would normally get this via useParams from react-router-dom or via props from the parent
     const id = '78f91e52-6028-11ed-82e1-7ac846e3af9d'

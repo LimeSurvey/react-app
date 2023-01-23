@@ -10,7 +10,7 @@ import classNames from 'classnames'
 
 function SideBar({visible = false, className = '', children = null}) {
     return (
-        <Col xs={3} xl={3} style={{padding: 0}}>
+        <Col xl={3} lg={12} style={{padding: 0}}>
             <Fade
                 in={visible}
                 dimension="width"

@@ -1,11 +1,9 @@
-import React, { useState, useEffect } from 'react'
 import Container from 'react-bootstrap/Container'
 import Row from 'react-bootstrap/Row'
 import TopBar from './top-bar/TopBar'
 import SideBarLeft from './side-bar-left/SideBarLeft'
 import SideBarRight from './side-bar-right/SideBarRight'
 import Survey from 'components/Survey'
-import useAuth from 'hooks/useAuth'
 import config from 'config'
 import './index.scss'
 
