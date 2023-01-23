@@ -1,5 +1,5 @@
 import { useQuery } from '@tanstack/react-query'
-import { queryClient } from 'Query'
+import { queryClient } from 'query'
 
 // This hook uses react-query to cache state making
 // - values accessible between components and also

@@ -6,7 +6,7 @@ import Router from 'Router'
 import { RouterProvider } from 'react-router-dom'
 import { ReactQueryDevtools } from '@tanstack/react-query-devtools'
 import { PersistQueryClientProvider } from '@tanstack/react-query-persist-client'
-import { queryClient, persistOptions } from 'Query'
+import { queryClient, persistOptions } from 'query'
 
 function App() {
     return (
