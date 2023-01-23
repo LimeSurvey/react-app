@@ -10,32 +10,7 @@ import config from 'config'
 import './index.scss'
 
 function Editor() {
-    const {
-        isLoggedIn,
-        isPending,
-        login,
-        loginMutation
-    } = useAuth()
-
-    useEffect(function(){
-        if (!isLoggedIn && !isPending) {
-            login()
-        }
-    }, [isLoggedIn])
-
-    const authenticationStatus = (
-        loginMutation.isError ? (
-            <Container fluid>
-                Authentication failed
-            </Container>
-        ) : (
-            <Container fluid>
-                Authenticating
-            </Container>
-        )
-    )
-
-    return loginMutation.isSuccess ? (
+    return (
         <Container fluid>
             <TopBar siteName={config.siteName} />
             <Row id="content">
@@ -44,8 +19,6 @@ function Editor() {
                 <SideBarRight />
             </Row>
         </Container>
-    ) : (
-        authenticationStatus
     )
 }
 
