@@ -2,10 +2,10 @@ import Form from 'react-bootstrap/Form'
 
 import uuid from 'helpers/uuid'
 
-const Input = ({ name = uuid(), value, label, update, ...props }) => (
+const Input = ({ id = uuid(), value, label, update, ...props }) => (
     <Form.FloatingLabel label={label}>
         <Form.Control
-            id={name}
+            id={id}
             value={value}
             onChange={({ target: { value } }) => update(value)}
             {...props}
