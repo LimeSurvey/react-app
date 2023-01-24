@@ -1,6 +1,7 @@
 import { useQuery, useMutation } from '@tanstack/react-query'
-import { axiosLsApi } from '../axios'
-import { queryClient } from 'Query'
+
+import { axiosLsApi } from 'axios'
+import { queryClient } from 'query'
 
 const useAuth = () => {
     const { data: auth } = useQuery({

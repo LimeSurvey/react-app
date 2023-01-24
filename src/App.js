@@ -1,12 +1,13 @@
 import React from 'react'
-import 'bootstrap/dist/css/bootstrap.min.css'
-import 'themes/default.scss'
 import ThemeProvider from 'react-bootstrap/ThemeProvider'
 import Router from 'Router'
 import { RouterProvider } from 'react-router-dom'
 import { ReactQueryDevtools } from '@tanstack/react-query-devtools'
 import { PersistQueryClientProvider } from '@tanstack/react-query-persist-client'
+
 import { queryClient, persistOptions } from 'query'
+import 'bootstrap/dist/css/bootstrap.min.css'
+import 'themes/default.scss'
 
 function App() {
     return (

@@ -1,16 +1,18 @@
 import React from 'react'
-import './TopBar.scss'
 import Form from 'react-bootstrap/Form'
 import Button from 'react-bootstrap/Button'
 import Row from 'react-bootstrap/Row'
 import Col from 'react-bootstrap/Col'
 import OverlayTrigger from 'react-bootstrap/OverlayTrigger'
-import Popover from 'react-bootstrap/Popover';
-import * as Icon from 'react-bootstrap-icons'
+import Popover from 'react-bootstrap/Popover'
+import { XLg, PlusLg, ListNested, Gear, ThreeDots } from 'react-bootstrap-icons'
 import classNames from 'classnames'
+
 import QuestionTypeSelector from 'components/QuestionTypeSelector'
 import SettingsForm from 'page/editor/settings-form/SettingsForm'
 import useAppState from 'hooks/useAppState'
+
+import './TopBar.scss'
 
 export function TopBar() {
     const [
@@ -65,7 +67,7 @@ export function TopBar() {
                             variant={questionTypeSelectorPanelOpen ? 'dark' : 'primary'}
 
                             className={classNames('m-1')}>
-                            {questionTypeSelectorPanelOpen ?  <Icon.XLg/> : <Icon.PlusLg/> }
+                            {questionTypeSelectorPanelOpen ?  <XLg/> : <PlusLg/> }
                         </Button>
                     </OverlayTrigger>
                     <Button
@@ -73,14 +75,14 @@ export function TopBar() {
                         onClick={() => setEditorStructurePanelOpen((oldValue) => !oldValue)}
                         className={classNames('m-1')}
                     >
-                        <Icon.ListNested />
+                        <ListNested />
                     </Button>
 
                     <Button
                         variant={editorSettingsPanelOpen ? 'dark' : 'light'}
                         onClick={() => setEditorSettingsPanelOpen((oldValue) => !oldValue)}
                     >
-                        <Icon.Gear />
+                        <Gear />
                     </Button>
                 </span>
             </Col>
@@ -107,7 +109,7 @@ export function TopBar() {
                 </Button>
                 <OverlayTrigger trigger="click" placement="left" overlay={settingsFormPopover} rootClose>
                     <Button variant="link" className={classNames('d-flex', 'ml-auto', 'm-1')}>
-                        <Icon.ThreeDots size={30} color={'black'} style={{padding: 0}}/>
+                        <ThreeDots size={30} color={'black'} style={{padding: 0}}/>
                     </Button>
                 </OverlayTrigger>
             </Col>

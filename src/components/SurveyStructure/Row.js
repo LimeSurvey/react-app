@@ -1,14 +1,15 @@
 import React, { useState } from 'react'
 import classNames from 'classnames'
-import * as Icon from 'react-bootstrap-icons'
+import { ChevronDown, ChevronRight } from 'react-bootstrap-icons'
 import Button from 'react-bootstrap/Button'
+
 import SideBar from 'components/SideBar'
 
 const indentSize = 50
 
 function Row({icon = null, title = null, button = null, button2 = null,  children = null, className = '', style = {}}) {
     const [ isOpen, setOpen ] = useState(false)
-    const openCloseIcon = isOpen ? <Icon.ChevronDown color="black"/> : <Icon.ChevronRight color="black" />
+    const openCloseIcon = isOpen ? <ChevronDown color="black"/> : <ChevronRight color="black" />
     const openCloseButton = children ? <Button variant="link" onClick={() => setOpen(!isOpen)} style={{marginRight: 10}}>{openCloseIcon}</Button> :  null
     const content = isOpen ? (
         <div style={{marginLeft: indentSize}}>

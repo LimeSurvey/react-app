@@ -1,4 +1,5 @@
 import { useCallback } from 'react'
+
 import Question from './Question'
 
 const Questions = ({ questions = [], update }) => {

@@ -1,8 +1,6 @@
-import classNames from 'classnames'
-
 const Section = ({ children }) => {
     return (
-        <div className={classNames('survey-section')}>
+        <div className="survey-section">
             {children}
         </div>
     )

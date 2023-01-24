@@ -1,10 +1,12 @@
 import React from 'react'
+import classNames from 'classnames'
+
 import SideBar from 'components/SideBar'
 import SurveyStructure from 'components/SurveyStructure'
 import SurveySettings from 'components/SurveySettings'
-import './SideBarLeft.scss'
-import classNames from 'classnames'
 import useAppState from 'hooks/useAppState'
+
+import './SideBarLeft.scss'
 
 function SideBarLeft() {
     const [

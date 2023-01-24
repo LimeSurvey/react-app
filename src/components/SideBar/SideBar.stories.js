@@ -1,8 +1,10 @@
 import React from 'react'
 import { PersistQueryClientProvider } from '@tanstack/react-query-persist-client'
+
 import { queryClient, persistOptions } from 'query'
-import './SideBar.scss'
+
 import SideBarLeft from './SideBar'
+import './SideBar.scss'
 
 export default {
     title: 'General/SideBar',

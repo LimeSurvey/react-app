@@ -1,9 +1,11 @@
 import parse from 'html-react-parser';
 import classNames from 'classnames'
-import Questions from './Questions'
+
 import Section from 'components/Survey/Section'
 import Card from 'components/Survey/Card'
 import L10ns from 'components/L10ns'
+
+import Questions from './Questions'
 
 const QuestionGroup = ({
     index,

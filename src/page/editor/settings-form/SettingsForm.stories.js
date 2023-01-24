@@ -1,9 +1,10 @@
 import React from 'react';
-import { ComponentStory, ComponentMeta } from '@storybook/react';
 import { PersistQueryClientProvider } from '@tanstack/react-query-persist-client'
-import './SettingsForm.scss';
-import { SettingsForm } from './SettingsForm';
+
 import { queryClient, persistOptions } from 'query'
+
+import { SettingsForm } from './SettingsForm'
+import './SettingsForm.scss'
 
 export default {
     /* 👇 The title prop is optional.

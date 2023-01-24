@@ -1,11 +1,14 @@
 import React from 'react'
-import SideBar from 'components/SideBar'
+import classNames from 'classnames'
 import Button from 'react-bootstrap/Button'
 import Form from 'react-bootstrap/Form'
-import * as Icon from 'react-bootstrap-icons'
-import classNames from 'classnames'
-import './SurveySettings.scss'
+import { XLg } from 'react-bootstrap-icons'
+
+import SideBar from 'components/SideBar'
+
 import useAppState from 'hooks/useAppState'
+
+import './SurveySettings.scss'
 
 const iconSize = 24
 
@@ -24,7 +27,7 @@ function SurveySettings() {
                     className={classNames('m-1')}
                     style={{padding: 0}}
                     onClick={() => setEditorSettingsPanelOpen(false)}>
-                    <Icon.XLg color='black' size={20} />
+                    <XLg color='black' size={20} />
                 </Button>
             </SideBar.Header>
             <SideBar.Section>

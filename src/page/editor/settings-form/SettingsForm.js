@@ -1,7 +1,8 @@
 import React from 'react'
-import './SettingsForm.scss'
 import Form from 'react-bootstrap/Form'
 import Button from 'react-bootstrap/Button'
+
+import './SettingsForm.scss'
 
 export function SettingsForm() {
     return (

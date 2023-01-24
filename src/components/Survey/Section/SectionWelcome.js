@@ -1,12 +1,13 @@
 import { useCallback } from 'react'
-import parse from 'html-react-parser';
-import Form from 'react-bootstrap/Form'
-import Button from 'react-bootstrap/Button'
-import * as Icon from 'react-bootstrap-icons'
 import classNames from 'classnames'
+import parse from 'html-react-parser';
+import Button from 'react-bootstrap/Button'
+import { PlusCircleFill, ThreeDots } from 'react-bootstrap-icons'
+
+import useSurvey from 'hooks/useSurvey'
+
 import Section from '../Section'
 import Card from '../Card'
-import useSurvey from 'hooks/useSurvey'
 
 const SectionWelcome = () => {
     // You would normally get this via useParams from react-router-dom or via props from the parent
@@ -31,7 +32,7 @@ const SectionWelcome = () => {
         <Section>
             <Card className={classNames('welcome')}>
                 <div className={classNames('image')}>
-                    <Icon.PlusCircleFill /> add Image
+                    <PlusCircleFill /> add Image
                 </div>
                 <div className={classNames('right')}>
                     <div className={classNames('header')}>
@@ -45,7 +46,7 @@ const SectionWelcome = () => {
                             */}
                         </div>
                         <Button variant="link">
-                            <Icon.ThreeDots color={'black'} style={{ padding: 0 }} />
+                            <ThreeDots color={'black'} style={{ padding: 0 }} />
                         </Button>
                     </div>
                     <div className={classNames('body')}>

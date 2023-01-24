@@ -1,12 +1,14 @@
 import React from 'react'
-import SideBar from 'components/SideBar'
-import Button from 'react-bootstrap/Button'
-import * as Icon from 'react-bootstrap-icons'
 import classNames from 'classnames'
-import './SurveyStructure.scss'
+import Button from 'react-bootstrap/Button'
+import { XLg } from 'react-bootstrap-icons'
+
+import SideBar from 'components/SideBar'
+import useAppState from 'hooks/useAppState'
+
 import RowPinned from './RowPinned'
 import RowQuestionGroup from './RowQuestionGroup'
-import useAppState from 'hooks/useAppState'
+import './SurveyStructure.scss'
 
 const iconSize = 24
 
@@ -25,7 +27,7 @@ function SurveyStructure() {
                     className={classNames('m-1')}
                     style={{padding: 0}}
                     onClick={() => setEditorStructurePanelOpen(false)}>
-                    <Icon.XLg color='black' size={20} />
+                    <XLg color='black' size={20} />
                 </Button>
             </SideBar.Header>
             <RowPinned title="Welcome" />

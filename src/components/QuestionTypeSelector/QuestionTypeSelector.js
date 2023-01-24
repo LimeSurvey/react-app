@@ -7,8 +7,8 @@ import {
     Collection,
     Images
 } from 'react-bootstrap-icons'
-import './QuestionTypeSelector.scss'
 
+import './QuestionTypeSelector.scss'
 
 function QuestionTypeSelector() {
     return (

@@ -1,13 +1,15 @@
 import { useCallback } from 'react'
+import classNames from 'classnames'
 import Col from 'react-bootstrap/Col'
 import Button from 'react-bootstrap/Button'
-import classNames from 'classnames'
+
+import useSurvey from 'hooks/useSurvey'
+
 import Section from './Section'
 import Card from './Card'
 import SectionWelcome from './Section/SectionWelcome'
 import SectionThankyou from './Section/SectionThankyou'
 import QuestionGroups from './QuestionGroups'
-import useSurvey from 'hooks/useSurvey'
 import './Survey.scss'
 
 const Survey = () => {

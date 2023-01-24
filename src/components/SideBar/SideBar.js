@@ -1,12 +1,13 @@
 import React from 'react'
-import './SideBar.scss'
+import classNames from 'classnames'
+import Fade from 'react-bootstrap/Fade'
+import Col from 'react-bootstrap/Col'
+
 import Header from './Header'
 import Row from './Row'
 import Section from './Section'
 import SectionHeader from './SectionHeader'
-import Fade from 'react-bootstrap/Fade'
-import Col from 'react-bootstrap/Col'
-import classNames from 'classnames'
+import './SideBar.scss'
 
 function SideBar({visible = false, className = '', children = null}) {
     return (

@@ -1,5 +1,6 @@
-import uuid from 'helpers/uuid'
 import Form from 'react-bootstrap/Form'
+
+import uuid from 'helpers/uuid'
 
 const Input = ({ name = uuid(), value, label, update, ...props }) => (
     <Form.FloatingLabel label={label}>

@@ -1,7 +1,9 @@
 import React from 'react'
-import SideBar from 'components/SideBar'
-import './SideBarRight.scss'
 import classNames from 'classnames'
+
+import SideBar from 'components/SideBar'
+
+import './SideBarRight.scss'
 
 function SideBarRight() {
     return (
