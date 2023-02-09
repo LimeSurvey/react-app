@@ -99,6 +99,10 @@
             display: flex;
             flex-direction: row;
 
+            .title {
+                width: 100%;
+            }
+
             .body {
                 min-height: 315px;
             }

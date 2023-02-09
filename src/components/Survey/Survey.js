@@ -15,9 +15,9 @@ import './Survey.scss'
 const Survey = () => {
     // You would normally get this via useParams from react-router-dom or via props from the parent
     const id = '78f91e52-6028-11ed-82e1-7ac846e3af9d'
-    const { survey, save, update } = useSurvey(id)
+    const { survey, save, update, language } = useSurvey(id)
 
-    const handleUpdate = useCallback((questionGroups) =>
+    const handleUpdateQuestionGroups = useCallback((questionGroups) =>
         update({
             ...survey,
             ...questionGroups,
@@ -25,9 +25,13 @@ const Survey = () => {
         [survey]
     )
 
-    const handleUpdateQuestionGroup = useCallback((questionGroups) => {
-        handleUpdate({ questionGroups })
-    })
+    const handleUpdateLanguagesettings = useCallback((languagesettings) => (
+        update({
+            ...survey,
+            ...languagesettings,
+        }),
+        [survey]
+    ))
 
     return (
         <Col
@@ -39,10 +43,14 @@ const Survey = () => {
                 'survey'
             )}
         >
-            <SectionWelcome/>
+            <SectionWelcome
+                language={language}
+                languagesettings={survey.languagesettings}
+                update={handleUpdateLanguagesettings}
+            />
             <QuestionGroups
                 questionGroups={survey.questionGroups}
-                update={handleUpdateQuestionGroup}
+                update={handleUpdateQuestionGroups}
             />
             <SectionThankyou/>
             <Section>

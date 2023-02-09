@@ -38,7 +38,7 @@ const useSurvey = (id) => {
         }
     }, [data])
 
-    console.log(survey, language);
+    console.log(survey);
 
     return {
         survey,
