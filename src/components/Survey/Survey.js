@@ -17,21 +17,16 @@ const Survey = () => {
     const id = '78f91e52-6028-11ed-82e1-7ac846e3af9d'
     const { survey, save, update, language } = useSurvey(id)
 
-    const handleUpdateQuestionGroups = useCallback((questionGroups) =>
-        update({
-            ...survey,
-            ...questionGroups,
-        }),
-        [survey]
+    const handleUpdate = useCallback(
+        (updatedData) => (
+            update({
+                ...survey,
+                ...updatedData
+            })
+        )
+        ,
+        [survey, update, language]
     )
-
-    const handleUpdateLanguagesettings = useCallback((languagesettings) => (
-        update({
-            ...survey,
-            ...languagesettings,
-        }),
-        [survey]
-    ))
 
     return (
         <Col
@@ -45,12 +40,12 @@ const Survey = () => {
         >
             <SectionWelcome
                 language={language}
-                languagesettings={survey.languagesettings}
-                update={handleUpdateLanguagesettings}
+                languagesettings={survey?.languagesettings}
+                update={(languagesettings) => handleUpdate({ languagesettings })}
             />
             <QuestionGroups
-                questionGroups={survey.questionGroups}
-                update={handleUpdateQuestionGroups}
+                questionGroups={survey?.questionGroups}
+                update={(questionGroups) => handleUpdate({ questionGroups })}
             />
             <SectionThankyou/>
             <Section>

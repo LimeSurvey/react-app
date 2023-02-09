@@ -1,12 +1,17 @@
 import { useEffect, useState } from 'react'
 import { useQuery, useMutation } from '@tanstack/react-query'
 
+import { queryClient } from 'query'
+
 const useSurvey = (id) => {
     const [ survey, setSurvey ] = useState({questionGroups: []})
     const [ language, setLanguage ] = useState('en')
     const { data } = useQuery(['survey', id], async () => {
         const res = await fetch('/data/survey-detail.json')
         return await res.json()
+    }, {
+        staleTime: Infinity,
+        cacheTime: Infinity
     })
 
     // const persistCurrentState = async () =>
@@ -14,8 +19,12 @@ const useSurvey = (id) => {
     //     method: 'POST',
     //     body: JSON.stringify(survey),
     //   })
-
-    const persistCurrentState = () => console.log(survey)
+    const persistCurrentState = () => {
+        queryClient.setQueryData(
+            ['survey', id],
+            {survey}
+        )
+    }
 
     const switchLanguage = (language) => {
         if (
@@ -43,7 +52,7 @@ const useSurvey = (id) => {
     return {
         survey,
         update: setSurvey,
-        save: mutate,
+        save: persistCurrentState,
         language,
         switchLanguage
     }

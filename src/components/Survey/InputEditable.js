@@ -12,14 +12,19 @@ const InputEditable = ({ id = uuid(), value, displayValue, label, update, ...pro
         defaultValue={value}
         onKeyDown={(e) => {
             if (e.keyCode == 13 && e.shiftKey == false) {
-                e.preventDefault();
+                e.preventDefault()
+                if (editing) {
+                    update(e.target.value)
+                }
                 setEditing(false)
-                update(e.target.value)
             }
         }}
         onBlurCapture={(e) => {
+            e.preventDefault()
+            if (editing) {
+                update(e.target.value)
+            }
             setEditing(false)
-            update(e.target.value)
         }}
         {...props}
     />

@@ -12,11 +12,19 @@ import Card from '../Card'
 
 const SectionWelcome = ({ languagesettings, update, language }) => {
 
-    const updateL10ns = useCallback((updatedSettings) => {
-        Object.keys(updatedSettings).forEach(key => {
-            languagesettings[language][key] = updatedSettings[key]
-            update(languagesettings)
-        })
+    const handleUpdate = useCallback((updatedSettings) => {
+        if (languagesettings?.[language]) {
+            let updateData = {
+                ...languagesettings
+            }
+
+            updateData[language] = {
+                ...updateData[language],
+                ...updatedSettings
+            }
+
+            update(updateData)
+        }
     }, [languagesettings, update, language])
 
     return (
@@ -31,7 +39,7 @@ const SectionWelcome = ({ languagesettings, update, language }) => {
                             <InputEditable
                                 type="text"
                                 value={L10ns({ prop: 'title', language, l10ns: languagesettings })}
-                                update={(value) => updateL10ns({ title: value })}
+                                update={(value) => handleUpdate({ title: value })}
                             />
                         </div>
                         <Button variant="link">
@@ -45,14 +53,14 @@ const SectionWelcome = ({ languagesettings, update, language }) => {
                                     type="text"
                                     value={L10ns({ prop: 'description', language, l10ns: languagesettings })}
                                     displayValue={parse(L10ns({ prop: 'description', language, l10ns: languagesettings }))}
-                                    update={(value) => updateL10ns({ description: value })}
+                                    update={(value) => handleUpdate({ description: value })}
                                 />
                             </h6>
                             <InputEditable
                                 type="text"
                                 value={L10ns({ prop: 'welcometext', language, l10ns: languagesettings })}
                                 displayValue={parse(L10ns({ prop: 'welcometext', language, l10ns: languagesettings }))}
-                                update={(value) => updateL10ns({ welcometext: value })}
+                                update={(value) => handleUpdate({ welcometext: value })}
                             />
                         </div>
                         <div>
