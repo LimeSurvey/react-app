@@ -1,5 +1,14 @@
-const default_language = 'en';
+import isString from 'lodash/isString'
 
-const L10ns = ({ prop, lang, l10ns }) => l10ns?.[lang]?.[prop] || l10ns?.[default_language]?.[prop]
+const defaultLanguage = 'en';
+
+const L10ns = ({ prop, language, l10ns }) => {
+    if (l10ns?.[language]?.[prop] && isString(l10ns[language][prop])) {
+        return l10ns[language][prop]
+    } else if (l10ns?.[defaultLanguage]?.[prop] && isString(l10ns[defaultLanguage][prop])) {
+        return l10ns[defaultLanguage][prop]
+    }
+    return ''
+}
 
 export default L10ns

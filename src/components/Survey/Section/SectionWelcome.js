@@ -5,6 +5,7 @@ import Button from 'react-bootstrap/Button'
 import { PlusCircleFill, ThreeDots } from 'react-bootstrap-icons'
 
 import useSurvey from 'hooks/useSurvey'
+import L10ns from 'components/L10ns'
 
 import Section from '../Section'
 import Card from '../Card'
@@ -12,21 +13,9 @@ import Card from '../Card'
 const SectionWelcome = () => {
     // You would normally get this via useParams from react-router-dom or via props from the parent
     const id = '78f91e52-6028-11ed-82e1-7ac846e3af9d'
-    const { survey, save, update } = useSurvey(id)
+    const { survey, save, update, language } = useSurvey(id)
 
-    const handleUpdate = useCallback((questionGroups) =>
-        update({
-            ...survey,
-            ...questionGroups,
-        }),
-        [survey]
-    )
-
-    const handleUpdateQuestionGroup = useCallback((questionGroups) => {
-        handleUpdate({ questionGroups })
-    })
-
-    const language = survey && survey.language ? survey.language : null
+    const languageSettings = survey?.languagesettings
 
     return (
         <Section>
@@ -37,11 +26,11 @@ const SectionWelcome = () => {
                 <div className={classNames('right')}>
                     <div className={classNames('header')}>
                         <div className={classNames('title')}>
-                            {survey && survey.defaultlanguage ? survey.defaultlanguage.title : ''}
+                            <L10ns prop="title" language={language} l10ns={languageSettings} />
                             {/*survey.title*
                             <Form.Control
                                 type="text"
-                                defaultValue={survey && survey.defaultlanguage ? survey.defaultlanguage.title : ''}
+                                defaultValue={title}
                             />
                             */}
                         </div>
@@ -51,8 +40,8 @@ const SectionWelcome = () => {
                     </div>
                     <div className={classNames('body')}>
                         <div>
-                            <h6>{parse(survey && survey.defaultlanguage ? survey.defaultlanguage.description : '')}</h6>
-                            {parse(survey && survey.defaultlanguage ? survey.defaultlanguage.welcometext : '')}
+                            <h6>{parse(L10ns({ prop: 'description', language, l10ns: languageSettings }))}</h6>
+                            {parse(L10ns({ prop: 'welcometext', language, l10ns: languageSettings }))}
                         </div>
                         <div>
                             <Button variant="outline-secondary">Start</Button>

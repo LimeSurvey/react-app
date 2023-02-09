@@ -28,7 +28,7 @@ const Question = ({
         handleUpdate({ subquestions })
     )
 
-    const textLocal = L10ns({ l10ns: question.l10ns, prop: 'question', lang: 'en' });
+    const textLocal = L10ns({ l10ns: question.l10ns, prop: 'question', language: 'en' });
 
     return (
         <div className={classNames('question')} key={`question-${question.id}`}>

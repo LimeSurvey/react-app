@@ -28,8 +28,8 @@ const QuestionGroup = ({
     const handleUpdateQuestions = (questions) =>
         handleUpdate({ questions })
 
-    const nameLocal = L10ns({ l10ns: questionGroup.l10ns, prop: 'group_name', lang: 'en' });
-    const descriptionLocal = L10ns({ l10ns: questionGroup.l10ns, prop: 'description', lang: 'en' });
+    const nameLocal = L10ns({ l10ns: questionGroup.l10ns, prop: 'group_name', language: 'en' });
+    const descriptionLocal = L10ns({ l10ns: questionGroup.l10ns, prop: 'description', language: 'en' });
 
     return (
         <Section>
