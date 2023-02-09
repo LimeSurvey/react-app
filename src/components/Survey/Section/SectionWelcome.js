@@ -1,3 +1,4 @@
+import { useCallback } from 'react'
 import classNames from 'classnames'
 import parse from 'html-react-parser';
 import Button from 'react-bootstrap/Button'
@@ -11,6 +12,13 @@ import Card from '../Card'
 
 const SectionWelcome = ({ languagesettings, update, language }) => {
 
+    const updateL10ns = useCallback((updatedSettings) => {
+        Object.keys(updatedSettings).forEach(key => {
+            languagesettings[language][key] = updatedSettings[key]
+            update(languagesettings)
+        })
+    }, [languagesettings, update, language])
+
     return (
         <Section>
             <Card className={classNames('welcome')}>
@@ -23,10 +31,7 @@ const SectionWelcome = ({ languagesettings, update, language }) => {
                             <InputEditable
                                 type="text"
                                 value={L10ns({ prop: 'title', language, l10ns: languagesettings })}
-                                update={(newValue) => {
-                                    languagesettings[language].title = newValue
-                                    update(languagesettings)
-                                }}
+                                update={(value) => updateL10ns({ title: value })}
                             />
                         </div>
                         <Button variant="link">
@@ -38,20 +43,16 @@ const SectionWelcome = ({ languagesettings, update, language }) => {
                             <h6>
                                 <InputEditable
                                     type="text"
-                                    value={parse(L10ns({ prop: 'description', language, l10ns: languagesettings }))}
-                                    update={(newValue) => {
-                                        languagesettings[language].description = newValue
-                                        update(languagesettings)
-                                    }}
+                                    value={L10ns({ prop: 'description', language, l10ns: languagesettings })}
+                                    displayValue={parse(L10ns({ prop: 'description', language, l10ns: languagesettings }))}
+                                    update={(value) => updateL10ns({ description: value })}
                                 />
                             </h6>
                             <InputEditable
                                 type="text"
-                                value={parse(L10ns({ prop: 'welcometext', language, l10ns: languagesettings }))}
-                                update={(newValue) => {
-                                    languagesettings[language].welcometext = newValue
-                                    update(languagesettings)
-                                }}
+                                value={L10ns({ prop: 'welcometext', language, l10ns: languagesettings })}
+                                displayValue={parse(L10ns({ prop: 'welcometext', language, l10ns: languagesettings }))}
+                                update={(value) => updateL10ns({ welcometext: value })}
                             />
                         </div>
                         <div>

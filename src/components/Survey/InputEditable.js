@@ -3,7 +3,7 @@ import Form from 'react-bootstrap/Form'
 
 import uuid from 'helpers/uuid'
 
-const InputEditable = ({ id = uuid(), value, label, update, ...props }) => {
+const InputEditable = ({ id = uuid(), value, displayValue, label, update, ...props }) => {
     const [ editing, setEditing ] = useState(false)
 
     const input = <Form.Control
@@ -24,9 +24,9 @@ const InputEditable = ({ id = uuid(), value, label, update, ...props }) => {
         {...props}
     />
 
-    const text = <span onClick={() => setEditing(true)}>{value}</span>
-
-    return editing ? input : text
+    return editing
+        ? input
+        : <div onClick={() => setEditing(true)}>{displayValue ? displayValue : value}</div>
 }
 
 export default InputEditable
