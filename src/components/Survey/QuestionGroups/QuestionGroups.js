@@ -1,16 +1,12 @@
-import { useCallback } from 'react'
-
 import QuestionGroup from './QuestionGroup'
 
 const QuestionGroups = ({ language, questionGroups = [], update }) => {
-	const handleUpdate = useCallback((index, questionGroup) =>
+	const handleUpdate = (index, questionGroup) =>
 		update([
 			...questionGroups.slice(0, index),
 			questionGroup,
 			...questionGroups.slice(index + 1),
-		]),
-		[questionGroups]
-	)
+		])
 
 	return questionGroups.map((questionGroup, index) => (
 		<QuestionGroup

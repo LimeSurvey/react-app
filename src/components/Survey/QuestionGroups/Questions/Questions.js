@@ -1,5 +1,3 @@
-import { useCallback } from 'react'
-
 import Question from './Question'
 
 const Questions = ({ language, questions = [], update }) => {

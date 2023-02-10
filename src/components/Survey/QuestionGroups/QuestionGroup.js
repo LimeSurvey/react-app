@@ -1,4 +1,3 @@
-import { useCallback } from 'react'
 import classNames from 'classnames'
 import ContentEditable from 'react-contenteditable'
 
@@ -52,7 +51,7 @@ const QuestionGroup = ({
                     </div>
                 </div>
                 <div className={classNames('body')}>
-                    <div class="description">
+                    <div className="description">
                         <ContentEditable
                             html={L10ns({ prop: 'description', language, l10ns })}
                             onChange={(e) => handleUpdateL10ns({ description: e.target.value })}

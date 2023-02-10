@@ -14,6 +14,13 @@ const useSurvey = (id) => {
         cacheTime: Infinity
     })
 
+    const update = (updateData) => {
+        setSurvey({
+            ...survey,
+            ...updateData
+        })
+    }
+
     // const persistCurrentState = async () =>
     //   fetch('/data/survey.json', {
     //     method: 'POST',
@@ -47,11 +54,9 @@ const useSurvey = (id) => {
         }
     }, [data])
 
-    console.log(survey);
-
     return {
         survey,
-        update: setSurvey,
+        update,
         save: persistCurrentState,
         language,
         switchLanguage

@@ -1,4 +1,3 @@
-import { useCallback } from 'react'
 import classNames from 'classnames'
 import Button from 'react-bootstrap/Button'
 import { PlusCircleFill, ThreeDots } from 'react-bootstrap-icons'
@@ -9,9 +8,13 @@ import L10ns from 'components/L10ns'
 import Section from '../Section'
 import Card from '../Card'
 
-const SectionWelcome = ({ languagesettings = {}, update, language }) => {
+const SectionWelcome = ({
+    languagesettings,
+    update,
+    language
+}) => {
 
-    const handleUpdate = useCallback((updated) => {
+    const handleUpdate = (updated) => {
         let updateData = {
             ...languagesettings
         }
@@ -22,7 +25,7 @@ const SectionWelcome = ({ languagesettings = {}, update, language }) => {
         }
 
         update(updateData)
-    }, [languagesettings, update, language])
+    }
 
     return (
         <Section>

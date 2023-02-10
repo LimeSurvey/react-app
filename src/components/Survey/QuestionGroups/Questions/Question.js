@@ -1,4 +1,3 @@
-import { useCallback } from 'react'
 import classNames from 'classnames'
 import ContentEditable from 'react-contenteditable'
 
@@ -35,9 +34,7 @@ const Question = ({
         handleUpdate({ l10ns: updateL10ns })
     }
 
-    const handleUpdateSubquestions = useCallback((subquestions) =>
-        handleUpdate({ subquestions })
-    )
+    const handleUpdateSubquestions = (subquestions) => handleUpdate({ subquestions })
 
     return (
         <div className={classNames('question')} key={`question-${question.id}`}>

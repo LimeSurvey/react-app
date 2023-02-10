@@ -1,4 +1,3 @@
-import { useCallback } from 'react'
 import classNames from 'classnames'
 import Col from 'react-bootstrap/Col'
 import Button from 'react-bootstrap/Button'
@@ -17,17 +16,6 @@ const Survey = () => {
     const id = '78f91e52-6028-11ed-82e1-7ac846e3af9d'
     const { survey, save, update, language } = useSurvey(id)
 
-    const handleUpdate = useCallback(
-        (updatedData) => (
-            update({
-                ...survey,
-                ...updatedData
-            })
-        )
-        ,
-        [survey, update, language]
-    )
-
     return (
         <Col
             className={classNames(
@@ -41,12 +29,12 @@ const Survey = () => {
             <SectionWelcome
                 language={language}
                 languagesettings={survey?.languagesettings}
-                update={(languagesettings) => handleUpdate({ languagesettings })}
+                update={(languagesettings) => update({ languagesettings })}
             />
             <QuestionGroups
                 language={language}
                 questionGroups={survey?.questionGroups}
-                update={(questionGroups) => handleUpdate({ questionGroups })}
+                update={(questionGroups) => update({ questionGroups })}
             />
             <SectionThankyou/>
             <Section>
