@@ -89,7 +89,7 @@
                 "language": "en",
                 "title": "Sample LimeSurvey EN/FR/DE/IT",
                 "description": "Description (English)",
-                "welcometext": "Welcome text (English)",
+                "welcometext": "Welcome text <strike>(English)</strike>",
                 "endtext": "End text (English)",
                 "policy_notice": "Policy notice (English)",
                 "policy_error": "Policy error (English)",

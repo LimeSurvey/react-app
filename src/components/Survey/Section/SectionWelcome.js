@@ -50,14 +50,14 @@ const SectionWelcome = ({ languagesettings, update, language }) => {
                         <div>
                             <h6>
                                 <InputEditable
-                                    type="text"
+                                    type="text" as="textarea" rows={4}
                                     value={L10ns({ prop: 'description', language, l10ns: languagesettings })}
                                     displayValue={parse(L10ns({ prop: 'description', language, l10ns: languagesettings }))}
                                     update={(value) => handleUpdate({ description: value })}
                                 />
                             </h6>
                             <InputEditable
-                                type="text"
+                                type="text" as="textarea" rows={4}
                                 value={L10ns({ prop: 'welcometext', language, l10ns: languagesettings })}
                                 displayValue={parse(L10ns({ prop: 'welcometext', language, l10ns: languagesettings }))}
                                 update={(value) => handleUpdate({ welcometext: value })}

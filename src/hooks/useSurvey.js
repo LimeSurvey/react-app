@@ -4,7 +4,7 @@ import { useQuery, useMutation } from '@tanstack/react-query'
 import { queryClient } from 'query'
 
 const useSurvey = (id) => {
-    const [ survey, setSurvey ] = useState({questionGroups: []})
+    const [ survey, setSurvey ] = useState(null)
     const [ language, setLanguage ] = useState('en')
     const { data } = useQuery(['survey', id], async () => {
         const res = await fetch('/data/survey-detail.json')

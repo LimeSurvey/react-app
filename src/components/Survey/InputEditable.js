@@ -10,15 +10,6 @@ const InputEditable = ({ id = uuid(), value, displayValue, label, update, ...pro
         id={id}
         autoFocus
         defaultValue={value}
-        onKeyDown={(e) => {
-            if (e.keyCode == 13 && e.shiftKey == false) {
-                e.preventDefault()
-                if (editing) {
-                    update(e.target.value)
-                }
-                setEditing(false)
-            }
-        }}
         onBlurCapture={(e) => {
             e.preventDefault()
             if (editing) {
@@ -29,9 +20,11 @@ const InputEditable = ({ id = uuid(), value, displayValue, label, update, ...pro
         {...props}
     />
 
+    const display = <div onClick={() => setEditing(true)}>{displayValue ? displayValue : value}</div>
+
     return editing
         ? input
-        : <div onClick={() => setEditing(true)}>{displayValue ? displayValue : value}</div>
+        : display
 }
 
 export default InputEditable
