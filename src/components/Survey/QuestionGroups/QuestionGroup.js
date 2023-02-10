@@ -1,16 +1,14 @@
 import { useCallback } from 'react'
-import parse from 'html-react-parser';
 import classNames from 'classnames'
+import ContentEditable from 'react-contenteditable'
 
 import Section from 'components/Survey/Section'
 import Card from 'components/Survey/Card'
 import L10ns from 'components/L10ns'
 
-import InputEditable from '../InputEditable'
 import Questions from './Questions'
 
 const QuestionGroup = ({
-    index,
     language,
     questionGroup: {
         l10ns = {},
@@ -26,7 +24,7 @@ const QuestionGroup = ({
         })
     }
 
-    const handleUpdateL10ns = useCallback((updated) => {
+    const handleUpdateL10ns = (updated) => {
         let updateL10ns = {
             ...l10ns
         }
@@ -37,7 +35,7 @@ const QuestionGroup = ({
         }
 
         handleUpdate({ l10ns: updateL10ns })
-    }, [questionGroup, handleUpdate, language])
+    }
 
     const handleUpdateQuestions = (questions) =>
         handleUpdate({ questions })
@@ -47,20 +45,17 @@ const QuestionGroup = ({
             <Card>
                 <div className={classNames('header')}>
                     <div className={classNames('title', 'flex-grow-1')}>
-                        <InputEditable
-                            type="text" as="textarea" rows={2}
-                            value={L10ns({ prop: 'group_name', language, l10ns })}
-                            update={(value) => handleUpdateL10ns({ group_name: value })}
+                        <ContentEditable
+                            html={L10ns({ prop: 'group_name', language, l10ns })}
+                            onChange={(e) => handleUpdateL10ns({ group_name: e.target.value })}
                         />
                     </div>
                 </div>
                 <div className={classNames('body')}>
                     <div>
-                        <InputEditable
-                            type="text" as="textarea" rows={4}
-                            value={L10ns({ prop: 'description', language, l10ns })}
-                            displayValue={parse(L10ns({ prop: 'description', language, l10ns }))}
-                            update={(value) => handleUpdateL10ns({ description: value })}
+                        <ContentEditable
+                            html={L10ns({ prop: 'description', language, l10ns })}
+                            onChange={(e) => handleUpdateL10ns({ description: e.target.value })}
                         />
                     </div>
                     <Questions

@@ -1,9 +1,9 @@
 import { useCallback } from 'react'
 import classNames from 'classnames'
+import ContentEditable from 'react-contenteditable'
 
 import L10ns from 'components/L10ns'
 
-import InputEditable from '../../InputEditable'
 import Questions from './Questions'
 
 const Question = ({
@@ -15,16 +15,14 @@ const Question = ({
     question,
     update,
 }) => {
-    const handleUpdate = useCallback((change) => {
+    const handleUpdate = (change) => {
         update({
             ...question,
             ...change,
         })
-    },
-        [question]
-    )
+    }
 
-    const handleUpdateL10ns = useCallback((updated) => {
+    const handleUpdateL10ns = (updated) => {
         let updateL10ns = {
             ...l10ns
         }
@@ -35,7 +33,7 @@ const Question = ({
         }
 
         handleUpdate({ l10ns: updateL10ns })
-    }, [question, handleUpdate, language])
+    }
 
     const handleUpdateSubquestions = useCallback((subquestions) =>
         handleUpdate({ subquestions })
@@ -44,10 +42,9 @@ const Question = ({
     return (
         <div className={classNames('question')} key={`question-${question.id}`}>
             <h1>
-                <InputEditable
-                    type="text" as="textarea" rows={2}
-                    value={L10ns({ prop: 'question', language, l10ns })}
-                    update={(value) => handleUpdateL10ns({ question: value })}
+                <ContentEditable
+                    html={L10ns({ prop: 'question', language, l10ns })}
+                    onChange={(e) => handleUpdateL10ns({ question: e.target.value })}
                 />
             </h1>
             <Questions
