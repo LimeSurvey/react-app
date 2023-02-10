@@ -52,7 +52,7 @@ const QuestionGroup = ({
                     </div>
                 </div>
                 <div className={classNames('body')}>
-                    <div>
+                    <div class="description">
                         <ContentEditable
                             html={L10ns({ prop: 'description', language, l10ns })}
                             onChange={(e) => handleUpdateL10ns({ description: e.target.value })}
