@@ -2,7 +2,7 @@ import { useCallback } from 'react'
 
 import QuestionGroup from './QuestionGroup'
 
-const QuestionGroups = ({ questionGroups = [], update }) => {
+const QuestionGroups = ({ language, questionGroups = [], update }) => {
 	const handleUpdate = useCallback((index, questionGroup) =>
 		update([
 			...questionGroups.slice(0, index),
@@ -15,6 +15,7 @@ const QuestionGroups = ({ questionGroups = [], update }) => {
 	return questionGroups.map((questionGroup, index) => (
 		<QuestionGroup
 			key={`question-group-${questionGroup.gid}`}
+			language={language}
 			questionGroup={questionGroup}
 			update={(questionGroup) => handleUpdate(index, questionGroup)}
 		/>

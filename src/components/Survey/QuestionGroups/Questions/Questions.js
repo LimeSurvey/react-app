@@ -2,7 +2,7 @@ import { useCallback } from 'react'
 
 import Question from './Question'
 
-const Questions = ({ questions = [], update }) => {
+const Questions = ({ language, questions = [], update }) => {
     const handleUpdate = useCallback((index, change) => {
         update([
             ...questions.slice(0, index),
@@ -15,6 +15,7 @@ const Questions = ({ questions = [], update }) => {
 
     return questions.map((question, index) => (
         <Question
+            language={language}
             question={question}
             update={(question) => handleUpdate(index, question)}
             key={`question-${question.qid}`}

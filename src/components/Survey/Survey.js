@@ -44,6 +44,7 @@ const Survey = () => {
                 update={(languagesettings) => handleUpdate({ languagesettings })}
             />
             <QuestionGroups
+                language={language}
                 questionGroups={survey?.questionGroups}
                 update={(questionGroups) => handleUpdate({ questionGroups })}
             />
