@@ -10,21 +10,19 @@ import InputEditable from '../InputEditable'
 import Section from '../Section'
 import Card from '../Card'
 
-const SectionWelcome = ({ languagesettings, update, language }) => {
+const SectionWelcome = ({ languagesettings = {}, update, language }) => {
 
-    const handleUpdate = useCallback((updatedSettings) => {
-        if (languagesettings?.[language]) {
-            let updateData = {
-                ...languagesettings
-            }
-
-            updateData[language] = {
-                ...updateData[language],
-                ...updatedSettings
-            }
-
-            update(updateData)
+    const handleUpdate = useCallback((updated) => {
+        let updateData = {
+            ...languagesettings
         }
+
+        updateData[language] = {
+            ...updateData[language],
+            ...updated
+        }
+
+        update(updateData)
     }, [languagesettings, update, language])
 
     return (

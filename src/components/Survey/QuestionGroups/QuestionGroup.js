@@ -12,7 +12,10 @@ import Questions from './Questions'
 const QuestionGroup = ({
     index,
     language,
-    questionGroup: { name: maybeName, questions } = {},
+    questionGroup: {
+        l10ns = {},
+        questions = []
+    } = {},
     questionGroup,
     update,
 }) => {
@@ -24,24 +27,20 @@ const QuestionGroup = ({
     }
 
     const handleUpdateL10ns = useCallback((updated) => {
-        if (questionGroup?.l10ns?.[language]) {
-            let updateL10ns = {
-                ...questionGroup.l10ns
-            }
-
-            updateL10ns[language] = {
-                ...updateL10ns[language],
-                ...updated
-            }
-
-            handleUpdate({ l10ns: updateL10ns })
+        let updateL10ns = {
+            ...l10ns
         }
+
+        updateL10ns[language] = {
+            ...updateL10ns[language],
+            ...updated
+        }
+
+        handleUpdate({ l10ns: updateL10ns })
     }, [questionGroup, handleUpdate, language])
 
     const handleUpdateQuestions = (questions) =>
         handleUpdate({ questions })
-
-    const descriptionLocal = L10ns({ l10ns: questionGroup.l10ns, prop: 'description', language: 'en' });
 
     return (
         <Section>
@@ -50,7 +49,7 @@ const QuestionGroup = ({
                     <div className={classNames('title', 'flex-grow-1')}>
                         <InputEditable
                             type="text" as="textarea" rows={2}
-                            value={L10ns({ prop: 'group_name', language, l10ns: questionGroup.l10ns })}
+                            value={L10ns({ prop: 'group_name', language, l10ns })}
                             update={(value) => handleUpdateL10ns({ group_name: value })}
                         />
                     </div>
@@ -59,8 +58,8 @@ const QuestionGroup = ({
                     <div>
                         <InputEditable
                             type="text" as="textarea" rows={4}
-                            value={L10ns({ prop: 'description', language, l10ns: questionGroup.l10ns })}
-                            displayValue={parse(L10ns({ prop: 'description', language, l10ns: questionGroup.l10ns }))}
+                            value={L10ns({ prop: 'description', language, l10ns })}
+                            displayValue={parse(L10ns({ prop: 'description', language, l10ns }))}
                             update={(value) => handleUpdateL10ns({ description: value })}
                         />
                     </div>

@@ -25,18 +25,16 @@ const Question = ({
     )
 
     const handleUpdateL10ns = useCallback((updated) => {
-        if (question?.l10ns?.[language]) {
-            let updateL10ns = {
-                ...question.l10ns
-            }
-
-            updateL10ns[language] = {
-                ...updateL10ns[language],
-                ...updated
-            }
-
-            handleUpdate({ l10ns: updateL10ns })
+        let updateL10ns = {
+            ...l10ns
         }
+
+        updateL10ns[language] = {
+            ...updateL10ns[language],
+            ...updated
+        }
+
+        handleUpdate({ l10ns: updateL10ns })
     }, [question, handleUpdate, language])
 
     const handleUpdateSubquestions = useCallback((subquestions) =>
@@ -48,7 +46,7 @@ const Question = ({
             <h1>
                 <InputEditable
                     type="text" as="textarea" rows={2}
-                    value={L10ns({ prop: 'question', language, l10ns: question.l10ns })}
+                    value={L10ns({ prop: 'question', language, l10ns })}
                     update={(value) => handleUpdateL10ns({ question: value })}
                 />
             </h1>
