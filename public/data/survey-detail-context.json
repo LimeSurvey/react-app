@@ -1,0 +1,1217 @@
+{
+    "survey": {
+        "sid": 282267,
+        "defaultlanguage": {
+            "language": "en"
+        },
+        "questionGroups": [
+            {
+                "gid": 1,
+                "questions": [
+                    {
+                        "qid": 1,
+                        "answers": []
+                    },
+                    {
+                        "qid": 2,
+                        "answers": []
+                    },
+                    {
+                        "qid": 3,
+                        "answers": []
+                    },
+                    {
+                        "qid": 4,
+                        "answers": []
+                    },
+                    {
+                        "qid": 5,
+                        "answers": []
+                    },
+                    {
+                        "qid": 6,
+                        "answers": []
+                    },
+                    {
+                        "qid": 7,
+                        "answers": []
+                    },
+                    {
+                        "qid": 8,
+                        "answers": []
+                    },
+                    {
+                        "qid": 31,
+                        "answers": []
+                    }
+                ]
+            },
+            {
+                "gid": 2,
+                "questions": [
+                    {
+                        "qid": 9,
+                        "answers": []
+                    },
+                    {
+                        "qid": 10,
+                        "answers": []
+                    },
+                    {
+                        "qid": 11,
+                        "answers": []
+                    },
+                    {
+                        "qid": 12,
+                        "answers": []
+                    },
+                    {
+                        "qid": 32,
+                        "answers": []
+                    }
+                ]
+            },
+            {
+                "gid": 3,
+                "questions": [
+                    {
+                        "qid": 13,
+                        "answers": []
+                    },
+                    {
+                        "qid": 14,
+                        "answers": []
+                    },
+                    {
+                        "qid": 15,
+                        "answers": []
+                    },
+                    {
+                        "qid": 16,
+                        "answers": []
+                    },
+                    {
+                        "qid": 37,
+                        "answers": [
+                            {
+                                "aid": 18,
+                            },
+                            {
+                                "aid": 17,
+                            },
+                            {
+                                "aid": 16,
+                            },
+                            {
+                                "aid": 32,
+                            },
+                            {
+                                "aid": 38,
+                            }
+                        ]
+                    },
+                    {
+                        "qid": 17,
+                        "answers": [
+                            {
+                                "aid": 39,
+                            },
+                            {
+                                "aid": 6,
+                            },
+                            {
+                                "aid": 7,
+                            },
+                            {
+                                "aid": 20,
+                            },
+                            {
+                                "aid": 28,
+                            },
+                            {
+                                "aid": 33,
+                            },
+                            {
+                                "aid": 19,
+                            },
+                            {
+                                "aid": 1,
+                            }
+                        ]
+                    },
+                    {
+                        "qid": 18,
+                        "answers": [
+                            {
+                                "aid": 21,
+                            },
+                            {
+                                "aid": 5,
+                            },
+                            {
+                                "aid": 29,
+                            },
+                            {
+                                "aid": 42,
+                            },
+                            {
+                                "aid": 43
+                            }
+                        ]
+                    },
+                    {
+                        "qid": 19,
+                        "answers": [
+                            {
+                                "aid": 3,
+                            },
+                            {
+                                "aid": 4,
+                            },
+                            {
+                                "aid": 30,
+                            },
+                            {
+                                "aid": 40,
+                            },
+                            {
+                                "aid": 41,
+                            }
+                        ]
+                    },
+                    {
+                        "qid": 23,
+                        "answers": []
+                    },
+                    {
+                        "qid": 24,
+                        "answers": []
+                    },
+                    {
+                        "qid": 30,
+                        "answers": []
+                    },
+                    {
+                        "qid": 26,
+                        "answers": [
+                            {
+                                "aid": 31,
+                            },
+                            {
+                                "aid": 8,
+                            },
+                            {
+                                "aid": 22,
+                            },
+                            {
+                                "aid": 44,
+                            }
+                        ]
+                    },
+                    {
+                        "qid": 35,
+                        "answers": [
+                            {
+                                "aid": 45,
+                            },
+                            {
+                                "aid": 37,
+                            },
+                            {
+                                "aid": 15,
+                            },
+                            {
+                                "aid": 23,
+                            }
+                        ]
+                    },
+                    {
+                        "qid": 27,
+                        "answers": []
+                    },
+                    {
+                        "qid": 28,
+                        "answers": []
+                    },
+                    {
+                        "qid": 29,
+                        "answers": []
+                    },
+                    {
+                        "qid": 38,
+                        "answers": []
+                    },
+                    {
+                        "qid": 34,
+                        "answers": [
+                            {
+                                "aid": 34,
+                            },
+                            {
+                                "aid": 11,
+                            },
+                            {
+                                "aid": 24,
+                            },
+                            {
+                                "aid": 14,
+                            },
+                            {
+                                "aid": 25,
+                            },
+                            {
+                                "aid": 46,
+                            },
+                            {
+                                "aid": 12,
+                            },
+                            {
+                                "aid": 47,
+                            }
+                        ]
+                    },
+                    {
+                        "qid": 57,
+                        "answers": [
+                            {
+                                "aid": 48,
+                            },
+                            {
+                                "aid": 52,
+                            },
+                            {
+                                "aid": 49,
+                            },
+                            {
+                                "aid": 53,
+                            },
+                            {
+                                "aid": 50,
+                            },
+                            {
+                                "aid": 54,
+                            },
+                            {
+                                "aid": 51,
+                            },
+                            {
+                                "aid": 55,
+                            }
+                        ]
+                    },
+                    {
+                        "qid": 36,
+                        "answers": []
+                    }
+                ]
+            },
+            {
+                "gid": 4,
+                "questions": [
+                    {
+                        "qid": 20,
+                        "answers": []
+                    },
+                    {
+                        "qid": 21,
+                        "answers": []
+                    },
+                    {
+                        "qid": 22,
+                        "answers": []
+                    },
+                    {
+                        "qid": 40,
+                        "answers": []
+                    },
+                    {
+                        "qid": 33,
+                        "answers": []
+                    },
+                    {
+                        "qid": 41,
+                        "answers": []
+                    },
+                    {
+                        "qid": 25,
+                        "answers": [
+                            {
+                                "aid": 36,
+                            },
+                            {
+                                "aid": 35,
+                            },
+                            {
+                                "aid": 27,
+                            },
+                            {
+                                "aid": 2,
+                            }
+                        ]
+                    },
+                    {
+                        "qid": 39,
+                        "answers": [
+                            {
+                                "aid": 26,
+                            },
+                            {
+                                "aid": 10,
+                            },
+                            {
+                                "aid": 9,
+                            },
+                            {
+                                "aid": 13
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "gid": 5,
+                "questions": [
+                    {
+                        "qid": 42,
+                        "parent_qid": 0,
+                        "sid": 282267,
+                        "type": "Y",
+                        "title": "QC",
+                        "preg": "",
+                        "other": false,
+                        "mandatory": false,
+                        "encrypted": false,
+                        "question_order": 0,
+                        "scale_id": 0,
+                        "same_default": null,
+                        "question_theme_name": "yesno",
+                        "modulename": "",
+                        "gid": 5,
+                        "relevance": "",
+                        "same_script": null,
+                        "l10ns": {
+                            "de-informal": {
+                                "id": 167,
+                                "qid": 42,
+                                "question": "Eine Ja/Nein Pflichtfrage, die Folgefragen anziegt/versteckt je nach Auswahl.",
+                                "script": null,
+                                "language": "de-informal"
+                            },
+                            "en": {
+                                "id": 165,
+                                "qid": 42,
+                                "question": "A Yes/No non mandatory question to show or hide next question.",
+                                "script": null,
+                                "language": "en"
+                            },
+                            "fr": {
+                                "id": 166,
+                                "qid": 42,
+                                "question": "Une question oui/non pour afficher ou masquer les réponses suivantes",
+                                "script": null,
+                                "language": "fr"
+                            },
+                            "it": {
+                                "id": 168,
+                                "qid": 42,
+                                "question": "<p>Questa è una domanda Si/No non obbligatoria per nescondere o mostrare la domanda successiva</p>\n",
+                                "script": null,
+                                "language": "it"
+                            }
+                        },
+                        "attributes": [],
+                        "answers": []
+                    },
+                    {
+                        "qid": 43,
+                        "parent_qid": 0,
+                        "sid": 282267,
+                        "type": "X",
+                        "title": "QCYes",
+                        "preg": "",
+                        "other": false,
+                        "mandatory": false,
+                        "encrypted": false,
+                        "question_order": 1,
+                        "scale_id": 0,
+                        "same_default": null,
+                        "question_theme_name": "boilerplate",
+                        "modulename": "",
+                        "gid": 5,
+                        "relevance": "((QC.NAOK == \"Y\"))",
+                        "same_script": null,
+                        "l10ns": {
+                            "de-informal": {
+                                "id": 171,
+                                "qid": 43,
+                                "question": "Diese Frage wird nur angezeigt, wenn zuvor \"Ja\" ausgewählt wurde.",
+                                "script": null,
+                                "language": "de-informal"
+                            },
+                            "en": {
+                                "id": 170,
+                                "qid": 43,
+                                "question": "This is displayed only if you select yes.",
+                                "script": null,
+                                "language": "en"
+                            },
+                            "fr": {
+                                "id": 169,
+                                "qid": 43,
+                                "question": "Ceci est affiché uniquement si vous sélectionnez OUI.",
+                                "script": null,
+                                "language": "fr"
+                            },
+                            "it": {
+                                "id": 172,
+                                "qid": 43,
+                                "question": "Questo viene visualizzato solo se si seleziona Sì.",
+                                "script": null,
+                                "language": "it"
+                            }
+                        },
+                        "attributes": [],
+                        "answers": []
+                    },
+                    {
+                        "qid": 44,
+                        "parent_qid": 0,
+                        "sid": 282267,
+                        "type": "X",
+                        "title": "QCNo",
+                        "preg": "",
+                        "other": false,
+                        "mandatory": false,
+                        "encrypted": false,
+                        "question_order": 2,
+                        "scale_id": 0,
+                        "same_default": null,
+                        "question_theme_name": "boilerplate",
+                        "modulename": "",
+                        "gid": 5,
+                        "relevance": "((QC.NAOK == \"N\"))",
+                        "same_script": null,
+                        "l10ns": {
+                            "de-informal": {
+                                "id": 173,
+                                "qid": 44,
+                                "question": "Diese Frage wird nur angezeigt, wenn zuvor \"Nein\" gewählt wurde.",
+                                "script": null,
+                                "language": "de-informal"
+                            },
+                            "en": {
+                                "id": 174,
+                                "qid": 44,
+                                "question": "This is displayed only if you select no.",
+                                "script": null,
+                                "language": "en"
+                            },
+                            "fr": {
+                                "id": 175,
+                                "qid": 44,
+                                "question": "Ceci est affiché si vous sélectionnez Non",
+                                "script": null,
+                                "language": "fr"
+                            },
+                            "it": {
+                                "id": 176,
+                                "qid": 44,
+                                "question": "Questo viene visualizzato solo se si seleziona No.",
+                                "script": null,
+                                "language": "it"
+                            }
+                        },
+                        "attributes": [],
+                        "answers": []
+                    },
+                    {
+                        "qid": 45,
+                        "parent_qid": 0,
+                        "sid": 282267,
+                        "type": "X",
+                        "title": "QCDefault",
+                        "preg": "",
+                        "other": false,
+                        "mandatory": false,
+                        "encrypted": false,
+                        "question_order": 3,
+                        "scale_id": 0,
+                        "same_default": null,
+                        "question_theme_name": "boilerplate",
+                        "modulename": "",
+                        "gid": 5,
+                        "relevance": "((is_empty(QC.NAOK)))",
+                        "same_script": null,
+                        "l10ns": {
+                            "de-informal": {
+                                "id": 177,
+                                "qid": 45,
+                                "question": "Diese Frage wird nur angezeigt, wenn \"keine Antwort\" gewählt wurde (Default).",
+                                "script": null,
+                                "language": "de-informal"
+                            },
+                            "en": {
+                                "id": 178,
+                                "qid": 45,
+                                "question": "This is displayed only if no answer is checked. (by default)",
+                                "script": null,
+                                "language": "en"
+                            },
+                            "fr": {
+                                "id": 179,
+                                "qid": 45,
+                                "question": "Ceci est affiché en cas de Non réponse, donc affiché par défaut",
+                                "script": null,
+                                "language": "fr"
+                            },
+                            "it": {
+                                "id": 180,
+                                "qid": 45,
+                                "question": "Questo è visualizzato solo se nessuna risposta è selezionata. (default)",
+                                "script": null,
+                                "language": "it"
+                            }
+                        },
+                        "attributes": [],
+                        "answers": []
+                    },
+                    {
+                        "qid": 54,
+                        "parent_qid": 0,
+                        "sid": 282267,
+                        "type": "X",
+                        "title": "QEMYes",
+                        "preg": "",
+                        "other": false,
+                        "mandatory": false,
+                        "encrypted": false,
+                        "question_order": 4,
+                        "scale_id": 0,
+                        "same_default": null,
+                        "question_theme_name": "boilerplate",
+                        "modulename": "",
+                        "gid": 5,
+                        "relevance": "QC.NAOK == \"Y\"",
+                        "same_script": null,
+                        "l10ns": {
+                            "de-informal": {
+                                "id": 215,
+                                "qid": 54,
+                                "question": "Diese Frage wird nur angezeigt, wenn zuvor \"Ja\" ausgewählt wurde.",
+                                "script": null,
+                                "language": "de-informal"
+                            },
+                            "en": {
+                                "id": 213,
+                                "qid": 54,
+                                "question": "This is displayed only if you select yes.",
+                                "script": null,
+                                "language": "en"
+                            },
+                            "fr": {
+                                "id": 214,
+                                "qid": 54,
+                                "question": "Ceci est affiché uniquement si vous sélectionnez OUI.",
+                                "script": null,
+                                "language": "fr"
+                            },
+                            "it": {
+                                "id": 216,
+                                "qid": 54,
+                                "question": "Questo viene visualizzato solo se si seleziona Sì.",
+                                "script": null,
+                                "language": "it"
+                            }
+                        },
+                        "attributes": [],
+                        "answers": []
+                    },
+                    {
+                        "qid": 55,
+                        "parent_qid": 0,
+                        "sid": 282267,
+                        "type": "X",
+                        "title": "QEMNo",
+                        "preg": "",
+                        "other": false,
+                        "mandatory": false,
+                        "encrypted": false,
+                        "question_order": 5,
+                        "scale_id": 0,
+                        "same_default": null,
+                        "question_theme_name": "boilerplate",
+                        "modulename": "",
+                        "gid": 5,
+                        "relevance": "QC.NAOK == \"N\"",
+                        "same_script": null,
+                        "l10ns": {
+                            "de-informal": {
+                                "id": 219,
+                                "qid": 55,
+                                "question": "Diese Frage wird nur angezeigt, wenn zuvor \"Nein\" gewählt wurde.",
+                                "script": null,
+                                "language": "de-informal"
+                            },
+                            "en": {
+                                "id": 217,
+                                "qid": 55,
+                                "question": "This is displayed only if you select no.",
+                                "script": null,
+                                "language": "en"
+                            },
+                            "fr": {
+                                "id": 218,
+                                "qid": 55,
+                                "question": "Ceci est affiché si vous sélectionnez Non",
+                                "script": null,
+                                "language": "fr"
+                            },
+                            "it": {
+                                "id": 220,
+                                "qid": 55,
+                                "question": "Questo viene visualizzato solo se si seleziona No.",
+                                "script": null,
+                                "language": "it"
+                            }
+                        },
+                        "attributes": [],
+                        "answers": []
+                    },
+                    {
+                        "qid": 56,
+                        "parent_qid": 0,
+                        "sid": 282267,
+                        "type": "X",
+                        "title": "QEMDefault",
+                        "preg": "",
+                        "other": false,
+                        "mandatory": false,
+                        "encrypted": false,
+                        "question_order": 6,
+                        "scale_id": 0,
+                        "same_default": null,
+                        "question_theme_name": "boilerplate",
+                        "modulename": "",
+                        "gid": 5,
+                        "relevance": "is_empty(QC.NAOK)",
+                        "same_script": null,
+                        "l10ns": {
+                            "de-informal": {
+                                "id": 223,
+                                "qid": 56,
+                                "question": "Diese Frage wird nur angezeigt, wenn \"keine Antwort\" gewählt wurde (Default).",
+                                "script": null,
+                                "language": "de-informal"
+                            },
+                            "en": {
+                                "id": 221,
+                                "qid": 56,
+                                "question": "This is displayed only if no answer is checked. (by default)",
+                                "script": null,
+                                "language": "en"
+                            },
+                            "fr": {
+                                "id": 222,
+                                "qid": 56,
+                                "question": "Ceci est affiché en cas de Non réponse, donc affiché par défaut",
+                                "script": null,
+                                "language": "fr"
+                            },
+                            "it": {
+                                "id": 224,
+                                "qid": 56,
+                                "question": "Questo è visualizzato solo se nessuna risposta è selezionata. (default)",
+                                "script": null,
+                                "language": "it"
+                            }
+                        },
+                        "attributes": [],
+                        "answers": []
+                    },
+                    {
+                        "qid": 46,
+                        "parent_qid": 0,
+                        "sid": 282267,
+                        "type": "M",
+                        "title": "QCS1",
+                        "preg": "",
+                        "other": false,
+                        "mandatory": false,
+                        "encrypted": false,
+                        "question_order": 7,
+                        "scale_id": 0,
+                        "same_default": null,
+                        "question_theme_name": "multiplechoice",
+                        "modulename": "",
+                        "gid": 5,
+                        "relevance": "",
+                        "same_script": null,
+                        "l10ns": {
+                            "de-informal": {
+                                "id": 182,
+                                "qid": 46,
+                                "question": "Für komplexe Bedingungen können Szenarien genutzt werden.",
+                                "script": null,
+                                "language": "de-informal"
+                            },
+                            "en": {
+                                "id": 183,
+                                "qid": 46,
+                                "question": "For complex condition , you can use scenario.",
+                                "script": null,
+                                "language": "en"
+                            },
+                            "fr": {
+                                "id": 181,
+                                "qid": 46,
+                                "question": "Pour des conditions plus complexes , il est possible d'utiliser les scénarios.",
+                                "script": null,
+                                "language": "fr"
+                            },
+                            "it": {
+                                "id": 184,
+                                "qid": 46,
+                                "question": "Per condizioni complesse è possibile usare gli Scenari nel pannello delle condizioni.",
+                                "script": null,
+                                "language": "it"
+                            }
+                        },
+                        "attributes": {
+                            "display_columns": {
+                                "qaid": 54,
+                                "attribute": 0,
+                                "value": "1",
+                                "language": ""
+                            }
+                        },
+                        "answers": []
+                    },
+                    {
+                        "qid": 47,
+                        "parent_qid": 0,
+                        "sid": 282267,
+                        "type": "M",
+                        "title": "QCS2",
+                        "preg": "",
+                        "other": false,
+                        "mandatory": false,
+                        "encrypted": false,
+                        "question_order": 8,
+                        "scale_id": 0,
+                        "same_default": null,
+                        "question_theme_name": "multiplechoice",
+                        "modulename": "",
+                        "gid": 5,
+                        "relevance": "",
+                        "same_script": null,
+                        "l10ns": {
+                            "de-informal": {
+                                "id": 185,
+                                "qid": 47,
+                                "question": "Zeige Fragen 1 und 2 je nach erfüllter Bedingung.",
+                                "script": null,
+                                "language": "de-informal"
+                            },
+                            "en": {
+                                "id": 186,
+                                "qid": 47,
+                                "question": "Display question 1 and 2 under condition.",
+                                "script": null,
+                                "language": "en"
+                            },
+                            "fr": {
+                                "id": 187,
+                                "qid": 47,
+                                "question": "Afficher la question 1 ou 2 selon les conditions",
+                                "script": null,
+                                "language": "fr"
+                            },
+                            "it": {
+                                "id": 188,
+                                "qid": 47,
+                                "question": "Viasualizza le domande 1 e 2 con le condizioni.",
+                                "script": null,
+                                "language": "it"
+                            }
+                        },
+                        "attributes": {
+                            "display_columns": {
+                                "qaid": 55,
+                                "attribute": 0,
+                                "value": "1",
+                                "language": ""
+                            }
+                        },
+                        "answers": []
+                    },
+                    {
+                        "qid": 50,
+                        "parent_qid": 0,
+                        "sid": 282267,
+                        "type": "Y",
+                        "title": "QCS3",
+                        "preg": "",
+                        "other": false,
+                        "mandatory": true,
+                        "encrypted": false,
+                        "question_order": 9,
+                        "scale_id": 0,
+                        "same_default": null,
+                        "question_theme_name": "yesno",
+                        "modulename": "",
+                        "gid": 5,
+                        "relevance": "((282267X5X46SH101.NAOK == \"Y\" or 282267X5X46SH102.NAOK == \"Y\")) or ((282267X5X47SQ201.NAOK == \"Y\" or 282267X5X47SQ202.NAOK == \"Y\"))",
+                        "same_script": null,
+                        "l10ns": {
+                            "de-informal": {
+                                "id": 199,
+                                "qid": 50,
+                                "question": "Verstecke die beiden folgenden Fragen?",
+                                "script": null,
+                                "language": "de-informal"
+                            },
+                            "en": {
+                                "id": 198,
+                                "qid": 50,
+                                "question": "Hide question 1 and 2 even if you select <q>display</q> an previous question.",
+                                "script": null,
+                                "language": "en"
+                            },
+                            "fr": {
+                                "id": 197,
+                                "qid": 50,
+                                "question": "Cacher les questions 1 et 2 même si vous avez coché <q>Afficher</q> sur l'une des questions précédentes.",
+                                "script": null,
+                                "language": "fr"
+                            },
+                            "it": {
+                                "id": 200,
+                                "qid": 50,
+                                "question": "Nasconde le domande 1 e 2 anche se hai selezionato \"visualizza\" alla domanda precedente.",
+                                "script": null,
+                                "language": "it"
+                            }
+                        },
+                        "attributes": [],
+                        "answers": []
+                    },
+                    {
+                        "qid": 48,
+                        "parent_qid": 0,
+                        "sid": 282267,
+                        "type": "X",
+                        "title": "CC01",
+                        "preg": "",
+                        "other": false,
+                        "mandatory": false,
+                        "encrypted": false,
+                        "question_order": 10,
+                        "scale_id": 0,
+                        "same_default": null,
+                        "question_theme_name": "boilerplate",
+                        "modulename": "",
+                        "gid": 5,
+                        "relevance": "((QCS1_SH101.NAOK == \"Y\") and (QCS3.NAOK != \"Y\")) or ((282267X5X47SQ201.NAOK == \"Y\") and (QCS3.NAOK != \"Y\"))",
+                        "same_script": null,
+                        "l10ns": {
+                            "de-informal": {
+                                "id": 191,
+                                "qid": 48,
+                                "question": "Frage 1: Wird angezeigt bei entsprechender Auswahl der vorherigen Mehrfachauswahl.",
+                                "script": null,
+                                "language": "de-informal"
+                            },
+                            "en": {
+                                "id": 190,
+                                "qid": 48,
+                                "question": "Question 1 : displayed if you select <q>Show question 1</q> at one of previous question",
+                                "script": null,
+                                "language": "en"
+                            },
+                            "fr": {
+                                "id": 189,
+                                "qid": 48,
+                                "question": "Question 1 : affichée si vous sélectionner <q>Afficher la question 1</q> sur l'une des questions précédentes.",
+                                "script": null,
+                                "language": "fr"
+                            },
+                            "it": {
+                                "id": 192,
+                                "qid": 48,
+                                "question": "<p>Domanda 1: è visualizzata se si seleziona \"Visualizza domanda 1\" in una delle domande precedenti</p>\n",
+                                "script": null,
+                                "language": "it"
+                            }
+                        },
+                        "attributes": [],
+                        "answers": []
+                    },
+                    {
+                        "qid": 49,
+                        "parent_qid": 0,
+                        "sid": 282267,
+                        "type": "X",
+                        "title": "QC02",
+                        "preg": "",
+                        "other": false,
+                        "mandatory": false,
+                        "encrypted": false,
+                        "question_order": 11,
+                        "scale_id": 0,
+                        "same_default": null,
+                        "question_theme_name": "boilerplate",
+                        "modulename": "",
+                        "gid": 5,
+                        "relevance": "((QCS1_SH102.NAOK == \"Y\") and (QCS3.NAOK != \"Y\")) or ((QCS2_SQ202.NAOK == \"Y\") and (QCS3.NAOK != \"Y\"))",
+                        "same_script": null,
+                        "l10ns": {
+                            "de-informal": {
+                                "id": 193,
+                                "qid": 49,
+                                "question": "Frage 2: Wird angezeigt bei entsprechender Auswahl der vorherigen Mehrfachauswahl.",
+                                "script": null,
+                                "language": "de-informal"
+                            },
+                            "en": {
+                                "id": 195,
+                                "qid": 49,
+                                "question": "Question 2 : displayed if you select <q>Show question 2</q> at one of previous question.",
+                                "script": null,
+                                "language": "en"
+                            },
+                            "fr": {
+                                "id": 194,
+                                "qid": 49,
+                                "question": "Question 2 : affichée si vous sélectionner <q>Afficher la question 1</q> sur l'une des questions précédentes.",
+                                "script": null,
+                                "language": "fr"
+                            },
+                            "it": {
+                                "id": 196,
+                                "qid": 49,
+                                "question": "Domanda 2: è visualizzata se si seleziona \"Visualizza domanda 2\" in una delle domande precedenti",
+                                "script": null,
+                                "language": "it"
+                            }
+                        },
+                        "attributes": [],
+                        "answers": []
+                    }
+                ]
+            },
+            {
+                "gid": 6,
+                "sid": 282267,
+                "group_order": 5,
+                "randomization_group": "",
+                "grelevance": "",
+                "l10ns": {
+                    "de-informal": {
+                        "id": 23,
+                        "gid": 6,
+                        "group_name": "Filter",
+                        "description": "Antwortoptionen von Folgefragen können durch das Frageattribut <a href=\"http://manual.limesurvey.org/QS:Array_filter\" lang=\"en\" target=\"_blank\">Array Filter</a><a> und </a><a href=\"http://manual.limesurvey.org/Array_filter_exclude\" lang=\"en\" target=\"_blank\">Array Filter Exclusion</a> gefiltert werden.",
+                        "language": "de-informal"
+                    },
+                    "en": {
+                        "id": 22,
+                        "gid": 6,
+                        "group_name": "Filter",
+                        "description": "You can display/hide subquestion with <a href=\"http://manual.limesurvey.org/QS:Array_filter\" lang=\"en\" target=\"_blank\">Array Filter</a> and <a href=\"http://manual.limesurvey.org/QS:Array_filter_exclude\" lang=\"en\" target=\"_blank\">Array Filter Exclusion</a>. We use Expression Manager to hide and show question too.",
+                        "language": "en"
+                    },
+                    "fr": {
+                        "id": 21,
+                        "gid": 6,
+                        "group_name": "Filtres de tableaux",
+                        "description": "Vous pouvez afficher ou masquer une série de sous question avec l'attribut <a href=\"http://manual.limesurvey.org/QS:Array_filter\" lang=\"en\" target=\"_blank\">Filtre de tableau</a> et <a href=\"http://manual.limesurvey.org/QS:Array_filter_exclude\" lang=\"en\" target=\"_blank\">Filttre d’exclusion</a>. On utilise le gestionnaire d'expression pour masquer ou montrer les questions correspondantes.",
+                        "language": "fr"
+                    },
+                    "it": {
+                        "id": 24,
+                        "gid": 6,
+                        "group_name": "Filtri",
+                        "description": "E' possibile nascondere/mostrare sottodomande usando i <a href=\"http://manual.limesurvey.org/QS:Array_filter\" lang=\"en\" target=\"_blank\">Filtri Array</a> and <a href=\"http://manual.limesurvey.org/QS:Array_filter_exclude\" lang=\"en\" target=\"_blank\">Filtri Array di Esclusione</a>. Useremo anche l'Expression Manager per nascondere e mostrare domande.",
+                        "language": "it"
+                    }
+                },
+                "questions": [
+                    {
+                        "qid": 51,
+                        "parent_qid": 0,
+                        "sid": 282267,
+                        "type": "M",
+                        "title": "AF",
+                        "preg": "",
+                        "other": false,
+                        "mandatory": false,
+                        "encrypted": false,
+                        "question_order": 0,
+                        "scale_id": 0,
+                        "same_default": null,
+                        "question_theme_name": "multiplechoice",
+                        "modulename": "",
+                        "gid": 6,
+                        "relevance": "",
+                        "same_script": null,
+                        "l10ns": {
+                            "de-informal": {
+                                "id": 203,
+                                "qid": 51,
+                                "question": "Auf Basis einer Mehrfachauswahl können Optionen in folgenden Fragen gefiltert werden.",
+                                "script": null,
+                                "language": "de-informal"
+                            },
+                            "en": {
+                                "id": 201,
+                                "qid": 51,
+                                "question": "You can filter some question with a multi choice option.",
+                                "script": null,
+                                "language": "en"
+                            },
+                            "fr": {
+                                "id": 202,
+                                "qid": 51,
+                                "question": "Une question à choix multiple permet de filtrer les sous questions suivantes",
+                                "script": null,
+                                "language": "fr"
+                            },
+                            "it": {
+                                "id": 204,
+                                "qid": 51,
+                                "question": "Puoi filtrare alcune domande con le opzioni di risposta multipla.",
+                                "script": null,
+                                "language": "it"
+                            }
+                        },
+                        "attributes": {
+                            "display_columns": {
+                                "qaid": 56,
+                                "attribute": 0,
+                                "value": "1",
+                                "language": ""
+                            }
+                        },
+                        "answers": []
+                    },
+                    {
+                        "qid": 52,
+                        "parent_qid": 0,
+                        "sid": 282267,
+                        "type": "C",
+                        "title": "FAF",
+                        "preg": "",
+                        "other": false,
+                        "mandatory": false,
+                        "encrypted": false,
+                        "question_order": 1,
+                        "scale_id": 0,
+                        "same_default": null,
+                        "question_theme_name": "arrays/yesnouncertain",
+                        "modulename": "",
+                        "gid": 6,
+                        "relevance": "count(that.AF) > 0",
+                        "same_script": null,
+                        "l10ns": {
+                            "de-informal": {
+                                "id": 207,
+                                "qid": 52,
+                                "question": "Antwortoptionen gefiltert auf Basis der Auswahl in der vorherigen Frage.",
+                                "script": null,
+                                "language": "de-informal"
+                            },
+                            "en": {
+                                "id": 205,
+                                "qid": 52,
+                                "question": "Filtered array with previous question.",
+                                "script": null,
+                                "language": "en"
+                            },
+                            "fr": {
+                                "id": 206,
+                                "qid": 52,
+                                "question": "Filtre de tableau avec la question précédente",
+                                "script": null,
+                                "language": "fr"
+                            },
+                            "it": {
+                                "id": 208,
+                                "qid": 52,
+                                "question": "Domanda array filtrata dalla domanda precedente.",
+                                "script": null,
+                                "language": "it"
+                            }
+                        },
+                        "attributes": {
+                            "array_filter": {
+                                "qaid": 57,
+                                "attribute": 0,
+                                "value": "AF",
+                                "language": ""
+                            }
+                        },
+                        "answers": []
+                    },
+                    {
+                        "qid": 53,
+                        "parent_qid": 0,
+                        "sid": 282267,
+                        "type": "C",
+                        "title": "FAFE",
+                        "preg": "",
+                        "other": false,
+                        "mandatory": false,
+                        "encrypted": false,
+                        "question_order": 2,
+                        "scale_id": 0,
+                        "same_default": null,
+                        "question_theme_name": "arrays/yesnouncertain",
+                        "modulename": "",
+                        "gid": 6,
+                        "relevance": "count(that.AF) < 4",
+                        "same_script": null,
+                        "l10ns": {
+                            "de-informal": {
+                                "id": 211,
+                                "qid": 53,
+                                "question": "Über das Attribut \"Array Filter Exclusion\" werden nur diejenigen Einträge angezeigt, die bei der vorherigen Mehrfachauswahl nicht ausgewählt wurden.",
+                                "script": null,
+                                "language": "de-informal"
+                            },
+                            "en": {
+                                "id": 210,
+                                "qid": 53,
+                                "question": "You can exclude some option with Array Filter Exclusion.",
+                                "script": null,
+                                "language": "en"
+                            },
+                            "fr": {
+                                "id": 209,
+                                "qid": 53,
+                                "question": "Filtre d'exclusion du tableau avec la question précédente",
+                                "script": null,
+                                "language": "fr"
+                            },
+                            "it": {
+                                "id": 212,
+                                "qid": 53,
+                                "question": "Puoi escludere alcune opzioni in base alla scelta multipla della domanda precedente, usando il Filtro array di esclusione.",
+                                "script": null,
+                                "language": "it"
+                            }
+                        },
+                        "attributes": {
+                            "array_filter_exclude": {
+                                "qaid": 58,
+                                "attribute": 0,
+                                "value": "AF",
+                                "language": ""
+                            }
+                        },
+                        "answers": []
+                    }
+                ]
+            }
+        ]
+    }
+}

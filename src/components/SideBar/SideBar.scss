@@ -1,0 +1,44 @@
+
+$sidebar-padding: 0 0.25rem 0 0.25rem;
+$sidebar-row-padding: 0 0.5rem 0  1.5rem;
+
+.sidebar {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    padding: $sidebar-padding;
+
+    font-size: 0.8rem;
+}
+
+h6.sidebar-header {
+    font-size: 0.8rem;
+    margin: 0 0 1rem 0;
+    padding: $sidebar-row-padding;
+    background-color: #f6f7f7;
+}
+
+.sidebar-row {
+    margin: 0 0.5rem 1rem 0;
+}
+
+.sidebar-section {
+    margin: 0 0 1rem 0;
+    padding: 0 0.5rem 1.5rem 1.5rem;
+    border-bottom: 1px #dcdcdc solid;
+}
+
+.sidebar-section button {
+    border-radius: 0;
+    min-width: 110px;
+}
+
+.sidebar-section select {
+    border-radius: 0;
+}
+
+h6.section-header {
+    font-size: 0.8rem;
+    margin: 0 0 1rem 0;
+}

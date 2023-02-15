@@ -1,0 +1,4106 @@
+{
+    "survey": {
+        "sid": 282267,
+        "gsid": 1,
+        "active": false,
+        "language": "en",
+        "expires": null,
+        "startdate": null,
+        "anonymized": true,
+        "savetimings": false,
+        "datestamp": true,
+        "usecookie": false,
+        "allowregister": false,
+        "allowsave": true,
+        "autonumber_start": 0,
+        "autoredirect": false,
+        "allowprev": true,
+        "printanswers": true,
+        "ipaddr": false,
+        "ipanonymize": false,
+        "refurl": false,
+        "datecreated": "2023-01-03T15:04:21.000Z",
+        "publicstatistics": true,
+        "publicgraphs": false,
+        "listpublic": true,
+        "sendconfirmation": true,
+        "tokenanswerspersistence": false,
+        "assessments": false,
+        "usecaptcha": false,
+        "usetokens": false,
+        "bounce_email": "admin.limesurvey@opensurvey.it",
+        "attributedescriptions": "",
+        "emailresponseto": "",
+        "emailnotificationto": "",
+        "tokenlength": 15,
+        "showxquestions": true,
+        "showgroupinfo": "B",
+        "shownoanswer": true,
+        "showqnumcode": "B",
+        "bouncetime": 0,
+        "bounceprocessing": false,
+        "bounceaccounttype": "",
+        "bounceaccounthost": "",
+        "bounceaccountpass": "",
+        "bounceaccountencryption": "",
+        "bounceaccountuser": "",
+        "showwelcome": true,
+        "showprogress": true,
+        "questionindex": 2,
+        "navigationdelay": 0,
+        "nokeyboard": false,
+        "alloweditaftercompletion": false,
+        "googleanalyticsstyle": 0,
+        "googleanalyticsapikey": "",
+        "showsurveypolicynotice": 0,
+        "defaultlanguage": {
+            "sid": 282267,
+            "language": "en",
+            "title": "Sample LimeSurvey EN/FR/DE/IT",
+            "description": "Hello, I’m the welcome screen for your survey",
+            "welcometext": "<p>Survey describtion. Here you can welcome your survey participants and let them now what the survey is about.\n\n</p><p>We recomment you to inform them how long the survey might take and if they need to have documents at hand for fullfilling the survey.</p>\n",
+            "endtext": "<p>This is the end message for the survey! A good place to thank you to answer to this survey.</p>\n",
+            "policy_notice": "",
+            "policy_error": "",
+            "policy_notice_label": "",
+            "url": "http://www.limesurvey.org",
+            "urldescription": "The end URL description of your survey. This URL can be automatically load when survey is completed.",
+            "dateformat": 5,
+            "numberformat": 0
+        },
+        "languagesettings": {
+            "de-informal": {
+                "sid": 282267,
+                "language": "de-informal",
+                "title": "Beispielfragebogen für Limesurvey EN/FR/DE",
+                "description": null,
+                "welcometext": null,
+                "endtext": null,
+                "policy_notice": null,
+                "policy_error": null,
+                "policy_notice_label": null,
+                "url": null,
+                "urldescription": null,
+                "dateformat": 0,
+                "numberformat": 0
+            },
+            "en": {
+                "sid": 282267,
+                "language": "en",
+                "title": "Sample LimeSurvey EN/FR/DE/IT",
+                "description": "Description (English)",
+                "welcometext": "Welcome text <strike>(English)</strike>",
+                "endtext": "End text (English)",
+                "policy_notice": "Policy notice (English)",
+                "policy_error": "Policy error (English)",
+                "policy_notice_label": "Policy notice label (English)",
+                "url": null,
+                "urldescription": null,
+                "dateformat": 0,
+                "numberformat": 0
+            },
+            "fr": {
+                "sid": 282267,
+                "language": "fr",
+                "title": "Exemple de questionnaire EN/FR/DE",
+                "description": "Description (French)",
+                "welcometext": "Welcome text (French)",
+                "endtext": "End text (French)",
+                "policy_notice": "Policy notice (French)",
+                "policy_error": "Policy error (French)",
+                "policy_notice_label": "Policy notice label (French)",
+                "url": null,
+                "urldescription": null,
+                "dateformat": 0,
+                "numberformat": 0
+            },
+            "it": {
+                "sid": 282267,
+                "language": "it",
+                "title": "Sample LimeSurvey EN/FR/DE/IT",
+                "description": "Description (Italian)",
+                "welcometext": "Welcome text (Italian)",
+                "endtext": "End text (Italian)",
+                "policy_notice": "Policy notice (Italian)",
+                "policy_error": "Policy error (Italian)",
+                "policy_notice_label": "Policy notice label (Italian)",
+                "url": null,
+                "urldescription": null,
+                "dateformat": 0,
+                "numberformat": 0
+            }
+        },
+        "languages": [
+            "en",
+            "fr",
+            "it",
+            "de-informal"
+        ],
+        "questionGroups": [
+            {
+                "gid": 1,
+                "sid": 282267,
+                "group_order": 0,
+                "randomization_group": "",
+                "grelevance": "",
+                "l10ns": {
+                    "de-informal": {
+                        "id": 3,
+                        "gid": 1,
+                        "group_name": "Textfragen",
+                        "description": "r453q26ier steht die Beschreibung für die Gruppe der Textfragen.",
+                        "language": "de-informal"
+                    },
+                    "en": {
+                        "id": 1,
+                        "gid": 1,
+                        "group_name": "Text question",
+                        "description": "This is the description for text question group.",
+                        "language": "en"
+                    },
+                    "fr": {
+                        "id": 2,
+                        "gid": 1,
+                        "group_name": "Question de type texte",
+                        "description": "Ceci est la description du groupe de questions de type texte.",
+                        "language": "fr"
+                    },
+                    "it": {
+                        "id": 4,
+                        "gid": 1,
+                        "group_name": "Domande di tipo Testo",
+                        "description": "Questa è la descrizione per questo gruppo.",
+                        "language": "it"
+                    }
+                },
+                "questions": [
+                    {
+                        "qid": 1,
+                        "parent_qid": 0,
+                        "sid": 282267,
+                        "type": "S",
+                        "title": "S",
+                        "preg": "",
+                        "other": false,
+                        "mandatory": false,
+                        "encrypted": false,
+                        "question_order": 0,
+                        "scale_id": 0,
+                        "same_default": null,
+                        "question_theme_name": "shortfreetext",
+                        "modulename": "",
+                        "gid": 1,
+                        "relevance": "",
+                        "same_script": null,
+                        "l10ns": {
+                            "de-informal": {
+                                "id": 3,
+                                "qid": 1,
+                                "question": "Kurzer freier Text",
+                                "script": null,
+                                "language": "de-informal"
+                            },
+                            "en": {
+                                "id": 1,
+                                "qid": 1,
+                                "question": "Short free text",
+                                "script": null,
+                                "language": "en"
+                            },
+                            "fr": {
+                                "id": 2,
+                                "qid": 1,
+                                "question": "Zone de texte court",
+                                "script": null,
+                                "language": "fr"
+                            },
+                            "it": {
+                                "id": 4,
+                                "qid": 1,
+                                "question": "Testo breve",
+                                "script": null,
+                                "language": "it"
+                            }
+                        },
+                        "attributes": [],
+                        "answers": []
+                    },
+                    {
+                        "qid": 2,
+                        "parent_qid": 0,
+                        "sid": 282267,
+                        "type": "T",
+                        "title": "T",
+                        "preg": "",
+                        "other": false,
+                        "mandatory": false,
+                        "encrypted": false,
+                        "question_order": 1,
+                        "scale_id": 0,
+                        "same_default": null,
+                        "question_theme_name": "longfreetext",
+                        "modulename": "",
+                        "gid": 1,
+                        "relevance": "",
+                        "same_script": null,
+                        "l10ns": {
+                            "de-informal": {
+                                "id": 7,
+                                "qid": 2,
+                                "question": "Langer freier Text",
+                                "script": null,
+                                "language": "de-informal"
+                            },
+                            "en": {
+                                "id": 5,
+                                "qid": 2,
+                                "question": "Long free text",
+                                "script": null,
+                                "language": "en"
+                            },
+                            "fr": {
+                                "id": 6,
+                                "qid": 2,
+                                "question": "Zone de texte long",
+                                "script": null,
+                                "language": "fr"
+                            },
+                            "it": {
+                                "id": 8,
+                                "qid": 2,
+                                "question": "Testo lungo",
+                                "script": null,
+                                "language": "it"
+                            }
+                        },
+                        "attributes": [],
+                        "answers": []
+                    },
+                    {
+                        "qid": 3,
+                        "parent_qid": 0,
+                        "sid": 282267,
+                        "type": "U",
+                        "title": "H",
+                        "preg": "",
+                        "other": false,
+                        "mandatory": false,
+                        "encrypted": false,
+                        "question_order": 2,
+                        "scale_id": 0,
+                        "same_default": null,
+                        "question_theme_name": "hugefreetext",
+                        "modulename": "",
+                        "gid": 1,
+                        "relevance": "",
+                        "same_script": null,
+                        "l10ns": {
+                            "de-informal": {
+                                "id": 11,
+                                "qid": 3,
+                                "question": "Ausführlicher freier Text",
+                                "script": null,
+                                "language": "de-informal"
+                            },
+                            "en": {
+                                "id": 9,
+                                "qid": 3,
+                                "question": "Huge free text",
+                                "script": null,
+                                "language": "en"
+                            },
+                            "fr": {
+                                "id": 10,
+                                "qid": 3,
+                                "question": "Zone de texte très long",
+                                "script": null,
+                                "language": "fr"
+                            },
+                            "it": {
+                                "id": 12,
+                                "qid": 3,
+                                "question": "Testo libero maxi",
+                                "script": null,
+                                "language": "it"
+                            }
+                        },
+                        "attributes": [],
+                        "answers": []
+                    },
+                    {
+                        "qid": 4,
+                        "parent_qid": 0,
+                        "sid": 282267,
+                        "type": "S",
+                        "title": "S1",
+                        "preg": "",
+                        "other": false,
+                        "mandatory": false,
+                        "encrypted": false,
+                        "question_order": 3,
+                        "scale_id": 0,
+                        "same_default": null,
+                        "question_theme_name": "shortfreetext",
+                        "modulename": "",
+                        "gid": 1,
+                        "relevance": "",
+                        "same_script": null,
+                        "l10ns": {
+                            "de-informal": {
+                                "id": 15,
+                                "qid": 4,
+                                "question": "Kurzer freier Text beschränkt auf numerische Eingaben, mit zusätzlicher Timerfunktion",
+                                "script": null,
+                                "language": "de-informal"
+                            },
+                            "en": {
+                                "id": 13,
+                                "qid": 4,
+                                "question": "Short free text (Numbers only)",
+                                "script": null,
+                                "language": "en"
+                            },
+                            "fr": {
+                                "id": 14,
+                                "qid": 4,
+                                "question": "Zone de texte court ( Nombres uniquement, avec un minuteur )",
+                                "script": null,
+                                "language": "fr"
+                            },
+                            "it": {
+                                "id": 16,
+                                "qid": 4,
+                                "question": "Testo breve (Solo numeri)",
+                                "script": null,
+                                "language": "it"
+                            }
+                        },
+                        "attributes": {
+                            "numbers_only": {
+                                "qaid": 1,
+                                "attribute": 0,
+                                "value": "1",
+                                "language": ""
+                            }
+                        },
+                        "answers": []
+                    },
+                    {
+                        "qid": 5,
+                        "parent_qid": 0,
+                        "sid": 282267,
+                        "type": "T",
+                        "title": "T1",
+                        "preg": "",
+                        "other": false,
+                        "mandatory": false,
+                        "encrypted": false,
+                        "question_order": 4,
+                        "scale_id": 0,
+                        "same_default": null,
+                        "question_theme_name": "longfreetext",
+                        "modulename": "",
+                        "gid": 1,
+                        "relevance": "",
+                        "same_script": null,
+                        "l10ns": {
+                            "de-informal": {
+                                "id": 19,
+                                "qid": 5,
+                                "question": "<p>Langer freier Text, Eingabefeld mit Größenangaben:</p>\n\n<p>Breite: 3<br />\nAnzahl Zeilen: 2<br />\nMaximale Zeichenanzahl: 6</p>\n",
+                                "script": null,
+                                "language": "de-informal"
+                            },
+                            "en": {
+                                "id": 17,
+                                "qid": 5,
+                                "question": "Long free text (Input box width :3, Display rows : 2 , Maximum characters : 6)",
+                                "script": null,
+                                "language": "en"
+                            },
+                            "fr": {
+                                "id": 18,
+                                "qid": 5,
+                                "question": "Zone de texte long (Lignes à afficher : 2 , Largeur de la zone de saisie : 3, Nombre maximum de caractères : 6)",
+                                "script": null,
+                                "language": "fr"
+                            },
+                            "it": {
+                                "id": 20,
+                                "qid": 5,
+                                "question": "Testo lungo (Ampiezza della input box: 25%, Righe visualizzate: 2 , Numero massimo di caratteri: 6)",
+                                "script": null,
+                                "language": "it"
+                            }
+                        },
+                        "attributes": {
+                            "display_rows": {
+                                "qaid": 2,
+                                "attribute": 0,
+                                "value": "2",
+                                "language": ""
+                            },
+                            "maximum_chars": {
+                                "qaid": 3,
+                                "attribute": 0,
+                                "value": "6",
+                                "language": ""
+                            },
+                            "text_input_width": {
+                                "qaid": 4,
+                                "attribute": 0,
+                                "value": "3",
+                                "language": ""
+                            }
+                        },
+                        "answers": []
+                    },
+                    {
+                        "qid": 6,
+                        "parent_qid": 0,
+                        "sid": 282267,
+                        "type": "Q",
+                        "title": "Q",
+                        "preg": "",
+                        "other": false,
+                        "mandatory": false,
+                        "encrypted": false,
+                        "question_order": 5,
+                        "scale_id": 0,
+                        "same_default": null,
+                        "question_theme_name": "multipleshorttext",
+                        "modulename": "",
+                        "gid": 1,
+                        "relevance": "",
+                        "same_script": null,
+                        "l10ns": {
+                            "de-informal": {
+                                "id": 23,
+                                "qid": 6,
+                                "question": "Mehrfache kurze freie Texte",
+                                "script": null,
+                                "language": "de-informal"
+                            },
+                            "en": {
+                                "id": 21,
+                                "qid": 6,
+                                "question": "Multiple short text",
+                                "script": null,
+                                "language": "en"
+                            },
+                            "fr": {
+                                "id": 22,
+                                "qid": 6,
+                                "question": "Multiples zones de texte court",
+                                "script": null,
+                                "language": "fr"
+                            },
+                            "it": {
+                                "id": 24,
+                                "qid": 6,
+                                "question": "Testo breve multiplo",
+                                "script": null,
+                                "language": "it"
+                            }
+                        },
+                        "attributes": [],
+                        "answers": []
+                    },
+                    {
+                        "qid": 7,
+                        "parent_qid": 0,
+                        "sid": 282267,
+                        "type": "Q",
+                        "title": "Q1",
+                        "preg": "",
+                        "other": false,
+                        "mandatory": false,
+                        "encrypted": false,
+                        "question_order": 6,
+                        "scale_id": 0,
+                        "same_default": null,
+                        "question_theme_name": "multipleshorttext",
+                        "modulename": "",
+                        "gid": 1,
+                        "relevance": "",
+                        "same_script": null,
+                        "l10ns": {
+                            "de-informal": {
+                                "id": 27,
+                                "qid": 7,
+                                "question": "Mehrfache kurze freie Texte mit Anzahl Zeilen = 2 und zufälliger Antwortreihenfolge",
+                                "script": null,
+                                "language": "de-informal"
+                            },
+                            "en": {
+                                "id": 25,
+                                "qid": 7,
+                                "question": "Multiple short text (Display rows : 2, Random answer order)",
+                                "script": null,
+                                "language": "en"
+                            },
+                            "fr": {
+                                "id": 26,
+                                "qid": 7,
+                                "question": "Multiples zones de texte court (Lignes à afficher : 2, Ordre des réponses aléatoire)",
+                                "script": null,
+                                "language": "fr"
+                            },
+                            "it": {
+                                "id": 28,
+                                "qid": 7,
+                                "question": "Testo breve multiplo (Righe visualizzate: 2, Ordine delle risposte random)",
+                                "script": null,
+                                "language": "it"
+                            }
+                        },
+                        "attributes": {
+                            "display_rows": {
+                                "qaid": 5,
+                                "attribute": 0,
+                                "value": "2",
+                                "language": ""
+                            },
+                            "random_order": {
+                                "qaid": 6,
+                                "attribute": 0,
+                                "value": "1",
+                                "language": ""
+                            }
+                        },
+                        "answers": []
+                    },
+                    {
+                        "qid": 8,
+                        "parent_qid": 0,
+                        "sid": 282267,
+                        "type": "Q",
+                        "title": "M2",
+                        "preg": "",
+                        "other": false,
+                        "mandatory": false,
+                        "encrypted": false,
+                        "question_order": 7,
+                        "scale_id": 0,
+                        "same_default": null,
+                        "question_theme_name": "multipleshorttext",
+                        "modulename": "",
+                        "gid": 1,
+                        "relevance": "",
+                        "same_script": null,
+                        "l10ns": {
+                            "de-informal": {
+                                "id": 31,
+                                "qid": 8,
+                                "question": "Mehrfache kurze freie Texte mit langen Antwortfeldern, maximale Zeichenanzahl = 2, Beschränkung auf numerische Eingaben, Größe Textfeld = 2",
+                                "script": null,
+                                "language": "de-informal"
+                            },
+                            "en": {
+                                "id": 29,
+                                "qid": 8,
+                                "question": "Multiple short text, with long answers (Maximum characters: 2, Numbers only, Input box width : 2)",
+                                "script": null,
+                                "language": "en"
+                            },
+                            "fr": {
+                                "id": 30,
+                                "qid": 8,
+                                "question": "Multiples zones de texte court, avec des réponses longues (Nombre maximum de caractères: 2, Nombres uniquement, Largeur de la zone de saisie : 2)",
+                                "script": null,
+                                "language": "fr"
+                            },
+                            "it": {
+                                "id": 32,
+                                "qid": 8,
+                                "question": "Testo breve multiplo (Numero massimo di caratteri: 2, Solo numeri, Ampiezza della input box: 25%)",
+                                "script": null,
+                                "language": "it"
+                            }
+                        },
+                        "attributes": {
+                            "maximum_chars": {
+                                "qaid": 7,
+                                "attribute": 0,
+                                "value": "2",
+                                "language": ""
+                            },
+                            "numbers_only": {
+                                "qaid": 8,
+                                "attribute": 0,
+                                "value": "1",
+                                "language": ""
+                            },
+                            "text_input_columns": {
+                                "qaid": 9,
+                                "attribute": 0,
+                                "value": "3",
+                                "language": ""
+                            }
+                        },
+                        "answers": []
+                    },
+                    {
+                        "qid": 31,
+                        "parent_qid": 0,
+                        "sid": 282267,
+                        "type": ";",
+                        "title": "AT",
+                        "preg": "",
+                        "other": false,
+                        "mandatory": false,
+                        "encrypted": false,
+                        "question_order": 8,
+                        "scale_id": 0,
+                        "same_default": null,
+                        "question_theme_name": "arrays/texts",
+                        "modulename": "",
+                        "gid": 1,
+                        "relevance": "",
+                        "same_script": null,
+                        "l10ns": {
+                            "de-informal": {
+                                "id": 123,
+                                "qid": 31,
+                                "question": "Array von Textfeldern",
+                                "script": null,
+                                "language": "de-informal"
+                            },
+                            "en": {
+                                "id": 122,
+                                "qid": 31,
+                                "question": "Array Texts",
+                                "script": null,
+                                "language": "en"
+                            },
+                            "fr": {
+                                "id": 121,
+                                "qid": 31,
+                                "question": "Tableau (texte)",
+                                "script": null,
+                                "language": "fr"
+                            },
+                            "it": {
+                                "id": 124,
+                                "qid": 31,
+                                "question": "Array (Testi)",
+                                "script": null,
+                                "language": "it"
+                            }
+                        },
+                        "attributes": [],
+                        "answers": []
+                    }
+                ]
+            },
+            {
+                "gid": 2,
+                "sid": 282267,
+                "group_order": 1,
+                "randomization_group": "",
+                "grelevance": "",
+                "l10ns": {
+                    "de-informal": {
+                        "id": 5,
+                        "gid": 2,
+                        "group_name": "Numerische Fragen",
+                        "description": "r453q26ier steht die Beschreibung für die Gruppe der numerischen Fragen.",
+                        "language": "de-informal"
+                    },
+                    "en": {
+                        "id": 7,
+                        "gid": 2,
+                        "group_name": "Numeric question",
+                        "description": "This is the description for numeric question group.",
+                        "language": "en"
+                    },
+                    "fr": {
+                        "id": 6,
+                        "gid": 2,
+                        "group_name": "Question de type numérique",
+                        "description": "Ceci est la description des questions de type numérique",
+                        "language": "fr"
+                    },
+                    "it": {
+                        "id": 8,
+                        "gid": 2,
+                        "group_name": "Domande numeriche",
+                        "description": "Questa è la descrizione del gruppo di domande numeriche",
+                        "language": "it"
+                    }
+                },
+                "questions": [
+                    {
+                        "qid": 9,
+                        "parent_qid": 0,
+                        "sid": 282267,
+                        "type": "N",
+                        "title": "N",
+                        "preg": "",
+                        "other": false,
+                        "mandatory": false,
+                        "encrypted": false,
+                        "question_order": 0,
+                        "scale_id": 0,
+                        "same_default": null,
+                        "question_theme_name": "numerical",
+                        "modulename": "",
+                        "gid": 2,
+                        "relevance": "",
+                        "same_script": null,
+                        "l10ns": {
+                            "de-informal": {
+                                "id": 35,
+                                "qid": 9,
+                                "question": "Numerische Eingabe",
+                                "script": null,
+                                "language": "de-informal"
+                            },
+                            "en": {
+                                "id": 34,
+                                "qid": 9,
+                                "question": "Numerical input",
+                                "script": null,
+                                "language": "en"
+                            },
+                            "fr": {
+                                "id": 33,
+                                "qid": 9,
+                                "question": "Entrée numérique",
+                                "script": null,
+                                "language": "fr"
+                            },
+                            "it": {
+                                "id": 36,
+                                "qid": 9,
+                                "question": "Inserimento numerico",
+                                "script": null,
+                                "language": "it"
+                            }
+                        },
+                        "attributes": [],
+                        "answers": []
+                    },
+                    {
+                        "qid": 10,
+                        "parent_qid": 0,
+                        "sid": 282267,
+                        "type": "K",
+                        "title": "MN",
+                        "preg": "",
+                        "other": false,
+                        "mandatory": false,
+                        "encrypted": false,
+                        "question_order": 1,
+                        "scale_id": 0,
+                        "same_default": null,
+                        "question_theme_name": "multiplenumeric",
+                        "modulename": "",
+                        "gid": 2,
+                        "relevance": "",
+                        "same_script": null,
+                        "l10ns": {
+                            "de-informal": {
+                                "id": 39,
+                                "qid": 10,
+                                "question": "Mehrfache numerische Eingabe",
+                                "script": null,
+                                "language": "de-informal"
+                            },
+                            "en": {
+                                "id": 38,
+                                "qid": 10,
+                                "question": "Multiple numerical input",
+                                "script": null,
+                                "language": "en"
+                            },
+                            "fr": {
+                                "id": 37,
+                                "qid": 10,
+                                "question": "Multiples entrées numériques",
+                                "script": null,
+                                "language": "fr"
+                            },
+                            "it": {
+                                "id": 40,
+                                "qid": 10,
+                                "question": "Inserimento numerico multiplo",
+                                "script": null,
+                                "language": "it"
+                            }
+                        },
+                        "attributes": [],
+                        "answers": []
+                    },
+                    {
+                        "qid": 11,
+                        "parent_qid": 0,
+                        "sid": 282267,
+                        "type": "K",
+                        "title": "MNM",
+                        "preg": "",
+                        "other": false,
+                        "mandatory": false,
+                        "encrypted": false,
+                        "question_order": 2,
+                        "scale_id": 0,
+                        "same_default": null,
+                        "question_theme_name": "multiplenumeric",
+                        "modulename": "",
+                        "gid": 2,
+                        "relevance": "",
+                        "same_script": null,
+                        "l10ns": {
+                            "de-informal": {
+                                "id": 43,
+                                "qid": 11,
+                                "question": "Mehrfache numerische Eingabe mit Summe Minimum = 3, Summe Maximum = 10, maximale Zeichen = 1",
+                                "script": null,
+                                "language": "de-informal"
+                            },
+                            "en": {
+                                "id": 41,
+                                "qid": 11,
+                                "question": "Multiple numerical input (Minimum sum value : 3, Maximum sum value : 10, Maximum characters :1 )",
+                                "script": null,
+                                "language": "en"
+                            },
+                            "fr": {
+                                "id": 42,
+                                "qid": 11,
+                                "question": "Multiples entrées numériques (Valeur minimale de la somme : 3, Valeur maximum de la somme : 10, Nombre maximum de caractères :1 )",
+                                "script": null,
+                                "language": "fr"
+                            },
+                            "it": {
+                                "id": 44,
+                                "qid": 11,
+                                "question": "Inserimento numerico multiplo (valore minimo della somma: 3, valore massimo della somma: 10, numero massimo di caratteri:1 )",
+                                "script": null,
+                                "language": "it"
+                            }
+                        },
+                        "attributes": {
+                            "max_num_value": {
+                                "qaid": 10,
+                                "attribute": 0,
+                                "value": "10",
+                                "language": ""
+                            },
+                            "maximum_chars": {
+                                "qaid": 11,
+                                "attribute": 0,
+                                "value": "1",
+                                "language": ""
+                            },
+                            "min_num_value": {
+                                "qaid": 12,
+                                "attribute": 0,
+                                "value": "3",
+                                "language": ""
+                            }
+                        },
+                        "answers": []
+                    },
+                    {
+                        "qid": 12,
+                        "parent_qid": 0,
+                        "sid": 282267,
+                        "type": "K",
+                        "title": "Q2",
+                        "preg": "",
+                        "other": false,
+                        "mandatory": false,
+                        "encrypted": false,
+                        "question_order": 3,
+                        "scale_id": 0,
+                        "same_default": null,
+                        "question_theme_name": "multiplenumeric",
+                        "modulename": "",
+                        "gid": 2,
+                        "relevance": "",
+                        "same_script": null,
+                        "l10ns": {
+                            "de-informal": {
+                                "id": 47,
+                                "qid": 12,
+                                "question": "Mehrfache numerische Eingabe mit Slider-Layout und Sliderdetails<br />\nGenauigkeit = 0,1<br />\nMinimumwert<br />\nMaximumwert<br />\nNutzung des Text-Separators",
+                                "script": null,
+                                "language": "de-informal"
+                            },
+                            "en": {
+                                "id": 46,
+                                "qid": 12,
+                                "question": "Multiple numerical input (Use slider layout, Slider accuracy : 0.1, min and max value, use of text separator )",
+                                "script": null,
+                                "language": "en"
+                            },
+                            "fr": {
+                                "id": 45,
+                                "qid": 12,
+                                "question": "Multiples entrées numériques (Utiliser un curseur, Précision du curseur : 0.1, Valeurs minimale et maximale, utilisation d'un séparateur de texte )",
+                                "script": null,
+                                "language": "fr"
+                            },
+                            "it": {
+                                "id": 48,
+                                "qid": 12,
+                                "question": "Inserimento numerico multiplo (Layout con dispositivo di scorrimento, accuratezza dello slider: 0.1, valori minimo e massimo: 1-10, uso del separatore di testo)",
+                                "script": null,
+                                "language": "it"
+                            }
+                        },
+                        "attributes": {
+                            "slider_accuracy": {
+                                "qaid": 13,
+                                "attribute": 0,
+                                "value": "0.1",
+                                "language": ""
+                            },
+                            "slider_default": {
+                                "qaid": 14,
+                                "attribute": 0,
+                                "value": "5",
+                                "language": ""
+                            },
+                            "slider_layout": {
+                                "qaid": 15,
+                                "attribute": 0,
+                                "value": "1",
+                                "language": ""
+                            },
+                            "slider_max": {
+                                "qaid": 16,
+                                "attribute": 0,
+                                "value": "10",
+                                "language": ""
+                            },
+                            "slider_middlestart": {
+                                "qaid": 17,
+                                "attribute": 0,
+                                "value": "1",
+                                "language": ""
+                            },
+                            "slider_min": {
+                                "qaid": 18,
+                                "attribute": 0,
+                                "value": "1",
+                                "language": ""
+                            },
+                            "slider_showminmax": {
+                                "qaid": 19,
+                                "attribute": 0,
+                                "value": "1",
+                                "language": ""
+                            }
+                        },
+                        "answers": []
+                    },
+                    {
+                        "qid": 32,
+                        "parent_qid": 0,
+                        "sid": 282267,
+                        "type": ":",
+                        "title": "ANT",
+                        "preg": "",
+                        "other": false,
+                        "mandatory": false,
+                        "encrypted": false,
+                        "question_order": 4,
+                        "scale_id": 0,
+                        "same_default": null,
+                        "question_theme_name": "arrays/multiflexi",
+                        "modulename": "",
+                        "gid": 2,
+                        "relevance": "",
+                        "same_script": null,
+                        "l10ns": {
+                            "de-informal": {
+                                "id": 127,
+                                "qid": 32,
+                                "question": "Zahlen-Matrix (Text-Eingabefelder)",
+                                "script": null,
+                                "language": "de-informal"
+                            },
+                            "en": {
+                                "id": 126,
+                                "qid": 32,
+                                "question": "Array numbers (text input)",
+                                "script": null,
+                                "language": "en"
+                            },
+                            "fr": {
+                                "id": 125,
+                                "qid": 32,
+                                "question": "Tableau (Nombres) (Saisies de texte)",
+                                "script": null,
+                                "language": "fr"
+                            },
+                            "it": {
+                                "id": 128,
+                                "qid": 32,
+                                "question": "Array (Numeri)",
+                                "script": null,
+                                "language": "it"
+                            }
+                        },
+                        "attributes": {
+                            "input_boxes": {
+                                "qaid": 40,
+                                "attribute": 0,
+                                "value": "1",
+                                "language": ""
+                            }
+                        },
+                        "answers": []
+                    }
+                ]
+            },
+            {
+                "gid": 3,
+                "sid": 282267,
+                "group_order": 2,
+                "randomization_group": "",
+                "grelevance": "",
+                "l10ns": {
+                    "de-informal": {
+                        "id": 11,
+                        "gid": 3,
+                        "group_name": "Einfachauswahl",
+                        "description": "r453q26ier steht die Beschreibung für die Gruppe der Einfachauswahl-Fragen.",
+                        "language": "de-informal"
+                    },
+                    "en": {
+                        "id": 9,
+                        "gid": 3,
+                        "group_name": "Single choice question",
+                        "description": "The single choice questions group description",
+                        "language": "en"
+                    },
+                    "fr": {
+                        "id": 10,
+                        "gid": 3,
+                        "group_name": "Question à réponse unique",
+                        "description": "Ceci est la description du groupe des questions à réponse unique",
+                        "language": "fr"
+                    },
+                    "it": {
+                        "id": 12,
+                        "gid": 3,
+                        "group_name": "Domande a scelta singola",
+                        "description": "Descrizione del gruppo dedicato alle Domande a scelta singola",
+                        "language": "it"
+                    }
+                },
+                "questions": [
+                    {
+                        "qid": 13,
+                        "parent_qid": 0,
+                        "sid": 282267,
+                        "type": "Y",
+                        "title": "Y",
+                        "preg": "",
+                        "other": false,
+                        "mandatory": false,
+                        "encrypted": false,
+                        "question_order": 0,
+                        "scale_id": 0,
+                        "same_default": null,
+                        "question_theme_name": "yesno",
+                        "modulename": "",
+                        "gid": 3,
+                        "relevance": "",
+                        "same_script": null,
+                        "l10ns": {
+                            "de-informal": {
+                                "id": 51,
+                                "qid": 13,
+                                "question": "Ja/Nein",
+                                "script": null,
+                                "language": "de-informal"
+                            },
+                            "en": {
+                                "id": 49,
+                                "qid": 13,
+                                "question": "Yes/No",
+                                "script": null,
+                                "language": "en"
+                            },
+                            "fr": {
+                                "id": 50,
+                                "qid": 13,
+                                "question": "Oui/Non",
+                                "script": null,
+                                "language": "fr"
+                            },
+                            "it": {
+                                "id": 52,
+                                "qid": 13,
+                                "question": "Sì/No",
+                                "script": null,
+                                "language": "it"
+                            }
+                        },
+                        "attributes": [],
+                        "answers": []
+                    },
+                    {
+                        "qid": 14,
+                        "parent_qid": 0,
+                        "sid": 282267,
+                        "type": "G",
+                        "title": "G",
+                        "preg": "",
+                        "other": false,
+                        "mandatory": false,
+                        "encrypted": false,
+                        "question_order": 1,
+                        "scale_id": 0,
+                        "same_default": null,
+                        "question_theme_name": "gender",
+                        "modulename": "",
+                        "gid": 3,
+                        "relevance": "",
+                        "same_script": null,
+                        "l10ns": {
+                            "de-informal": {
+                                "id": 55,
+                                "qid": 14,
+                                "question": "Geschlecht",
+                                "script": null,
+                                "language": "de-informal"
+                            },
+                            "en": {
+                                "id": 54,
+                                "qid": 14,
+                                "question": "Gender",
+                                "script": null,
+                                "language": "en"
+                            },
+                            "fr": {
+                                "id": 53,
+                                "qid": 14,
+                                "question": "Genre",
+                                "script": null,
+                                "language": "fr"
+                            },
+                            "it": {
+                                "id": 56,
+                                "qid": 14,
+                                "question": "Genere (Sesso)",
+                                "script": null,
+                                "language": "it"
+                            }
+                        },
+                        "attributes": [],
+                        "answers": []
+                    },
+                    {
+                        "qid": 15,
+                        "parent_qid": 0,
+                        "sid": 282267,
+                        "type": "5",
+                        "title": "q5",
+                        "preg": "",
+                        "other": false,
+                        "mandatory": false,
+                        "encrypted": false,
+                        "question_order": 2,
+                        "scale_id": 0,
+                        "same_default": null,
+                        "question_theme_name": "5pointchoice",
+                        "modulename": "",
+                        "gid": 3,
+                        "relevance": "",
+                        "same_script": null,
+                        "l10ns": {
+                            "de-informal": {
+                                "id": 59,
+                                "qid": 15,
+                                "question": "5er Skala",
+                                "script": null,
+                                "language": "de-informal"
+                            },
+                            "en": {
+                                "id": 58,
+                                "qid": 15,
+                                "question": "5 point choice",
+                                "script": null,
+                                "language": "en"
+                            },
+                            "fr": {
+                                "id": 57,
+                                "qid": 15,
+                                "question": "5 boutons radios",
+                                "script": null,
+                                "language": "fr"
+                            },
+                            "it": {
+                                "id": 60,
+                                "qid": 15,
+                                "question": "Scelta punteggio (da 1 a 5)",
+                                "script": null,
+                                "language": "it"
+                            }
+                        },
+                        "attributes": [],
+                        "answers": []
+                    },
+                    {
+                        "qid": 16,
+                        "parent_qid": 0,
+                        "sid": 282267,
+                        "type": "I",
+                        "title": "I",
+                        "preg": "",
+                        "other": false,
+                        "mandatory": false,
+                        "encrypted": false,
+                        "question_order": 3,
+                        "scale_id": 0,
+                        "same_default": null,
+                        "question_theme_name": "language",
+                        "modulename": "",
+                        "gid": 3,
+                        "relevance": "",
+                        "same_script": null,
+                        "l10ns": {
+                            "de-informal": {
+                                "id": 63,
+                                "qid": 16,
+                                "question": "Sprachwechsler-Baustein",
+                                "script": null,
+                                "language": "de-informal"
+                            },
+                            "en": {
+                                "id": 62,
+                                "qid": 16,
+                                "question": "Language switch",
+                                "script": null,
+                                "language": "en"
+                            },
+                            "fr": {
+                                "id": 61,
+                                "qid": 16,
+                                "question": "Changement de langue",
+                                "script": null,
+                                "language": "fr"
+                            },
+                            "it": {
+                                "id": 64,
+                                "qid": 16,
+                                "question": "Cambio lingua",
+                                "script": null,
+                                "language": "it"
+                            }
+                        },
+                        "attributes": [],
+                        "answers": []
+                    },
+                    {
+                        "qid": 37,
+                        "parent_qid": 0,
+                        "sid": 282267,
+                        "type": "!",
+                        "title": "ldd",
+                        "preg": "",
+                        "other": false,
+                        "mandatory": false,
+                        "encrypted": false,
+                        "question_order": 4,
+                        "scale_id": 0,
+                        "same_default": null,
+                        "question_theme_name": "list_dropdown",
+                        "modulename": "",
+                        "gid": 3,
+                        "relevance": "",
+                        "same_script": null,
+                        "l10ns": {
+                            "de-informal": {
+                                "id": 147,
+                                "qid": 37,
+                                "question": "Einfachauswahl/Liste (Dropdown)",
+                                "script": null,
+                                "language": "de-informal"
+                            },
+                            "en": {
+                                "id": 146,
+                                "qid": 37,
+                                "question": "List dropdown (default option)",
+                                "script": null,
+                                "language": "en"
+                            },
+                            "fr": {
+                                "id": 145,
+                                "qid": 37,
+                                "question": "Liste (Menu déroulant) (avec option par défaut)",
+                                "script": null,
+                                "language": "fr"
+                            },
+                            "it": {
+                                "id": 148,
+                                "qid": 37,
+                                "question": "Lista (Menu Dropdown) - con opzioni di default",
+                                "script": null,
+                                "language": "it"
+                            }
+                        },
+                        "attributes": [],
+                        "answers": [
+                            {
+                                "aid": 18,
+                                "qid": 37,
+                                "code": "A1",
+                                "sortorder": 1,
+                                "assessment_value": 1,
+                                "scale_id": 0
+                            },
+                            {
+                                "aid": 17,
+                                "qid": 37,
+                                "code": "A2",
+                                "sortorder": 2,
+                                "assessment_value": 1,
+                                "scale_id": 0
+                            },
+                            {
+                                "aid": 16,
+                                "qid": 37,
+                                "code": "A0",
+                                "sortorder": 3,
+                                "assessment_value": 1,
+                                "scale_id": 0
+                            },
+                            {
+                                "aid": 32,
+                                "qid": 37,
+                                "code": "A3",
+                                "sortorder": 4,
+                                "assessment_value": 1,
+                                "scale_id": 0
+                            },
+                            {
+                                "aid": 38,
+                                "qid": 37,
+                                "code": "A4",
+                                "sortorder": 5,
+                                "assessment_value": 1,
+                                "scale_id": 0
+                            }
+                        ]
+                    },
+                    {
+                        "qid": 17,
+                        "parent_qid": 0,
+                        "sid": 282267,
+                        "type": "!",
+                        "title": "ldc",
+                        "preg": "",
+                        "other": false,
+                        "mandatory": false,
+                        "encrypted": false,
+                        "question_order": 5,
+                        "scale_id": 0,
+                        "same_default": null,
+                        "question_theme_name": "list_dropdown",
+                        "modulename": "",
+                        "gid": 3,
+                        "relevance": "",
+                        "same_script": null,
+                        "l10ns": {
+                            "de-informal": {
+                                "id": 67,
+                                "qid": 17,
+                                "question": "Einfachauswahl/Liste mit Kategorien",
+                                "script": null,
+                                "language": "de-informal"
+                            },
+                            "en": {
+                                "id": 66,
+                                "qid": 17,
+                                "question": "List dropdown (with category)",
+                                "script": null,
+                                "language": "en"
+                            },
+                            "fr": {
+                                "id": 65,
+                                "qid": 17,
+                                "question": "Liste (Menu déroulant) (avec séparateur de catégories )",
+                                "script": null,
+                                "language": "fr"
+                            },
+                            "it": {
+                                "id": 68,
+                                "qid": 17,
+                                "question": "Lista (Menu Dropdown) - con categorie",
+                                "script": null,
+                                "language": "it"
+                            }
+                        },
+                        "attributes": {
+                            "category_separator": {
+                                "qaid": 20,
+                                "attribute": 0,
+                                "value": "-",
+                                "language": ""
+                            }
+                        },
+                        "answers": [
+                            {
+                                "aid": 39,
+                                "qid": 17,
+                                "code": "A11",
+                                "sortorder": 1,
+                                "assessment_value": 1,
+                                "scale_id": 0
+                            },
+                            {
+                                "aid": 6,
+                                "qid": 17,
+                                "code": "A12",
+                                "sortorder": 2,
+                                "assessment_value": 1,
+                                "scale_id": 0
+                            },
+                            {
+                                "aid": 7,
+                                "qid": 17,
+                                "code": "A13",
+                                "sortorder": 3,
+                                "assessment_value": 1,
+                                "scale_id": 0
+                            },
+                            {
+                                "aid": 20,
+                                "qid": 17,
+                                "code": "A14",
+                                "sortorder": 4,
+                                "assessment_value": 1,
+                                "scale_id": 0
+                            },
+                            {
+                                "aid": 28,
+                                "qid": 17,
+                                "code": "A21",
+                                "sortorder": 5,
+                                "assessment_value": 1,
+                                "scale_id": 0
+                            },
+                            {
+                                "aid": 33,
+                                "qid": 17,
+                                "code": "A22",
+                                "sortorder": 6,
+                                "assessment_value": 1,
+                                "scale_id": 0
+                            },
+                            {
+                                "aid": 19,
+                                "qid": 17,
+                                "code": "A23",
+                                "sortorder": 7,
+                                "assessment_value": 1,
+                                "scale_id": 0
+                            },
+                            {
+                                "aid": 1,
+                                "qid": 17,
+                                "code": "A24",
+                                "sortorder": 8,
+                                "assessment_value": 1,
+                                "scale_id": 0
+                            }
+                        ]
+                    },
+                    {
+                        "qid": 18,
+                        "parent_qid": 0,
+                        "sid": 282267,
+                        "type": "L",
+                        "title": "L",
+                        "preg": "",
+                        "other": true,
+                        "mandatory": false,
+                        "encrypted": false,
+                        "question_order": 6,
+                        "scale_id": 0,
+                        "same_default": null,
+                        "question_theme_name": "listradio",
+                        "modulename": "",
+                        "gid": 3,
+                        "relevance": "",
+                        "same_script": null,
+                        "l10ns": {
+                            "de-informal": {
+                                "id": 71,
+                                "qid": 18,
+                                "question": "Liste/Einfachauswahl",
+                                "script": null,
+                                "language": "de-informal"
+                            },
+                            "en": {
+                                "id": 70,
+                                "qid": 18,
+                                "question": "List radio",
+                                "script": null,
+                                "language": "en"
+                            },
+                            "fr": {
+                                "id": 69,
+                                "qid": 18,
+                                "question": "Liste (Boutons radio)",
+                                "script": null,
+                                "language": "fr"
+                            },
+                            "it": {
+                                "id": 72,
+                                "qid": 18,
+                                "question": "Lista (Radio Button)",
+                                "script": null,
+                                "language": "it"
+                            }
+                        },
+                        "attributes": {
+                            "display_columns": {
+                                "qaid": 21,
+                                "attribute": 0,
+                                "value": "1",
+                                "language": ""
+                            },
+                            "other_comment_mandatory": {
+                                "qaid": 22,
+                                "attribute": 0,
+                                "value": "1",
+                                "language": ""
+                            }
+                        },
+                        "answers": [
+                            {
+                                "aid": 21,
+                                "qid": 18,
+                                "code": "A1",
+                                "sortorder": 1,
+                                "assessment_value": 1,
+                                "scale_id": 0
+                            },
+                            {
+                                "aid": 5,
+                                "qid": 18,
+                                "code": "A2",
+                                "sortorder": 2,
+                                "assessment_value": 1,
+                                "scale_id": 0
+                            },
+                            {
+                                "aid": 29,
+                                "qid": 18,
+                                "code": "A0",
+                                "sortorder": 3,
+                                "assessment_value": 1,
+                                "scale_id": 0
+                            },
+                            {
+                                "aid": 42,
+                                "qid": 18,
+                                "code": "A3",
+                                "sortorder": 4,
+                                "assessment_value": 1,
+                                "scale_id": 0
+                            },
+                            {
+                                "aid": 43,
+                                "qid": 18,
+                                "code": "A4",
+                                "sortorder": 5,
+                                "assessment_value": 1,
+                                "scale_id": 0
+                            }
+                        ]
+                    },
+                    {
+                        "qid": 19,
+                        "parent_qid": 0,
+                        "sid": 282267,
+                        "type": "O",
+                        "title": "O",
+                        "preg": "",
+                        "other": false,
+                        "mandatory": false,
+                        "encrypted": false,
+                        "question_order": 7,
+                        "scale_id": 0,
+                        "same_default": null,
+                        "question_theme_name": "list_with_comment",
+                        "modulename": "",
+                        "gid": 3,
+                        "relevance": "",
+                        "same_script": null,
+                        "l10ns": {
+                            "de-informal": {
+                                "id": 75,
+                                "qid": 19,
+                                "question": "Liste/Einfachauswahl mit Kommentarfeld",
+                                "script": null,
+                                "language": "de-informal"
+                            },
+                            "en": {
+                                "id": 74,
+                                "qid": 19,
+                                "question": "List radio with comment",
+                                "script": null,
+                                "language": "en"
+                            },
+                            "fr": {
+                                "id": 73,
+                                "qid": 19,
+                                "question": "Liste avec commentaire",
+                                "script": null,
+                                "language": "fr"
+                            },
+                            "it": {
+                                "id": 76,
+                                "qid": 19,
+                                "question": "Lista con commento",
+                                "script": null,
+                                "language": "it"
+                            }
+                        },
+                        "attributes": [],
+                        "answers": [
+                            {
+                                "aid": 3,
+                                "qid": 19,
+                                "code": "A1",
+                                "sortorder": 1,
+                                "assessment_value": 1,
+                                "scale_id": 0
+                            },
+                            {
+                                "aid": 4,
+                                "qid": 19,
+                                "code": "A2",
+                                "sortorder": 2,
+                                "assessment_value": 1,
+                                "scale_id": 0
+                            },
+                            {
+                                "aid": 30,
+                                "qid": 19,
+                                "code": "A0",
+                                "sortorder": 3,
+                                "assessment_value": 1,
+                                "scale_id": 0
+                            },
+                            {
+                                "aid": 40,
+                                "qid": 19,
+                                "code": "A3",
+                                "sortorder": 4,
+                                "assessment_value": 1,
+                                "scale_id": 0
+                            },
+                            {
+                                "aid": 41,
+                                "qid": 19,
+                                "code": "A4",
+                                "sortorder": 5,
+                                "assessment_value": 1,
+                                "scale_id": 0
+                            }
+                        ]
+                    },
+                    {
+                        "qid": 23,
+                        "parent_qid": 0,
+                        "sid": 282267,
+                        "type": "D",
+                        "title": "D",
+                        "preg": "",
+                        "other": false,
+                        "mandatory": false,
+                        "encrypted": false,
+                        "question_order": 8,
+                        "scale_id": 0,
+                        "same_default": null,
+                        "question_theme_name": "date",
+                        "modulename": "",
+                        "gid": 3,
+                        "relevance": "",
+                        "same_script": null,
+                        "l10ns": {
+                            "de-informal": {
+                                "id": 91,
+                                "qid": 23,
+                                "question": "Datumsangabe",
+                                "script": null,
+                                "language": "de-informal"
+                            },
+                            "en": {
+                                "id": 90,
+                                "qid": 23,
+                                "question": "Date",
+                                "script": null,
+                                "language": "en"
+                            },
+                            "fr": {
+                                "id": 89,
+                                "qid": 23,
+                                "question": "Date",
+                                "script": null,
+                                "language": "fr"
+                            },
+                            "it": {
+                                "id": 92,
+                                "qid": 23,
+                                "question": "Data",
+                                "script": null,
+                                "language": "it"
+                            }
+                        },
+                        "attributes": [],
+                        "answers": []
+                    },
+                    {
+                        "qid": 24,
+                        "parent_qid": 0,
+                        "sid": 282267,
+                        "type": "D",
+                        "title": "D1",
+                        "preg": "",
+                        "other": false,
+                        "mandatory": false,
+                        "encrypted": false,
+                        "question_order": 9,
+                        "scale_id": 0,
+                        "same_default": null,
+                        "question_theme_name": "date",
+                        "modulename": "",
+                        "gid": 3,
+                        "relevance": "",
+                        "same_script": null,
+                        "l10ns": {
+                            "de-informal": {
+                                "id": 95,
+                                "qid": 24,
+                                "question": "Datumsangabe über Drop-Down-Felder mit Minimum und Maximum für die Jahresangabe",
+                                "script": null,
+                                "language": "de-informal"
+                            },
+                            "en": {
+                                "id": 94,
+                                "qid": 24,
+                                "question": "Date (Display select boxes , year Maximum and Minimum)",
+                                "script": null,
+                                "language": "en"
+                            },
+                            "fr": {
+                                "id": 93,
+                                "qid": 24,
+                                "question": "Date (Afficher les boites de sélection , Année minimal et maximale)",
+                                "script": null,
+                                "language": "fr"
+                            },
+                            "it": {
+                                "id": 96,
+                                "qid": 24,
+                                "question": "Data (visualizzazione riquadri, anno minimo e massimo)",
+                                "script": null,
+                                "language": "it"
+                            }
+                        },
+                        "attributes": {
+                            "date_max": {
+                                "qaid": 26,
+                                "attribute": 0,
+                                "value": "(date('y-m-d'))",
+                                "language": ""
+                            },
+                            "date_min": {
+                                "qaid": 27,
+                                "attribute": 0,
+                                "value": "1910-01-01",
+                                "language": ""
+                            },
+                            "dropdown_dates": {
+                                "qaid": 28,
+                                "attribute": 0,
+                                "value": "1",
+                                "language": ""
+                            }
+                        },
+                        "answers": []
+                    },
+                    {
+                        "qid": 30,
+                        "parent_qid": 0,
+                        "sid": 282267,
+                        "type": "X",
+                        "title": "X",
+                        "preg": "",
+                        "other": false,
+                        "mandatory": false,
+                        "encrypted": false,
+                        "question_order": 10,
+                        "scale_id": 0,
+                        "same_default": null,
+                        "question_theme_name": "boilerplate",
+                        "modulename": "",
+                        "gid": 3,
+                        "relevance": "",
+                        "same_script": null,
+                        "l10ns": {
+                            "de-informal": {
+                                "id": 119,
+                                "qid": 30,
+                                "question": "Textbaustein: \"Die nächste Frage kommt gleich...\"",
+                                "script": null,
+                                "language": "de-informal"
+                            },
+                            "en": {
+                                "id": 118,
+                                "qid": 30,
+                                "question": "Next is the array single choice question type",
+                                "script": null,
+                                "language": "en"
+                            },
+                            "fr": {
+                                "id": 117,
+                                "qid": 30,
+                                "question": "A la suite, les tableaux de questions à réponses uniques",
+                                "script": null,
+                                "language": "fr"
+                            },
+                            "it": {
+                                "id": 120,
+                                "qid": 30,
+                                "question": "La prossima è una domanda di tipo array - scelta singola",
+                                "script": null,
+                                "language": "it"
+                            }
+                        },
+                        "attributes": [],
+                        "answers": []
+                    },
+                    {
+                        "qid": 26,
+                        "parent_qid": 0,
+                        "sid": 282267,
+                        "type": "F",
+                        "title": "F",
+                        "preg": "",
+                        "other": false,
+                        "mandatory": false,
+                        "encrypted": false,
+                        "question_order": 11,
+                        "scale_id": 0,
+                        "same_default": null,
+                        "question_theme_name": "arrays/array",
+                        "modulename": null,
+                        "gid": 3,
+                        "relevance": "",
+                        "same_script": null,
+                        "l10ns": {
+                            "de-informal": {
+                                "id": 103,
+                                "qid": 26,
+                                "question": "Matrix",
+                                "script": null,
+                                "language": "de-informal"
+                            },
+                            "en": {
+                                "id": 102,
+                                "qid": 26,
+                                "question": "Array",
+                                "script": null,
+                                "language": "en"
+                            },
+                            "fr": {
+                                "id": 101,
+                                "qid": 26,
+                                "question": "Tableau",
+                                "script": null,
+                                "language": "fr"
+                            },
+                            "it": {
+                                "id": 104,
+                                "qid": 26,
+                                "question": "Array",
+                                "script": null,
+                                "language": "it"
+                            }
+                        },
+                        "attributes": {
+                            "answer_width": {
+                                "qaid": 30,
+                                "attribute": 0,
+                                "value": "",
+                                "language": ""
+                            },
+                            "array_filter": {
+                                "qaid": 31,
+                                "attribute": 0,
+                                "value": "",
+                                "language": ""
+                            },
+                            "array_filter_exclude": {
+                                "qaid": 32,
+                                "attribute": 0,
+                                "value": "",
+                                "language": ""
+                            },
+                            "hidden": {
+                                "qaid": 33,
+                                "attribute": 0,
+                                "value": "0",
+                                "language": ""
+                            },
+                            "page_break": {
+                                "qaid": 34,
+                                "attribute": 0,
+                                "value": "0",
+                                "language": ""
+                            },
+                            "public_statistics": {
+                                "qaid": 35,
+                                "attribute": 0,
+                                "value": "0",
+                                "language": ""
+                            },
+                            "random_group": {
+                                "qaid": 36,
+                                "attribute": 0,
+                                "value": "",
+                                "language": ""
+                            },
+                            "random_order": {
+                                "qaid": 37,
+                                "attribute": 0,
+                                "value": "0",
+                                "language": ""
+                            },
+                            "scale_export": {
+                                "qaid": 38,
+                                "attribute": 0,
+                                "value": "0",
+                                "language": ""
+                            },
+                            "use_dropdown": {
+                                "qaid": 39,
+                                "attribute": 0,
+                                "value": "0",
+                                "language": ""
+                            }
+                        },
+                        "answers": [
+                            {
+                                "aid": 31,
+                                "qid": 26,
+                                "code": "A1",
+                                "sortorder": 1,
+                                "assessment_value": 1,
+                                "scale_id": 0
+                            },
+                            {
+                                "aid": 8,
+                                "qid": 26,
+                                "code": "A2",
+                                "sortorder": 2,
+                                "assessment_value": 1,
+                                "scale_id": 0
+                            },
+                            {
+                                "aid": 22,
+                                "qid": 26,
+                                "code": "A3",
+                                "sortorder": 3,
+                                "assessment_value": 1,
+                                "scale_id": 0
+                            },
+                            {
+                                "aid": 44,
+                                "qid": 26,
+                                "code": "A4",
+                                "sortorder": 4,
+                                "assessment_value": 1,
+                                "scale_id": 0
+                            }
+                        ]
+                    },
+                    {
+                        "qid": 35,
+                        "parent_qid": 0,
+                        "sid": 282267,
+                        "type": "H",
+                        "title": "abc",
+                        "preg": "",
+                        "other": false,
+                        "mandatory": false,
+                        "encrypted": false,
+                        "question_order": 12,
+                        "scale_id": 0,
+                        "same_default": null,
+                        "question_theme_name": "arrays/column",
+                        "modulename": "",
+                        "gid": 3,
+                        "relevance": "",
+                        "same_script": null,
+                        "l10ns": {
+                            "de-informal": {
+                                "id": 139,
+                                "qid": 35,
+                                "question": "Matrix nach Spalten",
+                                "script": null,
+                                "language": "de-informal"
+                            },
+                            "en": {
+                                "id": 138,
+                                "qid": 35,
+                                "question": "Array by column",
+                                "script": null,
+                                "language": "en"
+                            },
+                            "fr": {
+                                "id": 137,
+                                "qid": 35,
+                                "question": "Afficher en colonnes",
+                                "script": null,
+                                "language": "fr"
+                            },
+                            "it": {
+                                "id": 140,
+                                "qid": 35,
+                                "question": "Array per colonna",
+                                "script": null,
+                                "language": "it"
+                            }
+                        },
+                        "attributes": [],
+                        "answers": [
+                            {
+                                "aid": 45,
+                                "qid": 35,
+                                "code": "A1",
+                                "sortorder": 1,
+                                "assessment_value": 1,
+                                "scale_id": 0
+                            },
+                            {
+                                "aid": 37,
+                                "qid": 35,
+                                "code": "A2",
+                                "sortorder": 2,
+                                "assessment_value": 1,
+                                "scale_id": 0
+                            },
+                            {
+                                "aid": 15,
+                                "qid": 35,
+                                "code": "A3",
+                                "sortorder": 3,
+                                "assessment_value": 1,
+                                "scale_id": 0
+                            },
+                            {
+                                "aid": 23,
+                                "qid": 35,
+                                "code": "A4",
+                                "sortorder": 4,
+                                "assessment_value": 1,
+                                "scale_id": 0
+                            }
+                        ]
+                    },
+                    {
+                        "qid": 27,
+                        "parent_qid": 0,
+                        "sid": 282267,
+                        "type": "A",
+                        "title": "A",
+                        "preg": "",
+                        "other": false,
+                        "mandatory": false,
+                        "encrypted": false,
+                        "question_order": 13,
+                        "scale_id": 0,
+                        "same_default": null,
+                        "question_theme_name": "arrays/5point",
+                        "modulename": "",
+                        "gid": 3,
+                        "relevance": "",
+                        "same_script": null,
+                        "l10ns": {
+                            "de-informal": {
+                                "id": 107,
+                                "qid": 27,
+                                "question": "Matrix 5-Punkte-Skala",
+                                "script": null,
+                                "language": "de-informal"
+                            },
+                            "en": {
+                                "id": 106,
+                                "qid": 27,
+                                "question": "Array 5 point choice",
+                                "script": null,
+                                "language": "en"
+                            },
+                            "fr": {
+                                "id": 105,
+                                "qid": 27,
+                                "question": "Tableau (5 boutons radio)",
+                                "script": null,
+                                "language": "fr"
+                            },
+                            "it": {
+                                "id": 108,
+                                "qid": 27,
+                                "question": "Array (punteggio 1-5)",
+                                "script": null,
+                                "language": "it"
+                            }
+                        },
+                        "attributes": [],
+                        "answers": []
+                    },
+                    {
+                        "qid": 28,
+                        "parent_qid": 0,
+                        "sid": 282267,
+                        "type": "B",
+                        "title": "B",
+                        "preg": "",
+                        "other": false,
+                        "mandatory": false,
+                        "encrypted": false,
+                        "question_order": 14,
+                        "scale_id": 0,
+                        "same_default": null,
+                        "question_theme_name": "arrays/10point",
+                        "modulename": "",
+                        "gid": 3,
+                        "relevance": "",
+                        "same_script": null,
+                        "l10ns": {
+                            "de-informal": {
+                                "id": 111,
+                                "qid": 28,
+                                "question": "Matrix 10-Punkte-Skala",
+                                "script": null,
+                                "language": "de-informal"
+                            },
+                            "en": {
+                                "id": 110,
+                                "qid": 28,
+                                "question": "Array 10 point choice",
+                                "script": null,
+                                "language": "en"
+                            },
+                            "fr": {
+                                "id": 109,
+                                "qid": 28,
+                                "question": "Tableau (10 boutons radio)",
+                                "script": null,
+                                "language": "fr"
+                            },
+                            "it": {
+                                "id": 112,
+                                "qid": 28,
+                                "question": "Array (punteggio 1-10)",
+                                "script": null,
+                                "language": "it"
+                            }
+                        },
+                        "attributes": [],
+                        "answers": []
+                    },
+                    {
+                        "qid": 29,
+                        "parent_qid": 0,
+                        "sid": 282267,
+                        "type": "E",
+                        "title": "E",
+                        "preg": "",
+                        "other": false,
+                        "mandatory": false,
+                        "encrypted": false,
+                        "question_order": 15,
+                        "scale_id": 0,
+                        "same_default": null,
+                        "question_theme_name": "arrays/increasesamedecrease",
+                        "modulename": "",
+                        "gid": 3,
+                        "relevance": "",
+                        "same_script": null,
+                        "l10ns": {
+                            "de-informal": {
+                                "id": 115,
+                                "qid": 29,
+                                "question": "Matrix (Zunahme/gleichbleibend/Abnahme)",
+                                "script": null,
+                                "language": "de-informal"
+                            },
+                            "en": {
+                                "id": 114,
+                                "qid": 29,
+                                "question": "Array (Increase/Same/Decrease)",
+                                "script": null,
+                                "language": "en"
+                            },
+                            "fr": {
+                                "id": 113,
+                                "qid": 29,
+                                "question": "Tableau (Augmenter, Sans changement, Diminuer)",
+                                "script": null,
+                                "language": "fr"
+                            },
+                            "it": {
+                                "id": 116,
+                                "qid": 29,
+                                "question": "Array (Aumenta, Uguale, Diminuisce)",
+                                "script": null,
+                                "language": "it"
+                            }
+                        },
+                        "attributes": [],
+                        "answers": []
+                    },
+                    {
+                        "qid": 38,
+                        "parent_qid": 0,
+                        "sid": 282267,
+                        "type": "C",
+                        "title": "C",
+                        "preg": "",
+                        "other": false,
+                        "mandatory": false,
+                        "encrypted": false,
+                        "question_order": 16,
+                        "scale_id": 0,
+                        "same_default": null,
+                        "question_theme_name": "arrays/yesnouncertain",
+                        "modulename": "",
+                        "gid": 3,
+                        "relevance": "",
+                        "same_script": null,
+                        "l10ns": {
+                            "de-informal": {
+                                "id": 151,
+                                "qid": 38,
+                                "question": "Matrix (Ja/Nein/Unsicher)",
+                                "script": null,
+                                "language": "de-informal"
+                            },
+                            "en": {
+                                "id": 150,
+                                "qid": 38,
+                                "question": "Array Yes/No/Uncertain",
+                                "script": null,
+                                "language": "en"
+                            },
+                            "fr": {
+                                "id": 149,
+                                "qid": 38,
+                                "question": "Tableau (Oui/Non/Indifférent)",
+                                "script": null,
+                                "language": "fr"
+                            },
+                            "it": {
+                                "id": 152,
+                                "qid": 38,
+                                "question": "Scelta (Sì/No/Non so)",
+                                "script": null,
+                                "language": "it"
+                            }
+                        },
+                        "attributes": [],
+                        "answers": []
+                    },
+                    {
+                        "qid": 34,
+                        "parent_qid": 0,
+                        "sid": 282267,
+                        "type": "1",
+                        "title": "dual",
+                        "preg": "",
+                        "other": false,
+                        "mandatory": false,
+                        "encrypted": false,
+                        "question_order": 17,
+                        "scale_id": 0,
+                        "same_default": null,
+                        "question_theme_name": "arrays/dualscale",
+                        "modulename": "",
+                        "gid": 3,
+                        "relevance": "",
+                        "same_script": null,
+                        "l10ns": {
+                            "de-informal": {
+                                "id": 135,
+                                "qid": 34,
+                                "question": "Dual-Matrix",
+                                "script": null,
+                                "language": "de-informal"
+                            },
+                            "en": {
+                                "id": 134,
+                                "qid": 34,
+                                "question": "Array dual scale",
+                                "script": null,
+                                "language": "en"
+                            },
+                            "fr": {
+                                "id": 133,
+                                "qid": 34,
+                                "question": "Tableau double échelle",
+                                "script": null,
+                                "language": "fr"
+                            },
+                            "it": {
+                                "id": 136,
+                                "qid": 34,
+                                "question": "Array con doppia scala",
+                                "script": null,
+                                "language": "it"
+                            }
+                        },
+                        "attributes": {
+                            "dualscale_headerA": {
+                                "qaid": 44,
+                                "attribute": 0,
+                                "value": "Scale A",
+                                "language": "fr"
+                            },
+                            "dualscale_headerB": {
+                                "qaid": 47,
+                                "attribute": 0,
+                                "value": "Scale B",
+                                "language": "fr"
+                            }
+                        },
+                        "answers": [
+                            {
+                                "aid": 34,
+                                "qid": 34,
+                                "code": "A11",
+                                "sortorder": 1,
+                                "assessment_value": 1,
+                                "scale_id": 0
+                            },
+                            {
+                                "aid": 11,
+                                "qid": 34,
+                                "code": "A21",
+                                "sortorder": 1,
+                                "assessment_value": 1,
+                                "scale_id": 1
+                            },
+                            {
+                                "aid": 24,
+                                "qid": 34,
+                                "code": "A12",
+                                "sortorder": 2,
+                                "assessment_value": 1,
+                                "scale_id": 0
+                            },
+                            {
+                                "aid": 14,
+                                "qid": 34,
+                                "code": "A22",
+                                "sortorder": 2,
+                                "assessment_value": 1,
+                                "scale_id": 1
+                            },
+                            {
+                                "aid": 25,
+                                "qid": 34,
+                                "code": "A13",
+                                "sortorder": 3,
+                                "assessment_value": 1,
+                                "scale_id": 0
+                            },
+                            {
+                                "aid": 46,
+                                "qid": 34,
+                                "code": "A23",
+                                "sortorder": 3,
+                                "assessment_value": 1,
+                                "scale_id": 1
+                            },
+                            {
+                                "aid": 12,
+                                "qid": 34,
+                                "code": "A14",
+                                "sortorder": 4,
+                                "assessment_value": 1,
+                                "scale_id": 0
+                            },
+                            {
+                                "aid": 47,
+                                "qid": 34,
+                                "code": "A24",
+                                "sortorder": 4,
+                                "assessment_value": 1,
+                                "scale_id": 1
+                            }
+                        ]
+                    },
+                    {
+                        "qid": 57,
+                        "parent_qid": 0,
+                        "sid": 282267,
+                        "type": "1",
+                        "title": "q12",
+                        "preg": "",
+                        "other": false,
+                        "mandatory": false,
+                        "encrypted": false,
+                        "question_order": 18,
+                        "scale_id": 0,
+                        "same_default": null,
+                        "question_theme_name": "arrays/dualscale",
+                        "modulename": "",
+                        "gid": 3,
+                        "relevance": "",
+                        "same_script": null,
+                        "l10ns": {
+                            "de-informal": {
+                                "id": 228,
+                                "qid": 57,
+                                "question": "Dual-Matrix (Dropdown)",
+                                "script": null,
+                                "language": "de-informal"
+                            },
+                            "en": {
+                                "id": 225,
+                                "qid": 57,
+                                "question": "Array dual scale (dropdown)",
+                                "script": null,
+                                "language": "en"
+                            },
+                            "fr": {
+                                "id": 226,
+                                "qid": 57,
+                                "question": "Tableau double échelle (Double menu déroulant)",
+                                "script": null,
+                                "language": "fr"
+                            },
+                            "it": {
+                                "id": 227,
+                                "qid": 57,
+                                "question": "Array con doppia scala (menù dropdown)",
+                                "script": null,
+                                "language": "it"
+                            }
+                        },
+                        "attributes": {
+                            "dualscale_headerA": {
+                                "qaid": 61,
+                                "attribute": 0,
+                                "value": "Scale A",
+                                "language": "fr"
+                            },
+                            "dualscale_headerB": {
+                                "qaid": 64,
+                                "attribute": 0,
+                                "value": "Scale B",
+                                "language": "fr"
+                            },
+                            "use_dropdown": {
+                                "qaid": 65,
+                                "attribute": 0,
+                                "value": "1",
+                                "language": ""
+                            }
+                        },
+                        "answers": [
+                            {
+                                "aid": 48,
+                                "qid": 57,
+                                "code": "A11",
+                                "sortorder": 1,
+                                "assessment_value": 1,
+                                "scale_id": 0
+                            },
+                            {
+                                "aid": 52,
+                                "qid": 57,
+                                "code": "A21",
+                                "sortorder": 1,
+                                "assessment_value": 1,
+                                "scale_id": 1
+                            },
+                            {
+                                "aid": 49,
+                                "qid": 57,
+                                "code": "A12",
+                                "sortorder": 2,
+                                "assessment_value": 1,
+                                "scale_id": 0
+                            },
+                            {
+                                "aid": 53,
+                                "qid": 57,
+                                "code": "A22",
+                                "sortorder": 2,
+                                "assessment_value": 1,
+                                "scale_id": 1
+                            },
+                            {
+                                "aid": 50,
+                                "qid": 57,
+                                "code": "A13",
+                                "sortorder": 3,
+                                "assessment_value": 1,
+                                "scale_id": 0
+                            },
+                            {
+                                "aid": 54,
+                                "qid": 57,
+                                "code": "A23",
+                                "sortorder": 3,
+                                "assessment_value": 1,
+                                "scale_id": 1
+                            },
+                            {
+                                "aid": 51,
+                                "qid": 57,
+                                "code": "A14",
+                                "sortorder": 4,
+                                "assessment_value": 1,
+                                "scale_id": 0
+                            },
+                            {
+                                "aid": 55,
+                                "qid": 57,
+                                "code": "A24",
+                                "sortorder": 4,
+                                "assessment_value": 1,
+                                "scale_id": 1
+                            }
+                        ]
+                    },
+                    {
+                        "qid": 36,
+                        "parent_qid": 0,
+                        "sid": 282267,
+                        "type": ":",
+                        "title": "AN",
+                        "preg": "",
+                        "other": false,
+                        "mandatory": false,
+                        "encrypted": false,
+                        "question_order": 21,
+                        "scale_id": 0,
+                        "same_default": null,
+                        "question_theme_name": "arrays/multiflexi",
+                        "modulename": "",
+                        "gid": 3,
+                        "relevance": "",
+                        "same_script": null,
+                        "l10ns": {
+                            "de-informal": {
+                                "id": 143,
+                                "qid": 36,
+                                "question": "Zahlenmatrix ( Minimum: -2, Maximum: 2, Schrittweite: 2)",
+                                "script": null,
+                                "language": "de-informal"
+                            },
+                            "en": {
+                                "id": 142,
+                                "qid": 36,
+                                "question": "Array number ( Minimum: -2, Maximum: 2, step : 2)",
+                                "script": null,
+                                "language": "en"
+                            },
+                            "fr": {
+                                "id": 141,
+                                "qid": 36,
+                                "question": "Tableau (Nombres) ( Valeur minimum: -2, Valeur maximum: 2, Valeur du pas : 2)",
+                                "script": null,
+                                "language": "fr"
+                            },
+                            "it": {
+                                "id": 144,
+                                "qid": 36,
+                                "question": "Array (Numeri) - (Minimo: -2, Massimo: 2, Passo : 2)",
+                                "script": null,
+                                "language": "it"
+                            }
+                        },
+                        "attributes": {
+                            "multiflexible_max": {
+                                "qaid": 48,
+                                "attribute": 0,
+                                "value": "2",
+                                "language": ""
+                            },
+                            "multiflexible_min": {
+                                "qaid": 49,
+                                "attribute": 0,
+                                "value": "-2",
+                                "language": ""
+                            },
+                            "multiflexible_step": {
+                                "qaid": 50,
+                                "attribute": 0,
+                                "value": "2",
+                                "language": ""
+                            }
+                        },
+                        "answers": []
+                    }
+                ]
+            },
+            {
+                "gid": 4,
+                "sid": 282267,
+                "group_order": 3,
+                "randomization_group": "",
+                "grelevance": "",
+                "l10ns": {
+                    "de-informal": {
+                        "id": 13,
+                        "gid": 4,
+                        "group_name": "Mehrfachauswahl",
+                        "description": "r453q26ier steht die Beschreibung für die Gruppe der Mehrfachauswahl-Fragen.",
+                        "language": "de-informal"
+                    },
+                    "en": {
+                        "id": 15,
+                        "gid": 4,
+                        "group_name": "Multi choice question",
+                        "description": "This is the description for multi choice question",
+                        "language": "en"
+                    },
+                    "fr": {
+                        "id": 14,
+                        "gid": 4,
+                        "group_name": "QSuestions à réponses multiples",
+                        "description": "Ceci est la description du groupe des questions à réponses multiples",
+                        "language": "fr"
+                    },
+                    "it": {
+                        "id": 16,
+                        "gid": 4,
+                        "group_name": "Domande a scelta multipla",
+                        "description": "Questa è la descrizione del gruppo di domande a scelta multipla",
+                        "language": "it"
+                    }
+                },
+                "questions": [
+                    {
+                        "qid": 20,
+                        "parent_qid": 0,
+                        "sid": 282267,
+                        "type": "M",
+                        "title": "M",
+                        "preg": "",
+                        "other": true,
+                        "mandatory": false,
+                        "encrypted": false,
+                        "question_order": 0,
+                        "scale_id": 0,
+                        "same_default": null,
+                        "question_theme_name": "multiplechoice",
+                        "modulename": "",
+                        "gid": 4,
+                        "relevance": "",
+                        "same_script": null,
+                        "l10ns": {
+                            "de-informal": {
+                                "id": 79,
+                                "qid": 20,
+                                "question": "Mehrfachauswahl",
+                                "script": null,
+                                "language": "de-informal"
+                            },
+                            "en": {
+                                "id": 78,
+                                "qid": 20,
+                                "question": "Multiple options",
+                                "script": null,
+                                "language": "en"
+                            },
+                            "fr": {
+                                "id": 77,
+                                "qid": 20,
+                                "question": "Multiples cases à cocher",
+                                "script": null,
+                                "language": "fr"
+                            },
+                            "it": {
+                                "id": 80,
+                                "qid": 20,
+                                "question": "Scelte multiple",
+                                "script": null,
+                                "language": "it"
+                            }
+                        },
+                        "attributes": {
+                            "display_columns": {
+                                "qaid": 23,
+                                "attribute": 0,
+                                "value": "1",
+                                "language": ""
+                            }
+                        },
+                        "answers": []
+                    },
+                    {
+                        "qid": 21,
+                        "parent_qid": 0,
+                        "sid": 282267,
+                        "type": "M",
+                        "title": "moe",
+                        "preg": "",
+                        "other": false,
+                        "mandatory": true,
+                        "encrypted": false,
+                        "question_order": 1,
+                        "scale_id": 0,
+                        "same_default": null,
+                        "question_theme_name": "multiplechoice",
+                        "modulename": "",
+                        "gid": 4,
+                        "relevance": "",
+                        "same_script": null,
+                        "l10ns": {
+                            "de-informal": {
+                                "id": 83,
+                                "qid": 21,
+                                "question": "<p>Mehrfachauswahl (mit Exklusivauswahl)</p>\n",
+                                "script": null,
+                                "language": "de-informal"
+                            },
+                            "en": {
+                                "id": 82,
+                                "qid": 21,
+                                "question": "Multiple option (with exclusive option)",
+                                "script": null,
+                                "language": "en"
+                            },
+                            "fr": {
+                                "id": 81,
+                                "qid": 21,
+                                "question": "Multiples cases à cocher (avec Option d'exclusion)",
+                                "script": null,
+                                "language": "fr"
+                            },
+                            "it": {
+                                "id": 84,
+                                "qid": 21,
+                                "question": "Scelta multipla (con opzione esclusiva)",
+                                "script": null,
+                                "language": "it"
+                            }
+                        },
+                        "attributes": {
+                            "exclude_all_others": {
+                                "qaid": 24,
+                                "attribute": 0,
+                                "value": "SQ05",
+                                "language": ""
+                            }
+                        },
+                        "answers": []
+                    },
+                    {
+                        "qid": 22,
+                        "parent_qid": 0,
+                        "sid": 282267,
+                        "type": "P",
+                        "title": "K",
+                        "preg": "",
+                        "other": false,
+                        "mandatory": false,
+                        "encrypted": false,
+                        "question_order": 2,
+                        "scale_id": 0,
+                        "same_default": null,
+                        "question_theme_name": "multiplechoice_with_comments",
+                        "modulename": "",
+                        "gid": 4,
+                        "relevance": "",
+                        "same_script": null,
+                        "l10ns": {
+                            "de-informal": {
+                                "id": 87,
+                                "qid": 22,
+                                "question": "Mehrfachauswahl mit Kommentarfeldern (Defaultantworten und Minimum Antworten = 1)",
+                                "script": null,
+                                "language": "de-informal"
+                            },
+                            "en": {
+                                "id": 86,
+                                "qid": 22,
+                                "question": "Multiple option with comments (default answers and 1 Minimum Answer)",
+                                "script": null,
+                                "language": "en"
+                            },
+                            "fr": {
+                                "id": 85,
+                                "qid": 22,
+                                "question": "Multiples cases à cocher avec commentaires (Valeurs par défaut et nombre de réponses minimum)",
+                                "script": null,
+                                "language": "fr"
+                            },
+                            "it": {
+                                "id": 88,
+                                "qid": 22,
+                                "question": "Scelta multipla con commenti (risposte di default e 1 risposta minima)",
+                                "script": null,
+                                "language": "it"
+                            }
+                        },
+                        "attributes": {
+                            "min_answers": {
+                                "qaid": 25,
+                                "attribute": 0,
+                                "value": "1",
+                                "language": ""
+                            }
+                        },
+                        "answers": []
+                    },
+                    {
+                        "qid": 40,
+                        "parent_qid": 0,
+                        "sid": 282267,
+                        "type": "X",
+                        "title": "XB",
+                        "preg": "",
+                        "other": false,
+                        "mandatory": false,
+                        "encrypted": false,
+                        "question_order": 3,
+                        "scale_id": 0,
+                        "same_default": null,
+                        "question_theme_name": "boilerplate",
+                        "modulename": "",
+                        "gid": 4,
+                        "relevance": "",
+                        "same_script": null,
+                        "l10ns": {
+                            "de-informal": {
+                                "id": 159,
+                                "qid": 40,
+                                "question": "Wenn Fragen die gleichen Antwortoptionen nutzen, kann eine Frage vom Typ Array genutzt werden.",
+                                "script": null,
+                                "language": "de-informal"
+                            },
+                            "en": {
+                                "id": 158,
+                                "qid": 40,
+                                "question": "If some question have the same option, you can use array to show a question list.",
+                                "script": null,
+                                "language": "en"
+                            },
+                            "fr": {
+                                "id": 157,
+                                "qid": 40,
+                                "question": "Si certaines questions ont les mêmes options, il est possible d'utiliser un tableau pour représenter les différentes questions.",
+                                "script": null,
+                                "language": "fr"
+                            },
+                            "it": {
+                                "id": 160,
+                                "qid": 40,
+                                "question": "<p>Se alcune domande hanno le stesse opzioni, puoi usare un array per mostrare la lista di domande.</p>\n\n<p> </p>\n",
+                                "script": null,
+                                "language": "it"
+                            }
+                        },
+                        "attributes": [],
+                        "answers": []
+                    },
+                    {
+                        "qid": 33,
+                        "parent_qid": 0,
+                        "sid": 282267,
+                        "type": ":",
+                        "title": "arn",
+                        "preg": "",
+                        "other": false,
+                        "mandatory": false,
+                        "encrypted": false,
+                        "question_order": 4,
+                        "scale_id": 0,
+                        "same_default": null,
+                        "question_theme_name": "arrays/multiflexi",
+                        "modulename": "",
+                        "gid": 4,
+                        "relevance": "",
+                        "same_script": null,
+                        "l10ns": {
+                            "de-informal": {
+                                "id": 131,
+                                "qid": 33,
+                                "question": "Array Zahlen (0/1) (Checkbox-Layout)",
+                                "script": null,
+                                "language": "de-informal"
+                            },
+                            "en": {
+                                "id": 129,
+                                "qid": 33,
+                                "question": "Array Numbers (Checkbox layout)",
+                                "script": null,
+                                "language": "en"
+                            },
+                            "fr": {
+                                "id": 130,
+                                "qid": 33,
+                                "question": "Tableau (Nombres) (Utilisation de cases à cocher)",
+                                "script": null,
+                                "language": "fr"
+                            },
+                            "it": {
+                                "id": 132,
+                                "qid": 33,
+                                "question": "Array Numeri (con layout del Checkbox)",
+                                "script": null,
+                                "language": "it"
+                            }
+                        },
+                        "attributes": {
+                            "multiflexible_checkbox": {
+                                "qaid": 41,
+                                "attribute": 0,
+                                "value": "1",
+                                "language": ""
+                            }
+                        },
+                        "answers": []
+                    },
+                    {
+                        "qid": 41,
+                        "parent_qid": 0,
+                        "sid": 282267,
+                        "type": "X",
+                        "title": "XC",
+                        "preg": "",
+                        "other": false,
+                        "mandatory": false,
+                        "encrypted": false,
+                        "question_order": 5,
+                        "scale_id": 0,
+                        "same_default": null,
+                        "question_theme_name": "boilerplate",
+                        "modulename": "",
+                        "gid": 4,
+                        "relevance": "",
+                        "same_script": null,
+                        "l10ns": {
+                            "de-informal": {
+                                "id": 163,
+                                "qid": 41,
+                                "question": "Mehrfachauswahl als Ranking-Fragetyp",
+                                "script": null,
+                                "language": "de-informal"
+                            },
+                            "en": {
+                                "id": 161,
+                                "qid": 41,
+                                "question": "Multichoice question with ranking option",
+                                "script": null,
+                                "language": "en"
+                            },
+                            "fr": {
+                                "id": 162,
+                                "qid": 41,
+                                "question": "Réponses multiples avec notion d'ordre",
+                                "script": null,
+                                "language": "fr"
+                            },
+                            "it": {
+                                "id": 164,
+                                "qid": 41,
+                                "question": "Domande a scelta multipla con opzione di Classifica",
+                                "script": null,
+                                "language": "it"
+                            }
+                        },
+                        "attributes": [],
+                        "answers": []
+                    },
+                    {
+                        "qid": 25,
+                        "parent_qid": 0,
+                        "sid": 282267,
+                        "type": "R",
+                        "title": "R",
+                        "preg": "",
+                        "other": false,
+                        "mandatory": false,
+                        "encrypted": false,
+                        "question_order": 6,
+                        "scale_id": 0,
+                        "same_default": null,
+                        "question_theme_name": "ranking",
+                        "modulename": "",
+                        "gid": 4,
+                        "relevance": "",
+                        "same_script": null,
+                        "l10ns": {
+                            "de-informal": {
+                                "id": 99,
+                                "qid": 25,
+                                "question": "Ranking",
+                                "script": null,
+                                "language": "de-informal"
+                            },
+                            "en": {
+                                "id": 98,
+                                "qid": 25,
+                                "question": "Ranking",
+                                "script": null,
+                                "language": "en"
+                            },
+                            "fr": {
+                                "id": 97,
+                                "qid": 25,
+                                "question": "Classement",
+                                "script": null,
+                                "language": "fr"
+                            },
+                            "it": {
+                                "id": 100,
+                                "qid": 25,
+                                "question": "Classifica",
+                                "script": null,
+                                "language": "it"
+                            }
+                        },
+                        "attributes": {
+                            "max_subquestions": {
+                                "qaid": 29,
+                                "attribute": 0,
+                                "value": "4",
+                                "language": ""
+                            }
+                        },
+                        "answers": [
+                            {
+                                "aid": 36,
+                                "qid": 25,
+                                "code": "A1",
+                                "sortorder": 1,
+                                "assessment_value": 1,
+                                "scale_id": 0
+                            },
+                            {
+                                "aid": 35,
+                                "qid": 25,
+                                "code": "A2",
+                                "sortorder": 2,
+                                "assessment_value": 1,
+                                "scale_id": 0
+                            },
+                            {
+                                "aid": 27,
+                                "qid": 25,
+                                "code": "A3",
+                                "sortorder": 3,
+                                "assessment_value": 1,
+                                "scale_id": 0
+                            },
+                            {
+                                "aid": 2,
+                                "qid": 25,
+                                "code": "A4",
+                                "sortorder": 4,
+                                "assessment_value": 1,
+                                "scale_id": 0
+                            }
+                        ]
+                    },
+                    {
+                        "qid": 39,
+                        "parent_qid": 0,
+                        "sid": 282267,
+                        "type": "R",
+                        "title": "R1",
+                        "preg": "",
+                        "other": false,
+                        "mandatory": false,
+                        "encrypted": false,
+                        "question_order": 7,
+                        "scale_id": 0,
+                        "same_default": null,
+                        "question_theme_name": "ranking",
+                        "modulename": "",
+                        "gid": 4,
+                        "relevance": "",
+                        "same_script": null,
+                        "l10ns": {
+                            "de-informal": {
+                                "id": 155,
+                                "qid": 39,
+                                "question": "Ranking (Minimale und maximale Antwortanzahl)",
+                                "script": null,
+                                "language": "de-informal"
+                            },
+                            "en": {
+                                "id": 154,
+                                "qid": 39,
+                                "question": "Ranking (minimum and maximum answer)",
+                                "script": null,
+                                "language": "en"
+                            },
+                            "fr": {
+                                "id": 153,
+                                "qid": 39,
+                                "question": "Classement (Nombre de réponses minimum et maximum, ordre aléatoire)",
+                                "script": null,
+                                "language": "fr"
+                            },
+                            "it": {
+                                "id": 156,
+                                "qid": 39,
+                                "question": "Classifica (risposte minime e massime=2)",
+                                "script": null,
+                                "language": "it"
+                            }
+                        },
+                        "attributes": {
+                            "max_answers": {
+                                "qaid": 51,
+                                "attribute": 0,
+                                "value": "2",
+                                "language": ""
+                            },
+                            "max_subquestions": {
+                                "qaid": 52,
+                                "attribute": 0,
+                                "value": "4",
+                                "language": ""
+                            },
+                            "min_answers": {
+                                "qaid": 53,
+                                "attribute": 0,
+                                "value": "2",
+                                "language": ""
+                            },
+                            "answer_order": {
+                                "qaid": 66,
+                                "attribute": 0,
+                                "value": "random",
+                                "language": null
+                            }
+                        },
+                        "answers": [
+                            {
+                                "aid": 26,
+                                "qid": 39,
+                                "code": "A1",
+                                "sortorder": 1,
+                                "assessment_value": 1,
+                                "scale_id": 0
+                            },
+                            {
+                                "aid": 10,
+                                "qid": 39,
+                                "code": "A2",
+                                "sortorder": 2,
+                                "assessment_value": 1,
+                                "scale_id": 0
+                            },
+                            {
+                                "aid": 9,
+                                "qid": 39,
+                                "code": "A3",
+                                "sortorder": 3,
+                                "assessment_value": 1,
+                                "scale_id": 0
+                            },
+                            {
+                                "aid": 13,
+                                "qid": 39,
+                                "code": "A4",
+                                "sortorder": 4,
+                                "assessment_value": 1,
+                                "scale_id": 0
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "gid": 5,
+                "sid": 282267,
+                "group_order": 4,
+                "randomization_group": "",
+                "grelevance": "",
+                "l10ns": {
+                    "de-informal": {
+                        "id": 17,
+                        "gid": 5,
+                        "group_name": "Bedingungen und Filter",
+                        "description": "<p>Limesurvey unterstützt eine Vielzahl von Bedingungen und Filtern zum Anzeigen und Vestecken von Fragen. Dies umfasst Bedingungen mit UND- sowie ODER-Verknüpfungen. Weitere Informationen finden sich in der <small><a href=\"manual.limesurvey.org/Conditions_Engine\" lang=\"en\" target=\"_blank\">LimeSurvey Dokumentation</a></small>.</p>\n",
+                        "language": "de-informal"
+                    },
+                    "en": {
+                        "id": 18,
+                        "gid": 5,
+                        "group_name": "Condition and scenario",
+                        "description": "<p>LimeSurvey can use a lot of condition and filter to show or hide question. You an use AND or OR condition. You can use previous question answers and tokens.</p>\n\n<p><small>More information : <a href=\"http://manual.limesurvey.org/Conditions_Engine\">Conditions Engine</a> and <a href=\"http://manual.limesurvey.org/Expression_Manager\">expression manager</a></small></p>\n",
+                        "language": "en"
+                    },
+                    "fr": {
+                        "id": 19,
+                        "gid": 5,
+                        "group_name": "Conditions and scenario",
+                        "description": "<p>LimeSurvey peut utiliser de nombreuses conditions et filtres pour masquer certaines questions. Il est possible d'utiliser des conditions de type OR ou AND. Vous pouvez utiliser les réponses précédentes mais aussi les attributs des invitations.</p>\n\n<p><small>Plus d'informations : <a href=\"http://manual.limesurvey.org/Conditions_Engine\">le gestionnaire de conditions</a> et le <a href=\"http://manual.limesurvey.org/Expression_Manager\">gestionnaire d'expressions</a></small></p>\n",
+                        "language": "fr"
+                    },
+                    "it": {
+                        "id": 20,
+                        "gid": 5,
+                        "group_name": "Condizioni e scenari",
+                        "description": "<p>LimeSurvey consente l'utilizzo di molte condizioni e filtri per nascondere e mostrare domande. Puoi usare le condizioni in AND e in OR, e utilizzare le risposte fornite alle domande precedenti oppure le informazioni dei partecipanti (tokens).</p>\n<small>Ulteriori informazioni : <a href=\"http://manual.limesurvey.org/Conditions_Engine\">Conditions Engine</a> e <a href=\"http://manual.limesurvey.org/Expression_Manager\">expression manager</a></small>",
+                        "language": "it"
+                    }
+                },
+                "questions": [
+                    {
+                        "qid": 42,
+                        "parent_qid": 0,
+                        "sid": 282267,
+                        "type": "Y",
+                        "title": "QC",
+                        "preg": "",
+                        "other": false,
+                        "mandatory": false,
+                        "encrypted": false,
+                        "question_order": 0,
+                        "scale_id": 0,
+                        "same_default": null,
+                        "question_theme_name": "yesno",
+                        "modulename": "",
+                        "gid": 5,
+                        "relevance": "",
+                        "same_script": null,
+                        "l10ns": {
+                            "de-informal": {
+                                "id": 167,
+                                "qid": 42,
+                                "question": "Eine Ja/Nein Pflichtfrage, die Folgefragen anziegt/versteckt je nach Auswahl.",
+                                "script": null,
+                                "language": "de-informal"
+                            },
+                            "en": {
+                                "id": 165,
+                                "qid": 42,
+                                "question": "A Yes/No non mandatory question to show or hide next question.",
+                                "script": null,
+                                "language": "en"
+                            },
+                            "fr": {
+                                "id": 166,
+                                "qid": 42,
+                                "question": "Une question oui/non pour afficher ou masquer les réponses suivantes",
+                                "script": null,
+                                "language": "fr"
+                            },
+                            "it": {
+                                "id": 168,
+                                "qid": 42,
+                                "question": "<p>Questa è una domanda Si/No non obbligatoria per nescondere o mostrare la domanda successiva</p>\n",
+                                "script": null,
+                                "language": "it"
+                            }
+                        },
+                        "attributes": [],
+                        "answers": []
+                    },
+                    {
+                        "qid": 43,
+                        "parent_qid": 0,
+                        "sid": 282267,
+                        "type": "X",
+                        "title": "QCYes",
+                        "preg": "",
+                        "other": false,
+                        "mandatory": false,
+                        "encrypted": false,
+                        "question_order": 1,
+                        "scale_id": 0,
+                        "same_default": null,
+                        "question_theme_name": "boilerplate",
+                        "modulename": "",
+                        "gid": 5,
+                        "relevance": "((QC.NAOK == \"Y\"))",
+                        "same_script": null,
+                        "l10ns": {
+                            "de-informal": {
+                                "id": 171,
+                                "qid": 43,
+                                "question": "Diese Frage wird nur angezeigt, wenn zuvor \"Ja\" ausgewählt wurde.",
+                                "script": null,
+                                "language": "de-informal"
+                            },
+                            "en": {
+                                "id": 170,
+                                "qid": 43,
+                                "question": "This is displayed only if you select yes.",
+                                "script": null,
+                                "language": "en"
+                            },
+                            "fr": {
+                                "id": 169,
+                                "qid": 43,
+                                "question": "Ceci est affiché uniquement si vous sélectionnez OUI.",
+                                "script": null,
+                                "language": "fr"
+                            },
+                            "it": {
+                                "id": 172,
+                                "qid": 43,
+                                "question": "Questo viene visualizzato solo se si seleziona Sì.",
+                                "script": null,
+                                "language": "it"
+                            }
+                        },
+                        "attributes": [],
+                        "answers": []
+                    },
+                    {
+                        "qid": 44,
+                        "parent_qid": 0,
+                        "sid": 282267,
+                        "type": "X",
+                        "title": "QCNo",
+                        "preg": "",
+                        "other": false,
+                        "mandatory": false,
+                        "encrypted": false,
+                        "question_order": 2,
+                        "scale_id": 0,
+                        "same_default": null,
+                        "question_theme_name": "boilerplate",
+                        "modulename": "",
+                        "gid": 5,
+                        "relevance": "((QC.NAOK == \"N\"))",
+                        "same_script": null,
+                        "l10ns": {
+                            "de-informal": {
+                                "id": 173,
+                                "qid": 44,
+                                "question": "Diese Frage wird nur angezeigt, wenn zuvor \"Nein\" gewählt wurde.",
+                                "script": null,
+                                "language": "de-informal"
+                            },
+                            "en": {
+                                "id": 174,
+                                "qid": 44,
+                                "question": "This is displayed only if you select no.",
+                                "script": null,
+                                "language": "en"
+                            },
+                            "fr": {
+                                "id": 175,
+                                "qid": 44,
+                                "question": "Ceci est affiché si vous sélectionnez Non",
+                                "script": null,
+                                "language": "fr"
+                            },
+                            "it": {
+                                "id": 176,
+                                "qid": 44,
+                                "question": "Questo viene visualizzato solo se si seleziona No.",
+                                "script": null,
+                                "language": "it"
+                            }
+                        },
+                        "attributes": [],
+                        "answers": []
+                    },
+                    {
+                        "qid": 45,
+                        "parent_qid": 0,
+                        "sid": 282267,
+                        "type": "X",
+                        "title": "QCDefault",
+                        "preg": "",
+                        "other": false,
+                        "mandatory": false,
+                        "encrypted": false,
+                        "question_order": 3,
+                        "scale_id": 0,
+                        "same_default": null,
+                        "question_theme_name": "boilerplate",
+                        "modulename": "",
+                        "gid": 5,
+                        "relevance": "((is_empty(QC.NAOK)))",
+                        "same_script": null,
+                        "l10ns": {
+                            "de-informal": {
+                                "id": 177,
+                                "qid": 45,
+                                "question": "Diese Frage wird nur angezeigt, wenn \"keine Antwort\" gewählt wurde (Default).",
+                                "script": null,
+                                "language": "de-informal"
+                            },
+                            "en": {
+                                "id": 178,
+                                "qid": 45,
+                                "question": "This is displayed only if no answer is checked. (by default)",
+                                "script": null,
+                                "language": "en"
+                            },
+                            "fr": {
+                                "id": 179,
+                                "qid": 45,
+                                "question": "Ceci est affiché en cas de Non réponse, donc affiché par défaut",
+                                "script": null,
+                                "language": "fr"
+                            },
+                            "it": {
+                                "id": 180,
+                                "qid": 45,
+                                "question": "Questo è visualizzato solo se nessuna risposta è selezionata. (default)",
+                                "script": null,
+                                "language": "it"
+                            }
+                        },
+                        "attributes": [],
+                        "answers": []
+                    },
+                    {
+                        "qid": 54,
+                        "parent_qid": 0,
+                        "sid": 282267,
+                        "type": "X",
+                        "title": "QEMYes",
+                        "preg": "",
+                        "other": false,
+                        "mandatory": false,
+                        "encrypted": false,
+                        "question_order": 4,
+                        "scale_id": 0,
+                        "same_default": null,
+                        "question_theme_name": "boilerplate",
+                        "modulename": "",
+                        "gid": 5,
+                        "relevance": "QC.NAOK == \"Y\"",
+                        "same_script": null,
+                        "l10ns": {
+                            "de-informal": {
+                                "id": 215,
+                                "qid": 54,
+                                "question": "Diese Frage wird nur angezeigt, wenn zuvor \"Ja\" ausgewählt wurde.",
+                                "script": null,
+                                "language": "de-informal"
+                            },
+                            "en": {
+                                "id": 213,
+                                "qid": 54,
+                                "question": "This is displayed only if you select yes.",
+                                "script": null,
+                                "language": "en"
+                            },
+                            "fr": {
+                                "id": 214,
+                                "qid": 54,
+                                "question": "Ceci est affiché uniquement si vous sélectionnez OUI.",
+                                "script": null,
+                                "language": "fr"
+                            },
+                            "it": {
+                                "id": 216,
+                                "qid": 54,
+                                "question": "Questo viene visualizzato solo se si seleziona Sì.",
+                                "script": null,
+                                "language": "it"
+                            }
+                        },
+                        "attributes": [],
+                        "answers": []
+                    },
+                    {
+                        "qid": 55,
+                        "parent_qid": 0,
+                        "sid": 282267,
+                        "type": "X",
+                        "title": "QEMNo",
+                        "preg": "",
+                        "other": false,
+                        "mandatory": false,
+                        "encrypted": false,
+                        "question_order": 5,
+                        "scale_id": 0,
+                        "same_default": null,
+                        "question_theme_name": "boilerplate",
+                        "modulename": "",
+                        "gid": 5,
+                        "relevance": "QC.NAOK == \"N\"",
+                        "same_script": null,
+                        "l10ns": {
+                            "de-informal": {
+                                "id": 219,
+                                "qid": 55,
+                                "question": "Diese Frage wird nur angezeigt, wenn zuvor \"Nein\" gewählt wurde.",
+                                "script": null,
+                                "language": "de-informal"
+                            },
+                            "en": {
+                                "id": 217,
+                                "qid": 55,
+                                "question": "This is displayed only if you select no.",
+                                "script": null,
+                                "language": "en"
+                            },
+                            "fr": {
+                                "id": 218,
+                                "qid": 55,
+                                "question": "Ceci est affiché si vous sélectionnez Non",
+                                "script": null,
+                                "language": "fr"
+                            },
+                            "it": {
+                                "id": 220,
+                                "qid": 55,
+                                "question": "Questo viene visualizzato solo se si seleziona No.",
+                                "script": null,
+                                "language": "it"
+                            }
+                        },
+                        "attributes": [],
+                        "answers": []
+                    },
+                    {
+                        "qid": 56,
+                        "parent_qid": 0,
+                        "sid": 282267,
+                        "type": "X",
+                        "title": "QEMDefault",
+                        "preg": "",
+                        "other": false,
+                        "mandatory": false,
+                        "encrypted": false,
+                        "question_order": 6,
+                        "scale_id": 0,
+                        "same_default": null,
+                        "question_theme_name": "boilerplate",
+                        "modulename": "",
+                        "gid": 5,
+                        "relevance": "is_empty(QC.NAOK)",
+                        "same_script": null,
+                        "l10ns": {
+                            "de-informal": {
+                                "id": 223,
+                                "qid": 56,
+                                "question": "Diese Frage wird nur angezeigt, wenn \"keine Antwort\" gewählt wurde (Default).",
+                                "script": null,
+                                "language": "de-informal"
+                            },
+                            "en": {
+                                "id": 221,
+                                "qid": 56,
+                                "question": "This is displayed only if no answer is checked. (by default)",
+                                "script": null,
+                                "language": "en"
+                            },
+                            "fr": {
+                                "id": 222,
+                                "qid": 56,
+                                "question": "Ceci est affiché en cas de Non réponse, donc affiché par défaut",
+                                "script": null,
+                                "language": "fr"
+                            },
+                            "it": {
+                                "id": 224,
+                                "qid": 56,
+                                "question": "Questo è visualizzato solo se nessuna risposta è selezionata. (default)",
+                                "script": null,
+                                "language": "it"
+                            }
+                        },
+                        "attributes": [],
+                        "answers": []
+                    },
+                    {
+                        "qid": 46,
+                        "parent_qid": 0,
+                        "sid": 282267,
+                        "type": "M",
+                        "title": "QCS1",
+                        "preg": "",
+                        "other": false,
+                        "mandatory": false,
+                        "encrypted": false,
+                        "question_order": 7,
+                        "scale_id": 0,
+                        "same_default": null,
+                        "question_theme_name": "multiplechoice",
+                        "modulename": "",
+                        "gid": 5,
+                        "relevance": "",
+                        "same_script": null,
+                        "l10ns": {
+                            "de-informal": {
+                                "id": 182,
+                                "qid": 46,
+                                "question": "Für komplexe Bedingungen können Szenarien genutzt werden.",
+                                "script": null,
+                                "language": "de-informal"
+                            },
+                            "en": {
+                                "id": 183,
+                                "qid": 46,
+                                "question": "For complex condition , you can use scenario.",
+                                "script": null,
+                                "language": "en"
+                            },
+                            "fr": {
+                                "id": 181,
+                                "qid": 46,
+                                "question": "Pour des conditions plus complexes , il est possible d'utiliser les scénarios.",
+                                "script": null,
+                                "language": "fr"
+                            },
+                            "it": {
+                                "id": 184,
+                                "qid": 46,
+                                "question": "Per condizioni complesse è possibile usare gli Scenari nel pannello delle condizioni.",
+                                "script": null,
+                                "language": "it"
+                            }
+                        },
+                        "attributes": {
+                            "display_columns": {
+                                "qaid": 54,
+                                "attribute": 0,
+                                "value": "1",
+                                "language": ""
+                            }
+                        },
+                        "answers": []
+                    },
+                    {
+                        "qid": 47,
+                        "parent_qid": 0,
+                        "sid": 282267,
+                        "type": "M",
+                        "title": "QCS2",
+                        "preg": "",
+                        "other": false,
+                        "mandatory": false,
+                        "encrypted": false,
+                        "question_order": 8,
+                        "scale_id": 0,
+                        "same_default": null,
+                        "question_theme_name": "multiplechoice",
+                        "modulename": "",
+                        "gid": 5,
+                        "relevance": "",
+                        "same_script": null,
+                        "l10ns": {
+                            "de-informal": {
+                                "id": 185,
+                                "qid": 47,
+                                "question": "Zeige Fragen 1 und 2 je nach erfüllter Bedingung.",
+                                "script": null,
+                                "language": "de-informal"
+                            },
+                            "en": {
+                                "id": 186,
+                                "qid": 47,
+                                "question": "Display question 1 and 2 under condition.",
+                                "script": null,
+                                "language": "en"
+                            },
+                            "fr": {
+                                "id": 187,
+                                "qid": 47,
+                                "question": "Afficher la question 1 ou 2 selon les conditions",
+                                "script": null,
+                                "language": "fr"
+                            },
+                            "it": {
+                                "id": 188,
+                                "qid": 47,
+                                "question": "Viasualizza le domande 1 e 2 con le condizioni.",
+                                "script": null,
+                                "language": "it"
+                            }
+                        },
+                        "attributes": {
+                            "display_columns": {
+                                "qaid": 55,
+                                "attribute": 0,
+                                "value": "1",
+                                "language": ""
+                            }
+                        },
+                        "answers": []
+                    },
+                    {
+                        "qid": 50,
+                        "parent_qid": 0,
+                        "sid": 282267,
+                        "type": "Y",
+                        "title": "QCS3",
+                        "preg": "",
+                        "other": false,
+                        "mandatory": true,
+                        "encrypted": false,
+                        "question_order": 9,
+                        "scale_id": 0,
+                        "same_default": null,
+                        "question_theme_name": "yesno",
+                        "modulename": "",
+                        "gid": 5,
+                        "relevance": "((282267X5X46SH101.NAOK == \"Y\" or 282267X5X46SH102.NAOK == \"Y\")) or ((282267X5X47SQ201.NAOK == \"Y\" or 282267X5X47SQ202.NAOK == \"Y\"))",
+                        "same_script": null,
+                        "l10ns": {
+                            "de-informal": {
+                                "id": 199,
+                                "qid": 50,
+                                "question": "Verstecke die beiden folgenden Fragen?",
+                                "script": null,
+                                "language": "de-informal"
+                            },
+                            "en": {
+                                "id": 198,
+                                "qid": 50,
+                                "question": "Hide question 1 and 2 even if you select <q>display</q> an previous question.",
+                                "script": null,
+                                "language": "en"
+                            },
+                            "fr": {
+                                "id": 197,
+                                "qid": 50,
+                                "question": "Cacher les questions 1 et 2 même si vous avez coché <q>Afficher</q> sur l'une des questions précédentes.",
+                                "script": null,
+                                "language": "fr"
+                            },
+                            "it": {
+                                "id": 200,
+                                "qid": 50,
+                                "question": "Nasconde le domande 1 e 2 anche se hai selezionato \"visualizza\" alla domanda precedente.",
+                                "script": null,
+                                "language": "it"
+                            }
+                        },
+                        "attributes": [],
+                        "answers": []
+                    },
+                    {
+                        "qid": 48,
+                        "parent_qid": 0,
+                        "sid": 282267,
+                        "type": "X",
+                        "title": "CC01",
+                        "preg": "",
+                        "other": false,
+                        "mandatory": false,
+                        "encrypted": false,
+                        "question_order": 10,
+                        "scale_id": 0,
+                        "same_default": null,
+                        "question_theme_name": "boilerplate",
+                        "modulename": "",
+                        "gid": 5,
+                        "relevance": "((QCS1_SH101.NAOK == \"Y\") and (QCS3.NAOK != \"Y\")) or ((282267X5X47SQ201.NAOK == \"Y\") and (QCS3.NAOK != \"Y\"))",
+                        "same_script": null,
+                        "l10ns": {
+                            "de-informal": {
+                                "id": 191,
+                                "qid": 48,
+                                "question": "Frage 1: Wird angezeigt bei entsprechender Auswahl der vorherigen Mehrfachauswahl.",
+                                "script": null,
+                                "language": "de-informal"
+                            },
+                            "en": {
+                                "id": 190,
+                                "qid": 48,
+                                "question": "Question 1 : displayed if you select <q>Show question 1</q> at one of previous question",
+                                "script": null,
+                                "language": "en"
+                            },
+                            "fr": {
+                                "id": 189,
+                                "qid": 48,
+                                "question": "Question 1 : affichée si vous sélectionner <q>Afficher la question 1</q> sur l'une des questions précédentes.",
+                                "script": null,
+                                "language": "fr"
+                            },
+                            "it": {
+                                "id": 192,
+                                "qid": 48,
+                                "question": "<p>Domanda 1: è visualizzata se si seleziona \"Visualizza domanda 1\" in una delle domande precedenti</p>\n",
+                                "script": null,
+                                "language": "it"
+                            }
+                        },
+                        "attributes": [],
+                        "answers": []
+                    },
+                    {
+                        "qid": 49,
+                        "parent_qid": 0,
+                        "sid": 282267,
+                        "type": "X",
+                        "title": "QC02",
+                        "preg": "",
+                        "other": false,
+                        "mandatory": false,
+                        "encrypted": false,
+                        "question_order": 11,
+                        "scale_id": 0,
+                        "same_default": null,
+                        "question_theme_name": "boilerplate",
+                        "modulename": "",
+                        "gid": 5,
+                        "relevance": "((QCS1_SH102.NAOK == \"Y\") and (QCS3.NAOK != \"Y\")) or ((QCS2_SQ202.NAOK == \"Y\") and (QCS3.NAOK != \"Y\"))",
+                        "same_script": null,
+                        "l10ns": {
+                            "de-informal": {
+                                "id": 193,
+                                "qid": 49,
+                                "question": "Frage 2: Wird angezeigt bei entsprechender Auswahl der vorherigen Mehrfachauswahl.",
+                                "script": null,
+                                "language": "de-informal"
+                            },
+                            "en": {
+                                "id": 195,
+                                "qid": 49,
+                                "question": "Question 2 : displayed if you select <q>Show question 2</q> at one of previous question.",
+                                "script": null,
+                                "language": "en"
+                            },
+                            "fr": {
+                                "id": 194,
+                                "qid": 49,
+                                "question": "Question 2 : affichée si vous sélectionner <q>Afficher la question 1</q> sur l'une des questions précédentes.",
+                                "script": null,
+                                "language": "fr"
+                            },
+                            "it": {
+                                "id": 196,
+                                "qid": 49,
+                                "question": "Domanda 2: è visualizzata se si seleziona \"Visualizza domanda 2\" in una delle domande precedenti",
+                                "script": null,
+                                "language": "it"
+                            }
+                        },
+                        "attributes": [],
+                        "answers": []
+                    }
+                ]
+            },
+            {
+                "gid": 6,
+                "sid": 282267,
+                "group_order": 5,
+                "randomization_group": "",
+                "grelevance": "",
+                "l10ns": {
+                    "de-informal": {
+                        "id": 23,
+                        "gid": 6,
+                        "group_name": "Filter",
+                        "description": "Antwortoptionen von Folgefragen können durch das Frageattribut <a href=\"http://manual.limesurvey.org/QS:Array_filter\" lang=\"en\" target=\"_blank\">Array Filter</a><a> und </a><a href=\"http://manual.limesurvey.org/Array_filter_exclude\" lang=\"en\" target=\"_blank\">Array Filter Exclusion</a> gefiltert werden.",
+                        "language": "de-informal"
+                    },
+                    "en": {
+                        "id": 22,
+                        "gid": 6,
+                        "group_name": "Filter",
+                        "description": "You can display/hide subquestion with <a href=\"http://manual.limesurvey.org/QS:Array_filter\" lang=\"en\" target=\"_blank\">Array Filter</a> and <a href=\"http://manual.limesurvey.org/QS:Array_filter_exclude\" lang=\"en\" target=\"_blank\">Array Filter Exclusion</a>. We use Expression Manager to hide and show question too.",
+                        "language": "en"
+                    },
+                    "fr": {
+                        "id": 21,
+                        "gid": 6,
+                        "group_name": "Filtres de tableaux",
+                        "description": "Vous pouvez afficher ou masquer une série de sous question avec l'attribut <a href=\"http://manual.limesurvey.org/QS:Array_filter\" lang=\"en\" target=\"_blank\">Filtre de tableau</a> et <a href=\"http://manual.limesurvey.org/QS:Array_filter_exclude\" lang=\"en\" target=\"_blank\">Filttre d’exclusion</a>. On utilise le gestionnaire d'expression pour masquer ou montrer les questions correspondantes.",
+                        "language": "fr"
+                    },
+                    "it": {
+                        "id": 24,
+                        "gid": 6,
+                        "group_name": "Filtri",
+                        "description": "E' possibile nascondere/mostrare sottodomande usando i <a href=\"http://manual.limesurvey.org/QS:Array_filter\" lang=\"en\" target=\"_blank\">Filtri Array</a> and <a href=\"http://manual.limesurvey.org/QS:Array_filter_exclude\" lang=\"en\" target=\"_blank\">Filtri Array di Esclusione</a>. Useremo anche l'Expression Manager per nascondere e mostrare domande.",
+                        "language": "it"
+                    }
+                },
+                "questions": [
+                    {
+                        "qid": 51,
+                        "parent_qid": 0,
+                        "sid": 282267,
+                        "type": "M",
+                        "title": "AF",
+                        "preg": "",
+                        "other": false,
+                        "mandatory": false,
+                        "encrypted": false,
+                        "question_order": 0,
+                        "scale_id": 0,
+                        "same_default": null,
+                        "question_theme_name": "multiplechoice",
+                        "modulename": "",
+                        "gid": 6,
+                        "relevance": "",
+                        "same_script": null,
+                        "l10ns": {
+                            "de-informal": {
+                                "id": 203,
+                                "qid": 51,
+                                "question": "Auf Basis einer Mehrfachauswahl können Optionen in folgenden Fragen gefiltert werden.",
+                                "script": null,
+                                "language": "de-informal"
+                            },
+                            "en": {
+                                "id": 201,
+                                "qid": 51,
+                                "question": "You can filter some question with a multi choice option.",
+                                "script": null,
+                                "language": "en"
+                            },
+                            "fr": {
+                                "id": 202,
+                                "qid": 51,
+                                "question": "Une question à choix multiple permet de filtrer les sous questions suivantes",
+                                "script": null,
+                                "language": "fr"
+                            },
+                            "it": {
+                                "id": 204,
+                                "qid": 51,
+                                "question": "Puoi filtrare alcune domande con le opzioni di risposta multipla.",
+                                "script": null,
+                                "language": "it"
+                            }
+                        },
+                        "attributes": {
+                            "display_columns": {
+                                "qaid": 56,
+                                "attribute": 0,
+                                "value": "1",
+                                "language": ""
+                            }
+                        },
+                        "answers": []
+                    },
+                    {
+                        "qid": 52,
+                        "parent_qid": 0,
+                        "sid": 282267,
+                        "type": "C",
+                        "title": "FAF",
+                        "preg": "",
+                        "other": false,
+                        "mandatory": false,
+                        "encrypted": false,
+                        "question_order": 1,
+                        "scale_id": 0,
+                        "same_default": null,
+                        "question_theme_name": "arrays/yesnouncertain",
+                        "modulename": "",
+                        "gid": 6,
+                        "relevance": "count(that.AF) > 0",
+                        "same_script": null,
+                        "l10ns": {
+                            "de-informal": {
+                                "id": 207,
+                                "qid": 52,
+                                "question": "Antwortoptionen gefiltert auf Basis der Auswahl in der vorherigen Frage.",
+                                "script": null,
+                                "language": "de-informal"
+                            },
+                            "en": {
+                                "id": 205,
+                                "qid": 52,
+                                "question": "Filtered array with previous question.",
+                                "script": null,
+                                "language": "en"
+                            },
+                            "fr": {
+                                "id": 206,
+                                "qid": 52,
+                                "question": "Filtre de tableau avec la question précédente",
+                                "script": null,
+                                "language": "fr"
+                            },
+                            "it": {
+                                "id": 208,
+                                "qid": 52,
+                                "question": "Domanda array filtrata dalla domanda precedente.",
+                                "script": null,
+                                "language": "it"
+                            }
+                        },
+                        "attributes": {
+                            "array_filter": {
+                                "qaid": 57,
+                                "attribute": 0,
+                                "value": "AF",
+                                "language": ""
+                            }
+                        },
+                        "answers": []
+                    },
+                    {
+                        "qid": 53,
+                        "parent_qid": 0,
+                        "sid": 282267,
+                        "type": "C",
+                        "title": "FAFE",
+                        "preg": "",
+                        "other": false,
+                        "mandatory": false,
+                        "encrypted": false,
+                        "question_order": 2,
+                        "scale_id": 0,
+                        "same_default": null,
+                        "question_theme_name": "arrays/yesnouncertain",
+                        "modulename": "",
+                        "gid": 6,
+                        "relevance": "count(that.AF) < 4",
+                        "same_script": null,
+                        "l10ns": {
+                            "de-informal": {
+                                "id": 211,
+                                "qid": 53,
+                                "question": "Über das Attribut \"Array Filter Exclusion\" werden nur diejenigen Einträge angezeigt, die bei der vorherigen Mehrfachauswahl nicht ausgewählt wurden.",
+                                "script": null,
+                                "language": "de-informal"
+                            },
+                            "en": {
+                                "id": 210,
+                                "qid": 53,
+                                "question": "You can exclude some option with Array Filter Exclusion.",
+                                "script": null,
+                                "language": "en"
+                            },
+                            "fr": {
+                                "id": 209,
+                                "qid": 53,
+                                "question": "Filtre d'exclusion du tableau avec la question précédente",
+                                "script": null,
+                                "language": "fr"
+                            },
+                            "it": {
+                                "id": 212,
+                                "qid": 53,
+                                "question": "Puoi escludere alcune opzioni in base alla scelta multipla della domanda precedente, usando il Filtro array di esclusione.",
+                                "script": null,
+                                "language": "it"
+                            }
+                        },
+                        "attributes": {
+                            "array_filter_exclude": {
+                                "qaid": 58,
+                                "attribute": 0,
+                                "value": "AF",
+                                "language": ""
+                            }
+                        },
+                        "answers": []
+                    }
+                ]
+            }
+        ]
+    }
+}

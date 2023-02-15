@@ -1,25 +1,24 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react'
+import router from 'router'
+import { RouterProvider } from 'react-router-dom'
+import ThemeProvider from 'react-bootstrap/ThemeProvider'
+import { ReactQueryDevtools } from '@tanstack/react-query-devtools'
+import { PersistQueryClientProvider } from '@tanstack/react-query-persist-client'
+
+import { queryClient, persistOptions } from 'query'
+
+import 'bootstrap/dist/css/bootstrap.min.css'
+import 'themes/default.scss'
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    return (
+        <ThemeProvider breakpoints={['lg', 'xl']}>
+            <PersistQueryClientProvider client={queryClient} persistOptions={persistOptions}>
+                <RouterProvider router={router} />
+                <ReactQueryDevtools initialIsOpen={false} />
+            </PersistQueryClientProvider>
+        </ThemeProvider>
+    )
 }
 
-export default App;
+export default App
