@@ -2,7 +2,7 @@ import React from 'react'
 import { GripVertical, CardList, ThreeDots, Sliders } from 'react-bootstrap-icons'
 import Button from 'react-bootstrap/Button'
 
-import Row from './Row'
+import Row from 'components/SideBar/Row'
 
 const iconSize = 24
 

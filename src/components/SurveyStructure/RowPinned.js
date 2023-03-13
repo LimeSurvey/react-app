@@ -1,7 +1,7 @@
 import React from 'react'
 import { PinAngle } from 'react-bootstrap-icons'
 
-import Row from './Row'
+import Row from 'components/SideBar/Row'
 
 const iconSize = 24
 
